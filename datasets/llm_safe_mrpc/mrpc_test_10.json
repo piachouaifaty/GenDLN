@@ -1,0 +1,2817 @@
+{
+  "2119": {
+    "sentence1": "The panels picture the towers standing tall and outline their history, including their construction, the 1993 bombing and their ultimate destruction on Sept. 11, 2001.",
+    "sentence2": "The panels outline the twin towers' history, including their construction, the 1993 bombing and their ultimate destruction by terrorists on Sept. 11, 2001.",
+    "label": 1
+  },
+  "3848": {
+    "sentence1": "The Nasdaq composite index rose 15.82, or 0.9 percent, to 1,861.52.",
+    "sentence2": "The technology-laced Nasdaq Composite Index .IXIC was up 17.48 points, or 0.95 percent, at 1,863.18.",
+    "label": 1
+  },
+  "4435": {
+    "sentence1": "The picture changes a bit should Sen. Hillary Rodham Clinton be the Democratic presidential candidate.",
+    "sentence2": "The picture changes slightly should New York Sen. Hillary Rodham Clinton end up as the Democratic presidential candidate.",
+    "label": 1
+  },
+  "3084": {
+    "sentence1": "Johnson and four other protesters were arrested soon afterward for blocking the roadway, a state misdemeanor.",
+    "sentence2": "Johnson and four other protesters, ages 69 to 86, were arrested for blocking the roadway.",
+    "label": 0
+  },
+  "1284": {
+    "sentence1": "Calvin Hollins Jr.'s attorney, Thomas Royce, has repeatedly said his client had no link with the company that owned and operated E2.",
+    "sentence2": "The lawyer for Hollins Jr., Thomas Royce, has said his client had no link to the company that owned and operated E2.",
+    "label": 1
+  },
+  "2463": {
+    "sentence1": "Lower state courts and federal courts are still hearing recall several recall cases, one of which a Los Angeles court dismissed on Friday.",
+    "sentence2": "Lower state courts and federal courts are still hearing cases on the recall, but the prospects are uncertain.",
+    "label": 0
+  },
+  "1617": {
+    "sentence1": "The move to rein in losses at its four boutique outlets comes as the retailer seeks to cap the cost of doing business.",
+    "sentence2": "The move to rein in the losses of the four upmarket food outlets comes as the retailer seeks to cap the cost of doing business.",
+    "label": 1
+  },
+  "1170": {
+    "sentence1": "Civil liberties groups protested and a US district judge ruled that the monument was an unconstitutional promotion of religion.",
+    "sentence2": "Civil liberties groups filed suit, and U.S. District Judge Myron Thompson ordered the monument moved last October, calling it an unconstitutional promotion of religion by government.",
+    "label": 1
+  },
+  "2868": {
+    "sentence1": "The book, scheduled for release next month, is described by Franken as a criticism of right-wing leaders and media spokesmen.",
+    "sentence2": "The book, scheduled for publication next month, has been described by Franken as a criticism of right wing leaders and media spokespeople.",
+    "label": 1
+  },
+  "4622": {
+    "sentence1": "\"Unlike many early-stage Internet firms, Google is believed to be profitable.",
+    "sentence2": "The privately held Google is believed to be profitable.",
+    "label": 0
+  },
+  "5262": {
+    "sentence1": "The technology-packed Nasdaq Composite Index <.IXIC> dropped 37.78 points, or 1.94 percent, to 1,912.36.",
+    "sentence2": "The Nasdaq composite index fell 2.95, or 0.2 percent, for the week to 1,912.36 after stumbling 37.78 yesterday.",
+    "label": 0
+  },
+  "1857": {
+    "sentence1": "Downer originally said the 14 Kurds had not asked to be considered as refugees when they arrived in a boat off Melville Island last week.",
+    "sentence2": "Foreign Minister Alexander Downer yesterday claimed the group of 14 Kurds had not asked to be considered as refugees when they arrived off Melville Island last week.",
+    "label": 1
+  },
+  "573": {
+    "sentence1": "After three months, Atkins dieters had lost an average of 14.7 pounds compared with 5.8 pounds in the conventional group.",
+    "sentence2": "Three months into the study, the Atkins group had lost an average of about 15 pounds, compared with five for the low-fat group.",
+    "label": 1
+  },
+  "3673": {
+    "sentence1": "They note that after several weeks of rallies on upbeat earnings, investors are looking for stronger evidence of a recovery before sending stocks higher.",
+    "sentence2": "After several weeks of market rallies on upbeat earnings, many investors are looking for more concrete signs of an economic recovery.",
+    "label": 1
+  },
+  "3997": {
+    "sentence1": "\"They were chipping away at the concrete to get to the body,\" said Chris Butler, who lives across the street.",
+    "sentence2": "Investigators \"were chipping away at the concrete to get to the body,\" said Chris Butler, who lives across the street in the quiet city neighborhood.",
+    "label": 1
+  },
+  "3048": {
+    "sentence1": "PFP Legislator Kao Ming-chien (), the fifth Taiwanese expert invited by the WHO to join the conference, will arrive in Malaysia today.",
+    "sentence2": "Kao, the fifth Taiwanese expert invited by the WHO to attend the conference, however, was absent from the delegation.",
+    "label": 0
+  },
+  "4512": {
+    "sentence1": "A report on the finding appears in Friday's issue of the journal Science.",
+    "sentence2": "The results were announced at a NASA headquarters news conference Thursday and in today's issue of the journal Science.",
+    "label": 0
+  },
+  "2833": {
+    "sentence1": "Although deeply disapproved of in the Soviet Union, the Beatles popularity knew no bounds and far outreached any other Western rock music.",
+    "sentence2": "Although the Beatles were deeply disapproved of in the Soviet Union, their popularity knew no bounds and far outreached any other Western rock groups.",
+    "label": 1
+  },
+  "1244": {
+    "sentence1": "At his request, he will be reassigned within the district.",
+    "sentence2": "District Superintendent J. Chester Floyd told reporters Monday that McCrackin will be reassigned within the district.",
+    "label": 1
+  },
+  "1721": {
+    "sentence1": "A suburban Chicago man was arrested Wednesday on charges of secretly gathering information on Iraqi opposition figures as an unregistered agent of Saddam Hussein's intelligence service.",
+    "sentence2": "The FBI arrested a suburban Chicago man Wednesday and charged him with secretly collecting information on individuals in the United States who opposed Saddam Hussein's Iraqi government.",
+    "label": 1
+  },
+  "1787": {
+    "sentence1": "Sgt. Ernest Bucklew, 33, was coming home from Iraq to bury his mother in Pennsylvania.",
+    "sentence2": "Ernest Bucklew was headed home for his mother's funeral in Pennsylvania.",
+    "label": 1
+  },
+  "3952": {
+    "sentence1": "PCCW's chief operating officer, Mike Butcher, and Alex Arena, the chief financial officer, will report directly to Mr So.",
+    "sentence2": "Current Chief Operating Officer Mike Butcher and Group Chief Financial Officer Alex Arena will report to So.",
+    "label": 1
+  },
+  "2517": {
+    "sentence1": "PeopleSoft's board now has 10 business days to evaluate the Oracle offer and make a recommendation to its shareholders.",
+    "sentence2": "Nevertheless, PeopleSoft must review Oracle's tender offer and make a recommendation to shareholders.",
+    "label": 1
+  },
+  "5002": {
+    "sentence1": "\"We're making these commitments first and foremost because we think it's the right thing to do,\" company spokesman Michael Mudd said yesterday.",
+    "sentence2": "\"We're making these commitments first and foremost because we think it's the right thing to do,\" said Michael Mudd, spokesman for the company.",
+    "label": 1
+  },
+  "3290": {
+    "sentence1": "Experts say they think better treatment, including widespread use of the drug tamoxifen, as well as mammogram screening are responsible for the improvement.",
+    "sentence2": "Experts say they think better treatment, including use of the drug tamoxifen and mammogram screening, are responsible.",
+    "label": 1
+  },
+  "3554": {
+    "sentence1": "Subway and bus fares rose 33 percent, from $1.50 to $2, on May 4, while tickets on suburban trains rose an average 25 percent May 1.",
+    "sentence2": "Subway and bus fares rose 33 percent, from $1.50 to $2, on May 4, while average 25 percent increases took effect May 1 on suburban trains.",
+    "label": 1
+  },
+  "4899": {
+    "sentence1": "In September, Hewlett-Packard signed a development and marketing deal with the company.",
+    "sentence2": "Four months later it signed a joint marketing agreement with Hewlett-Packard Co.",
+    "label": 1
+  },
+  "2035": {
+    "sentence1": "The FTC has asked the court to suspend its decision while the agency appeals.",
+    "sentence2": "U.S. District Judge Edward W. Nottingham in Denver denied an FTC request to suspend his decision while the agency appeals.",
+    "label": 0
+  },
+  "5131": {
+    "sentence1": "\"To be wedged between these two monsters and hold as well as we did makes it that much better,\" said Rory Bruer, Sony head of distribution.",
+    "sentence2": "\"To be wedged between these two monsters and hold as well as we did makes it that much better.\"",
+    "label": 1
+  },
+  "444": {
+    "sentence1": "A former candidate for governor of New York, he styled himself an advocate of better corporate governance.",
+    "sentence2": "Mr. McCall, who ran unsuccessfully for governor of New York in 2002, styled himself an advocate of better corporate governance.",
+    "label": 1
+  },
+  "600": {
+    "sentence1": "\"Biotech products, if anything, may be safer than conventional products because of all the testing,\" Fraley said, adding that 18 countries have adopted biotechnology.",
+    "sentence2": "\"Biotech products, if anything, may be safer than conventional products because of all the testing,\" said Robert Fraley, Monsanto's executive vice president.",
+    "label": 0
+  },
+  "3097": {
+    "sentence1": "At another point, Mr. Bush said: \"The choice was up to the dictator, and he chose poorly.",
+    "sentence2": "\"The choice was up to the dictator and he chose poorly,\" Mr Bush said.",
+    "label": 1
+  },
+  "3299": {
+    "sentence1": "The mother of a Briton held by Colombian guerrillasspoke of her relief yesterday after hearing that he might be freed in the next few weeks.",
+    "sentence2": "The parents of a Briton being held hostage by Colombian rebels spoke yesterday of their optimism that he would be freed in time for his birthday next month.",
+    "label": 0
+  },
+  "4508": {
+    "sentence1": "The Passion will feature actor James Caviezel as Christ and actress Monica Bellucci as Mary Magdalene.",
+    "sentence2": "Directed by Gibson, the reported $25 million production stars Jim Caviezel as Jesus and Monica Bellucci as Mary Magdalene.",
+    "label": 1
+  },
+  "3906": {
+    "sentence1": "The Standard & Poor's 500 index rose 11.67, or 1.2 percent, to 975.26, having risen 3.3 percent last week.",
+    "sentence2": "The broader Standard & Poor's 500 Index <.SPX> was up 9.05 points, or 0.94 percent, at 972.64.",
+    "label": 0
+  },
+  "1499": {
+    "sentence1": "The blasts killed two people and injured more than 150 others.",
+    "sentence2": "The Atlanta Olympic Games attack killed one woman and injured more than 100 other people.",
+    "label": 0
+  },
+  "4628": {
+    "sentence1": "\"Just as before, it will be up to the council to decide the direction and the timing of the process.\"",
+    "sentence2": "Just as before, it will be up to the Council to decide the direction and process.",
+    "label": 1
+  },
+  "4326": {
+    "sentence1": "Yet another big fight has been over a White House proposal to privatize air-traffic control at major airports.",
+    "sentence2": "Yet another fight has been waged over a White House proposal to privatize air traffic control at major airports, such as those in Pittsburgh and Philadelphia.",
+    "label": 1
+  },
+  "1733": {
+    "sentence1": "A monthlong grace period in New York City ended May 1, and now bars and restaurants that allow people to puff can face hefty fines.",
+    "sentence2": "In New York City, bars and restaurants that allow people to smoke can face hefty fines.",
+    "label": 0
+  },
+  "3240": {
+    "sentence1": "Daniel C. Clark and James Hargadon; a former priest, Bruce Ewing; and two teachers are awaiting trial.",
+    "sentence2": "Two other priests, the Revs Daniel C Clark and James Hargadon, and a former priest, Bruce Ewing, are awaiting trial.",
+    "label": 0
+  },
+  "594": {
+    "sentence1": "Aside from meeting Chinese Premier Wen Jiabao on the sidelines of the Forum, Mr Goh also met Pakistani President Pervez Musharraf and Tajikistan President Emomali Sharipovich Rakhmonov.",
+    "sentence2": "On the sidelines of the Bo'ao forum, Mr Goh also met Pakistani President Pervez Musharraf and held talks with Tajikistan President Emomali Sharipovich Rakhmonov.",
+    "label": 0
+  },
+  "4618": {
+    "sentence1": "Ending the picketing at Ralphs frees up about 18,000 union members.",
+    "sentence2": "About 70,000 union members are on strike, including about 18,000 Ralphs employees.",
+    "label": 0
+  },
+  "127": {
+    "sentence1": "Police warned residents on Friday not to travel alone and to avoid convenience stores and service stations stores at night.",
+    "sentence2": "Police advised residents Friday not to travel alone to convenience stores and to be watchful.",
+    "label": 0
+  },
+  "4665": {
+    "sentence1": "If found guilty, Samudra could be sentenced to death under anti-terror laws passed soon after the bombings.",
+    "sentence2": "If found guilty, he could be executed under anti-terror laws passed in the weeks after the bombings.",
+    "label": 1
+  },
+  "3963": {
+    "sentence1": "The increase reflects lower credit losses and favorable interest rates.",
+    "sentence2": "The gain came as a result of fewer credit losses and lower interest rates.",
+    "label": 1
+  },
+  "2689": {
+    "sentence1": "France, Russia, China and others had advocated a stronger U.N. role to give a U.S.-chosen Iraqi authority international legitimacy.",
+    "sentence2": "France, Russia, China and even staunch ally Britain had advocated a stronger U.N. role, which they said was needed to give a U.S.-backed Iraqi authority international legitimacy.",
+    "label": 1
+  },
+  "944": {
+    "sentence1": "The Guru microcontroller serves four functions: hardware monitoring, overclocking management, BIOS (Basic Input Output System) update and a troubleshooting-assistance feature called Black Box.",
+    "sentence2": "The \u00b5Guru microcontroller serves four functions: hardware monitoring, overclocking management, BIOS update and a troubleshooting-assistance feature called Black Box.",
+    "label": 1
+  },
+  "4698": {
+    "sentence1": "The four suspects are scheduled to appear in court Tuesday or Wednesday, said Philip Murgor, Kenya's deputy public prosecutor.",
+    "sentence2": "All four are expected to appear in court Tuesday or Wednesday, he said.",
+    "label": 1
+  },
+  "4190": {
+    "sentence1": "Sen. John Kerry, Massachusetts Democrat, came in second place for the quarter with $5.8 million.",
+    "sentence2": "As expected, Dean led the field in the second quarter with $7.6 million raised.",
+    "label": 0
+  },
+  "4394": {
+    "sentence1": "The leading actress nod went to energetic newcomer Marissa Jaret Winokur as Edna's daughter Tracy.",
+    "sentence2": "Marissa Jaret Winokur, as Tracy, won for best actress in a musical.",
+    "label": 1
+  },
+  "2500": {
+    "sentence1": "The girl turned up two days later at a convenience store several cities away, shaken but safe, and helped lead police to her alleged abductor.",
+    "sentence2": "The arrest came hours after the girl turned up at a convenience store several cities away and helped lead police to her alleged abductor.",
+    "label": 1
+  },
+  "1959": {
+    "sentence1": "I've still got a fighting chance, though,\" Hewitt said after battling to overcome Davydenko 6-3 4-6 6-3 7-6 (7-5) on centre court.",
+    "sentence2": "\"I'm still not red-hot favourite,\" Hewitt said after battling to down Davydenko 6-3 4-6 6-3 7-6 (7-5) on centre court.",
+    "label": 0
+  },
+  "2039": {
+    "sentence1": "Dayton finished 24-6 last season, won the Atlantic-10 Conference championship and was a No. 4 seed in the NCAA Tournament.",
+    "sentence2": "That season, the Rams finished the regular season ranked 11th and were a No. 2 seed in the NCAA tournament.",
+    "label": 0
+  },
+  "3698": {
+    "sentence1": "Opposition to the bill has come from environmentalists, the Miccosukee Tribe, some scientists and members of Congress.",
+    "sentence2": "Besides a federal judge, the criticism has mounted from environmentalists, the Miccosukee Tribe, some scientists and some congressional leaders.",
+    "label": 0
+  },
+  "941": {
+    "sentence1": "The decision was among the most significant steps toward deregulation undertaken during the Bush administration.",
+    "sentence2": "The decision is among the far-reaching deregulatory actions made during the Bush administration.",
+    "label": 1
+  },
+  "1331": {
+    "sentence1": "\"He would often call me for advice,\" said Ronald L. Kuby, a friend and well-known lawyer who had represented him in the harassment case.",
+    "sentence2": "\"He would often call me for advice,\" said lawyer Ron Kuby, a friend who had represented him in court.",
+    "label": 1
+  },
+  "4841": {
+    "sentence1": "The technology-laced Nasdaq Composite Index .IXIC was up 14.35 points, or 0.89 percent, at 1,617.91.",
+    "sentence2": "The Standard & Poor's 500 Index .SPX gained 13.68 points, or 1.42 percent, at 977.27.",
+    "label": 0
+  },
+  "5575": {
+    "sentence1": "The delay comes on the heels of Boeing Chairman Phil Condit's resignation Monday.",
+    "sentence2": "On Monday, it also announced the resignation of Chairman and Chief Executive Officer Phil Condit.",
+    "label": 0
+  },
+  "159": {
+    "sentence1": "She claimed all the babies were born full-term and died within hours, he said.",
+    "sentence2": "\"What she told our investigators was that all the babies were born full-term and then died within hours,\" Hughes said.",
+    "label": 1
+  },
+  "2130": {
+    "sentence1": "Disney has repeatedly said the \"safety and enjoyment\" of its guests were the reasons the company wanted the no-fly zones, and wants them maintained.",
+    "sentence2": "Disney spokeswoman Rena Callahan said the \"safety and enjoyment\" of its guests were the only reasons the company wanted the no-fly zones, and wants them kept in place.",
+    "label": 1
+  },
+  "4695": {
+    "sentence1": "\"The lies and deceptions from Saddam have been well documented over 12 years.\"",
+    "sentence2": "It has been well documented over 12 years of lies and deception from Saddam.\"",
+    "label": 1
+  },
+  "4490": {
+    "sentence1": "TI further said that, as a result of the license agreement, it will not change its prices for OMAP devices.",
+    "sentence2": "In a joint statement, the companies said that as a result of the license agreement, TI will not be changing its prices.",
+    "label": 1
+  },
+  "118": {
+    "sentence1": "\"The free world and those who love freedom and peace must deal harshly with Hamas and the killers,\" he told reporters as he emerged from a church service.",
+    "sentence2": "\"It is clear that the free world, those who love freedom and peace, must deal harshly with Hamas and the killers,\" he said.",
+    "label": 1
+  },
+  "1637": {
+    "sentence1": "Henri was centered about 75 miles southwest of Cedar Key and was moving east-northeast at 5 mph, forecasters said.",
+    "sentence2": "It was centered about 100 miles southwest of Cedar Key and drifting erratically southward, forecasters said.",
+    "label": 0
+  },
+  "482": {
+    "sentence1": "It was the 23-9 Yankees' third straight defeat - their longest skid of the season.",
+    "sentence2": "The Yankees are in their first team-wide slump of the season.",
+    "label": 0
+  },
+  "1819": {
+    "sentence1": "The three priests were careful to go through church channels first as they exercised their rights under canon law.",
+    "sentence2": "The priests went through church channels first, exercising their rights under canon law.",
+    "label": 1
+  },
+  "1739": {
+    "sentence1": "Frank Partnoy, a securities law professor at the University of San Diego, said the case suggested that Merrill's oversight and control of its executives were inadequate.",
+    "sentence2": "Frank Partnoy, a securities-law professor at the University of San Diego School of Law, said the case suggests Merrill Lynch's oversight and control of its executives was inadequate.",
+    "label": 1
+  },
+  "847": {
+    "sentence1": "Boykin\u2019s also referred to Islamist fighters as America\u2019s \u201cspiritual enemy\u201d that, \u201cwill only be defeated if we come against them in the name of Jesus\u201d.",
+    "sentence2": "Our \"spiritual enemy,\" Boykin continued, \"will only be defeated if we come against them in the name of Jesus.\"",
+    "label": 1
+  },
+  "4844": {
+    "sentence1": "Kaichen's former landlord, Carol Halperin of Chappaqua, said Kaichen told her she volunteered at Ground Zero after the attack.",
+    "sentence2": "Kaichen's former landlord, Carol Halperin of Chappaqua, said Kaichen claimed to have volunteered at Ground Zero in the aftermath of the attack.",
+    "label": 1
+  },
+  "2547": {
+    "sentence1": "Colorado Attorney-General Ken Salazar later said his office has also filed suit against Invesco, charging it with violations of the state's consumer protection act.",
+    "sentence2": "Colorado Attorney General Ken Salazar also filed a lawsuit Tuesday against Invesco, accusing it of violating the state's Consumer Protection Act.",
+    "label": 1
+  },
+  "591": {
+    "sentence1": "A rebel who was captured said more than 2,000 insurgents were involved in the attack.",
+    "sentence2": "A captured rebel said 2,100 combatants had been involved in the offensive.",
+    "label": 1
+  },
+  "2526": {
+    "sentence1": "\"Of course, I want to win again, but I think it's worse when you have never won because you get anxious.",
+    "sentence2": "\"Of course I want to win again, but I think is worse when you never won before because you are very anxious,\" he says.",
+    "label": 1
+  },
+  "1877": {
+    "sentence1": "One of the Commission's publicly stated goals is to ensure other producers' server software can work with desktop computers running Windows as easily as Microsoft's.",
+    "sentence2": "The Commission has publicly said one of its goals is to ensure other producers' server software can connect to desktop computers running Windows as easily as Microsoft's can.",
+    "label": 1
+  },
+  "2139": {
+    "sentence1": "Canadian researchers ordered the slaughter of more than 2,000 cows and conducted an extensive investigation but were not able to find evidence of any other infected animals.",
+    "sentence2": "Canadian investigators slaughtered more than 2,000 cows but were not able to find evidence of any other infected animals.",
+    "label": 1
+  },
+  "5623": {
+    "sentence1": "Sobig.F spreads when unsuspecting computer users open file attachments in emails that contain such familiar headings as \"Thank You!,\" \"Re: Details\" or \"Re: That Movie.\"",
+    "sentence2": "The virus spreads when unsuspecting computer users open file attachments in emails that contain familiar headings like \"Thank You!\" and \"Re: Details\".",
+    "label": 1
+  },
+  "4552": {
+    "sentence1": "Anything less is unacceptable,\" said Gordon, the ranking Democrat on the House Space and Aeronautics subcommittee.",
+    "sentence2": "Gordon is the senior Democrat on the House Subcommittee on Space and Aeronautics.",
+    "label": 0
+  },
+  "3524": {
+    "sentence1": "Four people were found shot to death along a highway Tuesday morning and three others were wounded in a possible dispute involving immigrant smuggling, officials said.",
+    "sentence2": "Four people were found shot to death along a highway Tuesday and four others were wounded in a dispute that apparently involved immigrant smugglers, officials said.",
+    "label": 1
+  },
+  "2265": {
+    "sentence1": "Nonetheless, the economy \"has yet to exhibit sustainable growth.\"",
+    "sentence2": "But the economy hasn't shown signs of sustainable growth.",
+    "label": 1
+  },
+  "3463": {
+    "sentence1": "The Hubble Space Telescope's newest picture of Mars shows summer on the Red Planet just as it makes its closest pass by Earth in 60,000 years.",
+    "sentence2": "The pictures were taken late Tuesday and early Wednesday as the as the planet made its closest pass by Earth in 60,000 years.",
+    "label": 0
+  },
+  "2184": {
+    "sentence1": "Twenty percent of Latino students and 23 percent of black students performed at proficient or higher.",
+    "sentence2": "In math, 16 percent of elementary and middle school students and 9.6 percent of high school students must be proficient.",
+    "label": 0
+  },
+  "3728": {
+    "sentence1": "Allied forces have overthrown the government, moved into Saddam Hussein's palaces and started to patrol the streets of the capital.",
+    "sentence2": "Allied forces have defeated Saddam's military, moved into his palaces and started to patrol Baghdad.",
+    "label": 1
+  },
+  "3213": {
+    "sentence1": "US District Judge William M. Hoeveler's removal by his superior was a victory for US Sugar Corp., which led the fight for his ouster.",
+    "sentence2": "U.S. District Judge William M. Hoeveler's removal by his superior was a victory for U.S. Sugar Corp., which led the fight against Hoeveler.",
+    "label": 1
+  },
+  "1719": {
+    "sentence1": "Five alternate jurors were also chosen, with a final one set to be selected Friday morning from the panel.",
+    "sentence2": "Five alternate jurors also were selected, with a sixth alternate to be picked on Friday.",
+    "label": 1
+  },
+  "2761": {
+    "sentence1": "Law enforcement sources who spoke on condition of anonymity confirmed that Limbaugh was being investigated by the Palm Beach County, Fla., state attorney's office.",
+    "sentence2": "Law enforcement officials confirmed that Limbaugh was being investigated by the Palm Beach County, Fla., state attorney's office.",
+    "label": 1
+  },
+  "3961": {
+    "sentence1": "The broader Standard & Poor's 500 Index <.SPX> was 0.46 points lower, or 0.05 percent, at 997.02.",
+    "sentence2": "The technology-laced Nasdaq Composite Index .IXIC was up 7.42 points, or 0.45 percent, at 1,653.44.",
+    "label": 0
+  },
+  "4065": {
+    "sentence1": "The broader Standard & Poor's 500 Index .SPX crept up 4.3 points, or 0.44 percent, to 980.52.",
+    "sentence2": "The technology-laced Nasdaq Composite Index .IXIC rose 17.33 points, or 1.07 percent, to 1,640.13.",
+    "label": 0
+  },
+  "2751": {
+    "sentence1": "\"The numbers are starting to change very, very quickly,\" Dr. Julie Gerberding, the CDC's director, told a news briefing Thursday.",
+    "sentence2": "\"The numbers are starting to change very, very quickly,\" Dr. Julie Gerberding, director of the Centers for Disease Control and Prevention, said Thursday.",
+    "label": 1
+  },
+  "237": {
+    "sentence1": "Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean.",
+    "sentence2": "Its closest relative is found in the Seychelles Archipelago, near Madagascar in the Indian Ocean.",
+    "label": 1
+  },
+  "5343": {
+    "sentence1": "Also Wednesday, a minibus detonated a roadside bomb in a Baghdad traffic tunnel, killing two people and wounding two others, hospital officials said.",
+    "sentence2": "Also today, a bomb explosion in a Baghdad traffic tunnel killed one civilian and wounded two others, Iraqi police said.",
+    "label": 1
+  },
+  "4957": {
+    "sentence1": "Team President Ken Sawyer told the Pittsburgh Post Gazette Sunday that Lemieux has not spoken to him about selling his interest in the Penguins or about playing for another team.",
+    "sentence2": "Team President Ken Sawyer said yesterday that Lemieux has not spoken to him about selling his interest in the Penguins or about playing for another team.",
+    "label": 1
+  },
+  "1735": {
+    "sentence1": "No Americans were reported among the casualties, according to Capt. Michael Calvert, a spokesman for the regiment.",
+    "sentence2": "None of the casualties was Americans, said Capt. Michael Calvert, regiment spokesman.",
+    "label": 1
+  },
+  "901": {
+    "sentence1": "Mr. Bloomberg later told reporters that the agreement \"will be a compromise, like the real world requires.\"",
+    "sentence2": "\"It will be a compromise, like the real world requires,\" he said.",
+    "label": 1
+  },
+  "4713": {
+    "sentence1": "The subject was scarcely mentioned in his campaign, or in the national security strategy that is his administration's bible.",
+    "sentence2": "The subject was scarcely mentioned in his 2000 campaign, or in his administration's national security strategy.",
+    "label": 1
+  },
+  "2921": {
+    "sentence1": "Witnesses said they believed the man planned to crash the Launceston-bound Qantas flight 1737, which was carrying 47 passengers and six crew.",
+    "sentence2": "Witnesses believe he wanted to crash Flight 1737, which had 47 passengers and six crew.",
+    "label": 1
+  },
+  "2199": {
+    "sentence1": "A race observer sits in the passenger seat of the vehicle following the contestant car to record broken rules and track of the car's time.",
+    "sentence2": "A race observer sits in the passenger seat of the follow vehicle to record any broken rules and also keep track of the car's time.",
+    "label": 1
+  },
+  "4020": {
+    "sentence1": "While there were about 700 Uruguayan UN peacekeepers in Bunia, they were \"neither trained nor equipped\" to deal with inter-ethnic violence, Mr Eckhard said.",
+    "sentence2": "The UN has approximately 600 troops in the town, but they were \"neither trained nor equipped\" to deal with inter-ethnic violence, Mr Eckhard said.",
+    "label": 1
+  },
+  "1936": {
+    "sentence1": "The MTA had argued it needed to raise fares to close a two-year deficit it estimated at different times ranged from less than $1 billion to $2.8 billion.",
+    "sentence2": "The MTA argued it needed to raise fares to close a two-year deficit it estimated, at different times, to be $952 million or $2.8 billion.",
+    "label": 1
+  },
+  "4236": {
+    "sentence1": "He claimed Red Hat and the Free Software Foundation with trying to undermine U.S. copyright and patent law.",
+    "sentence2": "In his letter, McBride charges the Free Software Foundation and Red Hat with trying to undermine U.S. copyright laws.",
+    "label": 1
+  },
+  "1204": {
+    "sentence1": "BOB HOPE, master of the one-liner and Americas favourite comedian, died with a smile on his face yesterday just months after celebrating his 100th birthday.",
+    "sentence2": "Bob Hope, the master of one-line quips, died Sunday night \"with a smile on his face,\" his daughter said yesterday.",
+    "label": 0
+  },
+  "671": {
+    "sentence1": "The woman was exposed to the SARS virus while in the hospital but was not a health care worker, said Dr. Colin D\u2019Cunha, Ontario\u2019s commissioner of public health.",
+    "sentence2": "The woman was exposed to the SARS virus while in the hospital but was not a health-care worker, said Dr Colin D'Cunha, Ontario's commissioner of public health.",
+    "label": 1
+  },
+  "4597": {
+    "sentence1": "As of Friday, the U.S. Centers for Disease Control and Prevention reported 1,602 human cases of West Nile so far this year, including 28 deaths.",
+    "sentence2": "The Centers for Disease Control and Prevention reports there have been 1,602 human cases of West Nile virus nationwide this year and 28 deaths.",
+    "label": 1
+  },
+  "1652": {
+    "sentence1": "Shelia Chaney Wilson seemed agitated when she came to help prepare for Turner Monumental A.M.E. Church's upcoming 104th anniversary celebration, worshippers said.",
+    "sentence2": "Congregants of Turner Monumental AME Church said Shelia Chaney Wilson, 43, was agitated when she came to the church, in the Kirkwood neighborhood on the city's east side.",
+    "label": 0
+  },
+  "2630": {
+    "sentence1": "Parson was charged with intentionally causing and attempting to cause damage to protected computers.",
+    "sentence2": "Parson is charged with one count of intentionally causing damage to a protected computer.",
+    "label": 1
+  },
+  "644": {
+    "sentence1": "Nationwide, severe acute respiratory syndrome has infected more than 5,300 people, about two-thirds of world's total, and killed 343 of them.",
+    "sentence2": "Severe acute respiratory syndrome has infected more than 8,300 worldwide and killed at least 790, most of them in Asia.",
+    "label": 0
+  },
+  "5051": {
+    "sentence1": "If no candidate wins 50 percent plus one in today's election, the top two will meet in a runoff June 3.",
+    "sentence2": "If no candidate wins more than 50 percent of the vote, the top two vote-getters are headed to a runoff on June 3.",
+    "label": 1
+  },
+  "4152": {
+    "sentence1": "Gartner's report said global WLAN equipment shipments reached 19.5 million last year, a 120 percent increase over 2001's 8.9 million units.",
+    "sentence2": "Total shipments reached 19.5 million units last year, compared with 8.9 million units in 2001.",
+    "label": 1
+  },
+  "4830": {
+    "sentence1": "United hasn't set a starting date for the unit, known within the Chicago-based company as Starfish.",
+    "sentence2": "Starfish is United's second attempt at a low-cost unit within the larger company.",
+    "label": 0
+  },
+  "1856": {
+    "sentence1": "Kerry last month outlined a U.N. resolution authorizing a military force under U.S. command and transferring responsibility to the United Nations for the political and humanitarian efforts.",
+    "sentence2": "Kerry outlined last month a UN resolution authorizing a military force under US command and transferring responsibility for political and humanitarian efforts to the UN.",
+    "label": 1
+  },
+  "4340": {
+    "sentence1": "The Nasdaq Composite Index rose 19.67, or 1.3 percent, to 1523.71, its highest since June 18.",
+    "sentence2": "The S&P 500 had climbed 16 percent since its March low and yesterday closed at its highest since Dec. 2.",
+    "label": 0
+  },
+  "1894": {
+    "sentence1": "\"We will accede to the request while we explore all of our options,\" VeriSign spokesman Tom Galvin told Reuters.",
+    "sentence2": "We will accede to the request while we explore all of our options,\" said Russell Lewis, executive vice president of VeriSign's Naming and Directory Services Group.",
+    "label": 1
+  },
+  "4863": {
+    "sentence1": "Another big gainer was Rambus Inc. (nasdaq: RMBS - news - people), which shot 32 percent higher.",
+    "sentence2": "Rambus Inc. (nasdaq: RMBS - news - people) shot up 38 percent, making it the biggest percentage gainer on the Nasdaq.",
+    "label": 0
+  },
+  "5139": {
+    "sentence1": "\"The mission of the CAPPS II system has been and always will be aviation security,\" said the administration, part of the Homeland Security Department.",
+    "sentence2": "\"The mission of the CAPPS II system has been and always will be aviation security,\" they said.",
+    "label": 1
+  },
+  "3367": {
+    "sentence1": "Iraqi officials say the attacks are being carried out by what they call outsiders who slip into Falluja and attack at night.",
+    "sentence2": "Iraqi officials here insist that the attacks are being carried out by \"outsiders\" who slip into Fallujah and attack at night.",
+    "label": 1
+  },
+  "492": {
+    "sentence1": "Robert Liscouski, the Assistant Secretary of Homeland Security for Infrastructure Protection, will oversee NCSD.",
+    "sentence2": "NCSD's chief will be Robert Liscouski, the assistant secretary of Homeland Security for Infrastructure Protection.",
+    "label": 1
+  },
+  "5529": {
+    "sentence1": "Kiernan testified that Seifert had received a gunshot wound to the back.",
+    "sentence2": "Seifert, he testified, had a gunshot wound in the back.",
+    "label": 1
+  },
+  "1968": {
+    "sentence1": "Several relatives of Australian victims of the attack were in court to witness the proceedings, but few Balinese attended the trial.",
+    "sentence2": "Several relatives of Australian victims of the attack sat in the front row of the court, but few Balinese attended the trial.",
+    "label": 1
+  },
+  "4434": {
+    "sentence1": "The nation's median household income, adjusted for inflation, declined 1.1 percent, to $42,409 in 2002, the Census Bureau reported Friday.",
+    "sentence2": "The number of Americans living in poverty increased by 1.7 million last year, and the median household income declined by 1.1 percent, the Census Bureau reported yesterday.",
+    "label": 0
+  },
+  "4727": {
+    "sentence1": "Dusty had battled kidney cancer for more than a year.",
+    "sentence2": "Dusty had surgery for cancer in 2001 and had a kidney removed.",
+    "label": 0
+  },
+  "4380": {
+    "sentence1": "He refused to reveal what percentage of flights carried sky marshals, or whether they would be increased.",
+    "sentence2": "He refused to say what percentage of domestic flights had security officers on board.",
+    "label": 0
+  },
+  "3291": {
+    "sentence1": "\"He wasnt like that, except for getting in a couple fights with his dad.",
+    "sentence2": "As far as I know, he wasnt like that, except for getting in a couple fights with his dad.\"",
+    "label": 1
+  },
+  "4643": {
+    "sentence1": "In addition, Panther includes FileVault, a new feature that secures the contents of a home directory with 128-bit AES encryption.",
+    "sentence2": "A new feature dubbed FileVault, also new in Panther, secures the contents of a user's home directory with 128-bit AES encryption.",
+    "label": 1
+  },
+  "4871": {
+    "sentence1": "The support will come as a free software upgrade called WebVPN for current customers that have support contracts.",
+    "sentence2": "The upgrade will be available as a free download for current customers with SmarNet support in January 2004.",
+    "label": 1
+  },
+  "3586": {
+    "sentence1": "His protest led to a 47-hour standoff with police that caused huge traffic jams in downtown Washington and northern Virginia.",
+    "sentence2": "His protest triggered a 47-hour standoff with police that led to huge traffic jams as commuters backed up in downtown Washington and Northern Virginia.",
+    "label": 1
+  },
+  "1566": {
+    "sentence1": "Axelrod died in his sleep of heart failure, said his daughter, Nina Axelrod.",
+    "sentence2": "Axelrod died of heart failure while asleep at his Los Angeles home, said his daughter, Nina Axelrod.",
+    "label": 1
+  },
+  "4486": {
+    "sentence1": "The company said it would cut the wholesale price of most top-line CDs to $9.09 from $12.02.",
+    "sentence2": "The company also said it would cut wholesale prices on cassettes and change the suggested retail price to $8.98.",
+    "label": 0
+  },
+  "2214": {
+    "sentence1": "He also said it is too early to know whether a second wave might occur later in the winter.",
+    "sentence2": "Dr. Ostroff also said it was still too early to know whether a second wave would occur later in the winter.",
+    "label": 1
+  },
+  "699": {
+    "sentence1": "Axcan's shares closed down 63 Canadian cents, or 4 percent, at C$16.93 in Toronto on Tuesday.",
+    "sentence2": "Axcan's shares were down 3.8 percent, or 66 Canadian cents, at C$16.90 in Toronto on Tuesday.",
+    "label": 1
+  },
+  "4770": {
+    "sentence1": "Benchmark Treasury 10-year notes gained 17/32, yielding 4.015 percent.",
+    "sentence2": "The benchmark 10-year note was recently down 17/32, to yield 4.067 percent.",
+    "label": 0
+  },
+  "3431": {
+    "sentence1": "A nationally board certified teacher with a master's degree, Kelley, in his 30th year teaching, makes $65,000.",
+    "sentence2": "A nationally board-certified teacher with a master's degree, Kelley makes $65,000 in his 30th year.",
+    "label": 1
+  },
+  "329": {
+    "sentence1": "In court papers filed Tuesday, Lee asked for an injunction against Viacom's use of the name, saying he had never given his consent for it to be used.",
+    "sentence2": "In papers filed Tuesday in Manhattan's state Supreme Court, Lee asked for an injunction against Viacom's use of the name Spike for TNN.",
+    "label": 0
+  },
+  "4179": {
+    "sentence1": "No official ceremony was planned to mark the anniversary in Dallas.",
+    "sentence2": "In Dallas, no official ceremony marked the anniversary.",
+    "label": 1
+  },
+  "340": {
+    "sentence1": "\"Craxi begged me to intervene because he believed the operation damaged the state,\" Mr Berlusconi said.",
+    "sentence2": "\"I had no direct interest and Craxi begged me to intervene because he believed that the deal was damaging to the state,\" Berlusconi testified.",
+    "label": 0
+  },
+  "2927": {
+    "sentence1": "The announcements were made at the International Broadcasting Convention (IBC) in Amsterdam.",
+    "sentence2": "The submission was on Monday, but the announcement was made Friday at the International Broadcasting Convention in Amsterdam.",
+    "label": 0
+  },
+  "4303": {
+    "sentence1": "Search technology powerhouse Google has released a new beta of its popular Internet Explorer toolbar, adding bells and whistles for surfers.",
+    "sentence2": "Search technology powerhouse Google has released a new beta of its popular toolbar for Internet Explorer, adding a pop-up blocker, a controversial Blogger feature, and form-filling functionality.",
+    "label": 1
+  },
+  "4057": {
+    "sentence1": "This issue is unlikely to be resolved until lawmakers return from their summer recess in early September.",
+    "sentence2": "The issue is unlikely to be resolved until Congress reconvenes in early September.",
+    "label": 1
+  },
+  "1695": {
+    "sentence1": "General Jeffrey said he would donate his military pension to charity for the period he was in office at Yarralumla.",
+    "sentence2": "Maj-Gen Jeffery said he would give his military pension to charity while he served at Yarralumla.",
+    "label": 1
+  },
+  "254": {
+    "sentence1": "When you crossed the line, you violated the constitutional right,\" said Charles Weisselberg, a UC Berkeley law professor.",
+    "sentence2": "When you crossed the line, you violated the constitutional right,\" said Charles Weisselberg, who teaches law at the University of California, Berkeley.",
+    "label": 1
+  },
+  "1195": {
+    "sentence1": "In addition to HP, vendors backing SMI-S include Computer Associates, EMC, IBM, Sun and Veritas.",
+    "sentence2": "Computer Associates, EMC, IBM, Sun Microsystems, and VERITAS are also onboard to support the storage standard.",
+    "label": 1
+  },
+  "1409": {
+    "sentence1": "The seventh person charged in the case - Habis Abdu al Saoub - remains at large.",
+    "sentence2": "The seventh member of the cell, Habis Abdullah al Saoub, 37, a Jordanian, remains at large.",
+    "label": 1
+  },
+  "4939": {
+    "sentence1": "Agriculture Secretary Luis Lorenzo told Reuters there was no damage to the vital rice crop as harvesting had just finished.",
+    "sentence2": "Agriculture Secretary Luis Lorenzo said there was no damage to the vital rice crop as the harvest had ended.",
+    "label": 1
+  },
+  "2988": {
+    "sentence1": "That means that if the planet is in a season, it will continue to brighten for the next 20 years.",
+    "sentence2": "If what scientists are observing is truly seasonal change, the planet will continue to brighten for another 20 years.",
+    "label": 1
+  },
+  "959": {
+    "sentence1": "Appeals had kept him on death row longer than anyone else in the U.S., AP said.",
+    "sentence2": "Isaacs had been on death row longer than anyone in the nation.",
+    "label": 0
+  },
+  "3780": {
+    "sentence1": "Mr Eddington warned yesterday that the future of the airline was \"in the hands of the negotiators\".",
+    "sentence2": "\"The future of BA is in the hands of the negotiators,\" Eddington told British Broadcasting Corp. television on Sunday.",
+    "label": 1
+  },
+  "1900": {
+    "sentence1": "The victim, who was also not identified, was taken to Kings County Hospital in \"extremely critical\" condition, Czartoryski said.",
+    "sentence2": "The shooting victim was taken to Kings County Hospital Center, where he later died, the police said.",
+    "label": 0
+  },
+  "725": {
+    "sentence1": "World economic leaders hailed signs of a global revival on Tuesday but agreed it had to be handled with care to prevent any setback.",
+    "sentence2": "DUBAI, SEPTEMBER 23:  The world economic leaders hailed on Tuesday signs of a global revival but agreed it had to be handled with care to prevent any setback.",
+    "label": 1
+  },
+  "2907": {
+    "sentence1": "The search was concentrated in northeast Pennsylvania, but state trooper Tom Kelly acknowledged that Selenski could have traveled hundreds of miles by now.",
+    "sentence2": "The search was concentrated in northeastern Pennsylvania, but State Police Trooper Tom Kelly acknowledged that Selenski could be out of the area.",
+    "label": 1
+  },
+  "2621": {
+    "sentence1": "The institute estimates that last year 15.7 per cent of the average supermarket's sales and more than half of gross margin went to pay employee costs.",
+    "sentence2": "The FMI estimates that last year 15.7 percent of the average supermarket's sales and more than half of gross margin went to pay employee costs, including wages and benefits.",
+    "label": 1
+  },
+  "1597": {
+    "sentence1": "We need to challenge old habits and seriously rethink business-as-usual,\" he wrote.",
+    "sentence2": "\"We need to change old habits and seriously rethink business-as-usual.\"",
+    "label": 1
+  },
+  "507": {
+    "sentence1": "It's also a strategic win for Overture, given that Knight Ridder had the option of signing on Google's services.",
+    "sentence2": "It's also a strategic win for Overture, given that Knight Ridder had been using Google's advertising services.",
+    "label": 0
+  },
+  "3618": {
+    "sentence1": "Mr Goh on his part, described the visit as especially important - given the SARS situation.",
+    "sentence2": "Mr Goh said that it was 'especially important given the Sars situation in Singapore'.",
+    "label": 1
+  },
+  "3351": {
+    "sentence1": "Also, hospital efforts to start \"fever clinics\" in parking lot tents to keep infectious patients out of emergency rooms are \"moving along impressively,\" Dr. Roth said.",
+    "sentence2": "Dr. Roth also said that hospital efforts to start \"fever clinics\" in parking-lot tents to keep infectious patients out of emergency rooms were \"moving along impressively.\"",
+    "label": 1
+  },
+  "4469": {
+    "sentence1": "\"The issue has been resolved,\" Marlins President David Samson said through a club spokesman.",
+    "sentence2": "The Marlins only said: \"The issue has been resolved.\"",
+    "label": 1
+  },
+  "707": {
+    "sentence1": "The results will be published the July 10 issue of the journal Nature.",
+    "sentence2": "The results appear in Thursday\u2019s issue of the journal Nature.",
+    "label": 1
+  },
+  "3557": {
+    "sentence1": "These plans would offer preventive health coverage as well as protection against catastrophic health-care expenses, neither of which is currently available under the government-run program.",
+    "sentence2": "The latter would offer preventive health coverage as well as protection against unexpected healthcare expenses, neither of which is currently available under Medicare.",
+    "label": 1
+  },
+  "791": {
+    "sentence1": "Directed by Jonathan Lynn from a script by Elizabeth Hunter and Saladin K. Patterson.",
+    "sentence2": "Whole Nine Yards,\" and written by first-time screenwriters Elizabeth Hunter and Saladin K. Patterson.",
+    "label": 0
+  },
+  "3189": {
+    "sentence1": "Justices said that the Constitution allows the government to administer drugs only \"in limited circumstances.\"",
+    "sentence2": "In a 6-3 ruling, the justices said such anti-psychotic drugs can be used only in \"limited circumstances.\"",
+    "label": 1
+  },
+  "774": {
+    "sentence1": "Defense Secretary Donald H. Rumsfeld and others argued that Saddam Hussein possessed chemical and biological weapons and was hiding them.",
+    "sentence2": "Defense Secretary Donald H. Rumsfeld and others argued that Saddam Hussein (news - web sites) possessed chemical, biological and other weapons and was hiding them.",
+    "label": 1
+  },
+  "5253": {
+    "sentence1": "The new companies will begin trading on Nasdaq today under the ticker symbols PLMO and PSRC.",
+    "sentence2": "Also as part of the deal, PalmSource stock will begin trading on the NASDAQ stock market Wednesday under the ticker symbol: PSRC.",
+    "label": 0
+  },
+  "958": {
+    "sentence1": "Nigeria and other African oil producers are increasingly important in U.S. plans to lessen dependence on Middle Eastern suppliers for its energy security.",
+    "sentence2": "Nigeria and other African producers are increasingly important in the former Texas oilman's plans to lessen dependence on Middle Eastern suppliers for energy security.",
+    "label": 1
+  },
+  "3227": {
+    "sentence1": "The Smyrna Nissan plant was recently named the most productive automotive manufacturing site in North America, said Kisber.",
+    "sentence2": "Last week, a national study ranked Nissan's Smyrna plant the most productive in North America.",
+    "label": 1
+  },
+  "1266": {
+    "sentence1": "Sens. John Kerry and Bob Graham declined invitations to speak.",
+    "sentence2": "The no-shows were Sens. John Kerry of Massachusetts and Bob Graham of Florida.",
+    "label": 1
+  },
+  "3831": {
+    "sentence1": "PC-related products were the strongest sellers, with microprocessors up 5.6 percent and DRAMs up 8.2 percent, the SIA said.",
+    "sentence2": "In July, PC-related products were the strongest sector with microprocessors up 5.6 per cent and DRAMs up 8.2 per cent over June.",
+    "label": 1
+  },
+  "3755": {
+    "sentence1": "A grassy field and asphalt island, topped with an ATM, sit where Orville Wright once developed a split airplane wing, tinkered with cars and even built toys.",
+    "sentence2": "Orville Wright's laboratory was once there - where he developed a split airplane wing, tinkered with cars and even built toys.",
+    "label": 1
+  },
+  "4432": {
+    "sentence1": "We're electing a president of the United States, not a staff.\"",
+    "sentence2": "\"We are electing a president of the United States, not a staff,\" Kerry said.",
+    "label": 1
+  },
+  "751": {
+    "sentence1": "In 1999, the building's owners, the Port Authority of New York and New Jersey, issued guidelines to upgrade the fireproofing to a thickness of 1{ inches.",
+    "sentence2": "The NIST discovered that in 1999 the Port Authority issued guidelines to upgrade the fireproofing to a thickness of 1 1/2 inches.",
+    "label": 0
+  },
+  "10": {
+    "sentence1": "Shares of Genentech, a much larger company with several products on the market, rose more than 2 percent.",
+    "sentence2": "Shares of Xoma fell 16 percent in early trade, while shares of Genentech, a much larger company with several products on the market, were up 2 percent.",
+    "label": 0
+  },
+  "2919": {
+    "sentence1": "Samuel Waksal, ImClone's former CEO, recently began serving a prison sentence of more than seven years for securities fraud.",
+    "sentence2": "Waksal, who pleaded guilty to securities fraud charges, recently began serving a prison sentence of more than seven years.",
+    "label": 1
+  },
+  "2088": {
+    "sentence1": "Under the 1973 Roe vs. Wade ruling, before a fetus could live outside the womb, the abortion decision was left to the woman and her physician.",
+    "sentence2": "Under the original Roe v. Wade ruling, the abortion decision was left to the woman and her physician before a fetus could live outside the womb.",
+    "label": 1
+  },
+  "4127": {
+    "sentence1": "The technology-laced Nasdaq Composite Index <.IXIC> rose 17.33 points, or 1.07 percent, to 1,640.13.",
+    "sentence2": "The broader Standard & Poor's 500 Index <.SPX> gained 5.51 points, or 0.56 percent, to 981.73.",
+    "label": 0
+  },
+  "5540": {
+    "sentence1": "Veteran stage and screen actor Hume Cronyn died of cancer Sunday.",
+    "sentence2": "Character actor Hume Cronyn, 91, died Sunday at his home in Connecticut.",
+    "label": 0
+  },
+  "4161": {
+    "sentence1": "David Brame fatally shot his wife and then himself on April 26 in a Gig Harbor shopping-mall parking lot.",
+    "sentence2": "David Brame shot his wife and then himself April 26 in a Gig Harbor parking lot as their two children sat in his car nearby.",
+    "label": 0
+  },
+  "3429": {
+    "sentence1": "Altria shares fell 2.5 percent or $1.11 to $42.57 and were the Dow's biggest percentage loser.",
+    "sentence2": "Its shares fell $9.61 to $50.26, ranking as the NYSE's most-active issue and its biggest percentage loser.",
+    "label": 0
+  },
+  "3626": {
+    "sentence1": "Friends of Animals president Priscilla Feral said she would spend the weekend considering the possibility of further legal action.",
+    "sentence2": "Friends of Animals president Priscilla Feral said she is considering the possibility of further legal action but declined to elaborate.",
+    "label": 0
+  },
+  "1431": {
+    "sentence1": "She met Lady Mary at her Double Bay home yesterday to thank her for the donation.",
+    "sentence2": "She met Lady Mary for the first time at her Double Bay home in Sydney yesterday to thank her in person for the donation.",
+    "label": 1
+  },
+  "5536": {
+    "sentence1": "\"The \u00a35m would give BA a considerable return on the \u00a35 it originally paid the government for the aircraft.\"",
+    "sentence2": "The \u00a35m gives BA a considerable return on the \u00a35 they originally paid for Concorde.",
+    "label": 1
+  },
+  "1862": {
+    "sentence1": "CELF said IBM is pursuing membership and plans to be an active participant in the forum.",
+    "sentence2": "IBM is pursuing membership and plans to be an active participant in the CELF, according to various members of CELF.",
+    "label": 1
+  },
+  "5098": {
+    "sentence1": "\"We're going to do everything in our power to get money back to ratepayers as quickly as possible,\" Kennedy said.",
+    "sentence2": "\"There's very strong interest in getting money back to the ratepayers as quickly as possible,\" Commissioner Susan Kennedy said.",
+    "label": 1
+  },
+  "4073": {
+    "sentence1": "It later emerged that he had broken his right thigh and bones in his right wrist and elbow.",
+    "sentence2": "Tour doctors later confirmed that he had broken his right leg near the hip and also sustained wrist and elbow fractures.",
+    "label": 1
+  },
+  "4373": {
+    "sentence1": "His band in the early 1930's included the pianist Teddy Wilson, the saxophonist Chu Berry, the trombonist J. C. Higginbotham and the drummer Sid Catlett.",
+    "sentence2": "His band in the early 1930s included pianist Teddy Wilson, saxophonist Chu Berry, trombonist J.C. Higginbotham and drummer Sid Catlett.",
+    "label": 1
+  },
+  "5385": {
+    "sentence1": "Iraq is selling about 10 million barrels of oil that's currently in storage.",
+    "sentence2": "Before the war began in March, Iraq pumped about 2.1 million barrels a day.",
+    "label": 0
+  },
+  "4478": {
+    "sentence1": "Shares of McDonald's rose $1.83, or 8.3 percent, to close at the day's high of $23.89.",
+    "sentence2": "McDonald's shares rose $1.83 to close Friday at $23.89 on the New York Stock Exchange.",
+    "label": 1
+  },
+  "5023": {
+    "sentence1": "The company has 30 days to respond to the charges before the FCC makes a final ruling.",
+    "sentence2": "AT&T has 30 days to respond to the charges before the F.C.C. issues a final order.",
+    "label": 1
+  },
+  "2473": {
+    "sentence1": "Thirty-eight percent of patients surveyed in five urban clinics believed the myth that cancer spreads when exposed to air during surgery, according to a poll to be published Tuesday.",
+    "sentence2": "Thirty-eight percent of cancer patients in five urban clinics believed the myth that the disease spreads when exposed to air during surgery, according to a survey.",
+    "label": 1
+  },
+  "5130": {
+    "sentence1": "\"I don't think he's been that good from the get-go,\" said Limbaugh.",
+    "sentence2": "This is what Limbaugh actually said about McNabb: \"I don't think he's been that good from the get-go.",
+    "label": 1
+  },
+  "1436": {
+    "sentence1": "The U.N. troops are in Congo to protect U.N. installations and personnel, and they can only fire in self defense and have been unable to stem the violence.",
+    "sentence2": "The troops - whose mandate is to protect U.N. installations and personnel - can only fire in self-defense and have been unable to stem the violence.",
+    "label": 1
+  },
+  "5351": {
+    "sentence1": "Police launched an international hunt for Shevaun Pennington after she ran away with 31-year-old Toby Studabaker Saturday.",
+    "sentence2": "Shevaun Pennington disappeared on Saturday morning after arranging to meet 31-year-old Toby Studabaker.",
+    "label": 0
+  },
+  "3929": {
+    "sentence1": "\"The anticipated global sales improvement in the month of June did not materialize,\" said Chief Financial Officer Robert Rivet.",
+    "sentence2": "\"The anticipated global sales improvement in the month of June did not materialize as we had anticipated,\" the company said.",
+    "label": 1
+  },
+  "1475": {
+    "sentence1": "\"We're still confident that Gephardt will get the lion's share of union support.\"",
+    "sentence2": "Whether or not we get to the two-thirds, we're going to have the lion's share of union support.\"",
+    "label": 0
+  },
+  "5329": {
+    "sentence1": "Canadian officials have agreed to run a complementary threat response exercise.",
+    "sentence2": "Canadian officials will participate through a command post exercise.",
+    "label": 0
+  },
+  "4203": {
+    "sentence1": "Zilkha and other shareholders, including Coastal founder Oscar Wyatt Jr., had called for Wise's firing for months.",
+    "sentence2": "Zilkha and other shareholders, including Coastal Corp. founder and vocal El Paso critic Oscar Wyatt Jr., had called for Wise's termination for months.",
+    "label": 1
+  },
+  "1259": {
+    "sentence1": "In fiction: Edward P. Jones (\"The Known World\") and Scott Spencer (\"A Ship Made of Paper\").",
+    "sentence2": "The fifth nominee for fiction is Scott Spencer, for A Ship Made of Paper.",
+    "label": 0
+  },
+  "3542": {
+    "sentence1": "With the Fourth of July weekend approaching, state parks such as the Spruce Run Recreation Area in Union Township will be open.",
+    "sentence2": "With the Fourth of July weekend approaching, state parks such as Parvin State Park in Salem County will be open.",
+    "label": 1
+  },
+  "4762": {
+    "sentence1": "Officials involved in the Howard project rejected the idea that it could harm black people.",
+    "sentence2": "Officials involved in the Howard library rejected the idea of harming African-Americans.",
+    "label": 1
+  },
+  "2034": {
+    "sentence1": "The A920 comes with a printer, scanner, and copier for $89.",
+    "sentence2": "Dell's Personal All-in-One A920 is an entry-level device that combines printer, scanner and copier functions for $89.",
+    "label": 1
+  },
+  "4193": {
+    "sentence1": "The Prime Minister, Junichiro Koizumi, joined the criticism.",
+    "sentence2": "Prime Minister Junichiro Koizumi said Mr Ota deserved to be criticised.",
+    "label": 1
+  },
+  "2278": {
+    "sentence1": "\"Although the preconditions for recovery remain in place, the prospect for external demand for UK output is weaker than previously expected.\"",
+    "sentence2": "He continued, \"although the preconditions for recovery remain in place,\" prospects for British exports were \"weaker than previously expected.\"",
+    "label": 1
+  },
+  "685": {
+    "sentence1": "On Wall Street, trading resumed with some glitches from the blackout that continued to affect parts of New York City.",
+    "sentence2": "Stocks barely budged Friday as trading resumed with some glitches from the blackout in New York.",
+    "label": 0
+  },
+  "718": {
+    "sentence1": "Three such vigilante-style attacks forced the hacker organiser, who identified himself only as \"Eleonora67],\" to extend the contest until 8am (AEST) today.",
+    "sentence2": "Three such vigilante-style attacks forced the hacker organizer, who identified himself only as \"Eleonora67,\" to extend the contest until 6 p.m. EDT Sunday.",
+    "label": 1
+  },
+  "1287": {
+    "sentence1": "The company also earned 14 cents a share a year earlier.",
+    "sentence2": "A year ago, the company posted a profit of 12 cents a share.",
+    "label": 1
+  },
+  "4175": {
+    "sentence1": "Klarman was arrested by FBI agents in the Hamptons, an exclusive summer resort enclave east of New York City.",
+    "sentence2": "Klarman was arrested by FBI agents Monday morning at his home in New York.",
+    "label": 0
+  },
+  "4918": {
+    "sentence1": "Troubled Devil Rays prospect Josh Hamilton's promising future is in doubt after an announcement Monday he will miss the season because of unspecified personal problems.",
+    "sentence2": "Troubled Devil Rays prospect Josh Hamilton's promising future is in doubt after the Devil Rays announced Monday night that he will miss the season because of unspecified personal problems.",
+    "label": 1
+  },
+  "2574": {
+    "sentence1": "The Calgary woman, who is in her twenties, donated blood on Aug. 7.",
+    "sentence2": "The woman -- who has no symptoms of illness -- donated blood Aug. 7.",
+    "label": 0
+  },
+  "1158": {
+    "sentence1": "\"Although some firms show BPO savings, vendors overstate their current offerings,\" John C. McCarthy, Forrester Group director, said.",
+    "sentence2": "\"Although some firms show BPO savings, vendors overstate their current offerings,\" McCarthy said in a statement.",
+    "label": 1
+  },
+  "3503": {
+    "sentence1": "\"The government elements who have been causing trouble are still in place.",
+    "sentence2": "The government elements who have been causing trouble are still in place, they are attacking us.\"",
+    "label": 0
+  },
+  "5530": {
+    "sentence1": "There was no immediate comment from Savage, who did not respond to E-mail requests for an interview.",
+    "sentence2": "There was no immediate comment from Savage, according to a spokesman at his office in California.",
+    "label": 0
+  },
+  "2999": {
+    "sentence1": "A nationally known itinerant computer hacker faces a federal arrest warrant on a sealed federal complaint in New York, a federal defender in California said Friday.",
+    "sentence2": "A nationally known computer hacker is being sought on a federal arrest warrant stemming from a sealed complaint in New York, a federal defender in California said Friday.",
+    "label": 1
+  },
+  "2075": {
+    "sentence1": "Dealers said the yen was also undermined by falling Japanese interest rates.",
+    "sentence2": "Dealers said the dollar also drew some support due to falling Japanese interest rates.",
+    "label": 1
+  },
+  "568": {
+    "sentence1": "Shares of Berkeley, California-based Xoma dropped $1.49 or 27 percent, to $4 in Instinet trading.",
+    "sentence2": "Shares in Berkeley-based Xoma lost 77 cents, or 14 percent, to close at $4.72 each in trading on the Nasdaq Stock Market.",
+    "label": 0
+  },
+  "1365": {
+    "sentence1": "The Dow Jones industrial average advanced for the fourth week in a row.",
+    "sentence2": "The Dow Jones industrial average .DJI rose 41.61 points, or 0.44 percent, to 9,415.82.",
+    "label": 0
+  },
+  "109": {
+    "sentence1": "The blue-chip Dow Jones industrial average eased 44 points, or 0.47 percent, to 9,543, after scoring five consecutive up sessions.",
+    "sentence2": "The Dow Jones industrial average .DJI rose 18.25 points, or 0.19 percent, to 9,586.71.",
+    "label": 0
+  },
+  "4272": {
+    "sentence1": "The broader Standard & Poor's 500 Index .SPX shed 1.8 points, or 0.18 percent, to 991.",
+    "sentence2": "The technology-laced Nasdaq Composite Index .IXIC was off 24.44 points, or 1.39 percent, at 1,739.87.",
+    "label": 0
+  },
+  "1415": {
+    "sentence1": "The San Jose-based company posted a net income of $64.2 million, or 27 cents per share, in the quarter ended May 30.",
+    "sentence2": "That was up from the year-ago quarter, when the company earned $54.3 million, or 22 cents a share.",
+    "label": 0
+  },
+  "3397": {
+    "sentence1": "Senator Hill appeared completely unaware of the issue, which has been of serious concern to US, Australian and British intelligence officers.",
+    "sentence2": "But Senator Hill appeared unaware of the intelligence problems that have been of serious concern to US, Australian and British military intelligence officers.",
+    "label": 1
+  },
+  "2936": {
+    "sentence1": "When the butterflies were exposed to constant light, they flew directly towards the sun, presumably because they no longer had any sense of time.",
+    "sentence2": "And when butterflies were exposed to constant light, they flew directly toward the sun, apparently having lost their sense of time.",
+    "label": 1
+  },
+  "3553": {
+    "sentence1": "Detectives told Deasean's father, Stelly Chisolm, a college student, and mother, Kimberly Hill, of the arrest shortly after Perry was apprehended.",
+    "sentence2": "Shortly after his arrest, detectives told Deasean's father, Stelly Chisolm, a college student, and mother, Kimberly Hill, a medical assistant, about the development.",
+    "label": 1
+  },
+  "4684": {
+    "sentence1": "I think he has to disembrace Putin and put him on notice that he is taking the country in the wrong direction,\" Soros said.",
+    "sentence2": "\"President Bush has to put Putin on notice that he is taking Russia in the wrong direction,\" Soros said.",
+    "label": 1
+  },
+  "1339": {
+    "sentence1": "Carlow and his group peddled drugs by forging paperwork showing the shipments' prior owners.",
+    "sentence2": "The network peddled drugs by forging paperwork showing prior owners of the shipments.",
+    "label": 1
+  },
+  "2453": {
+    "sentence1": "Every day more American soldiers die.",
+    "sentence2": "We're losing one or two American soldiers every day.",
+    "label": 1
+  },
+  "2578": {
+    "sentence1": "The jump in tobacco shares was led by New York-based Altria, whose shares rose almost 10 percent to $38.28.",
+    "sentence2": "Shares of the cigarette makers jumped on the news, led by New York-based Altria, whose shares rose almost 10 percent to $38.30.",
+    "label": 1
+  },
+  "5500": {
+    "sentence1": "Google's investors include prominent VC firms Kleiner Perkins Caufield & Byers and Sequoia Capital, the paper noted.",
+    "sentence2": "Google's early stage backers in include California-based Stanford University and VC firms Kleiner Perkins and Sequoia Capital.",
+    "label": 1
+  },
+  "3798": {
+    "sentence1": "The companies uniformly declined to give specific numbers on customer turnover, saying they will release those figures only when they report overall company performance at year-end.",
+    "sentence2": "The companies, however, declined to give specifics on customer turnover, saying they would release figures only when they report their overall company performance.",
+    "label": 1
+  },
+  "1152": {
+    "sentence1": "The most recent was in 1998, when Dr Barnett Slepian was killed in his home in Amherst, New York.",
+    "sentence2": "The most recent killing was in 1998, when Dr. Barnett Slepian was shot and killed in his home in Amherst, N.Y.",
+    "label": 1
+  },
+  "2924": {
+    "sentence1": "The research is set to change how the public and doctors check for melanomas.",
+    "sentence2": "Now research by Melbourne's Alfred Hospital will change how the public and doctors check for melanomas.",
+    "label": 1
+  },
+  "5478": {
+    "sentence1": "The European Commission has developed a set of guidelines to help public administrators decide whether to migrate their enterprises to Open Source Software or not.",
+    "sentence2": "A European Commission initiative has issued guidelines to member governments on how to migrate to open source software on both servers and desktops.",
+    "label": 1
+  },
+  "2883": {
+    "sentence1": "Operating revenue fell 4.5 percent to $2.3 billion from a year earlier.",
+    "sentence2": "Operating revenues were down about 1 percent to $4.55 billion, from $4.59 billion.",
+    "label": 1
+  },
+  "5205": {
+    "sentence1": "The Vatican devised a mini-lift to allow the pope to get on and off helicopters.",
+    "sentence2": "The Vatican has devised a mini-lift to allow John Paul to board and descend from the helicopter without tackling stairs.",
+    "label": 1
+  },
+  "2161": {
+    "sentence1": "Shares of Cellegy were down $2.04, or 39%, to $3.18 in midday trading on the Nasdaq Stock Market.",
+    "sentence2": "Shares of Cellegy plunged $1.99 to $3.23 Monday on the Nasdaq Stock Market.",
+    "label": 1
+  },
+  "2918": {
+    "sentence1": "The market remains pinned in a narrow range after a powerful rally drove the broad Standard & Poor's 500 index .SPX up more than 20 percent since mid-March.",
+    "sentence2": "The market remains pinned in a narrow range after a powerful rally pushed the broad S&P 500 index up more than 20 percent since mid-March.",
+    "label": 1
+  },
+  "2319": {
+    "sentence1": "Freddie Mac shares were down more than 16 per cent at $50.18 at midday yesterday.",
+    "sentence2": "Freddie Mac shares were off $7.87, or 13.2 percent, at $52 in midday trading on the New York Stock Exchange.",
+    "label": 1
+  },
+  "800": {
+    "sentence1": "Vaccine makers have been thrust into the limelight as government programs to encourage wider vaccination and fears of biological attacks on civilian and military targets.",
+    "sentence2": "Vaccine makers have been thrust into the limelight as government programs encourage wider vaccination amid fears of biological attacks.",
+    "label": 1
+  },
+  "3015": {
+    "sentence1": "The blue-chip Dow Jones industrial average <.DJI> jumped 118 points, or 1.36 percent, to 8,829.",
+    "sentence2": "In morning trading, the Dow Jones industrial average was up 121.51, or 1.4 percent, at 8,832.69.",
+    "label": 1
+  },
+  "1592": {
+    "sentence1": "The 30-year bond <US30YT=RR> firmed 24/32, taking its yield to 4.18 percent, after hitting another record low of 4.16 percent.",
+    "sentence2": "The 30-year bond US30YT=RR firmed 14/32, taking its yield to 4.19 percent from 4.22 percent.",
+    "label": 0
+  },
+  "1916": {
+    "sentence1": "The Lord Chancellor was guardian of the Great Seal, used to stamp all official documents from the sovereign.",
+    "sentence2": "Falconer will hold on, for now, to the Lord Chancellor's Great Seal, used to sign off instructions from the sovereign.",
+    "label": 0
+  },
+  "1620": {
+    "sentence1": "The broader Standard & Poor's 500 Index .SPX declined 10.65 points, or 1.07 percent, to 987.86.",
+    "sentence2": "The technology-laced Nasdaq Composite Index <.IXIC> declined 25.78 points, or 1.56 percent, to 1,627.84.",
+    "label": 0
+  },
+  "4868": {
+    "sentence1": "She was 26 then, and a friend tipped her to another position and told her whom to call.",
+    "sentence2": "Westermayer was 26 then, and a friend and former manager who knew she was unhappy in her job tipped her to another position.",
+    "label": 0
+  },
+  "2042": {
+    "sentence1": "Schneiderman said this fare price would reflect the agency's legitimate financial condition as well as riders' concerns about having to pay 33 percent more to ride in a recession.",
+    "sentence2": "Schneiderman said the price would reflect the agency's legitimate financial status as well as riders' concerns about having to pay 33 percent more at the turnstile in a recession.",
+    "label": 1
+  },
+  "5100": {
+    "sentence1": "Fletcher said he expects to have the support of lawmakers from agricultural states, many of whom are on the committee.",
+    "sentence2": "He said he also expects to have the support of lawmakers from other agricultural states.",
+    "label": 0
+  },
+  "150": {
+    "sentence1": "Miss Novikova said while there is no standard weight for ballerinas, Miss Volochkova is 'bigger than others'.",
+    "sentence2": "Commenting on the firing today, Ms. Novikova said that there was no standard weight for ballerinas but that Ms. Volochkova \"is bigger than others.\"",
+    "label": 1
+  },
+  "1762": {
+    "sentence1": "In March 2002, 63 percent of home broadband users connected via cable modem; 34 percent used a DSL service.",
+    "sentence2": "In the earlier survey, 63 percent of home broadband users had cable modems, compared with 34 percent who connected with DSL technology.",
+    "label": 1
+  },
+  "4206": {
+    "sentence1": "To win final United States approval, the treaty would have to be signed by President Bush and ratified by Congress.",
+    "sentence2": "The treaty must be signed by the president and ratified by Congress to take effect.",
+    "label": 1
+  },
+  "2402": {
+    "sentence1": "Actor Noah Wyle, who has played Dr. John Carter since the shows inception in 1994, extended his contract with the show through the 2004-2005 season.",
+    "sentence2": "Noah Wyle, who has played Dr. John Carter since the series launched in 1994, has inked a one-year extension to his deal with producer Warner Bros. TV.",
+    "label": 0
+  },
+  "1388": {
+    "sentence1": "The Senate's proposal will need the support of the Democrat-led Assembly and Pataki to become law.",
+    "sentence2": "Even if the Senate approves the proposals, they would require the support of the Democrat-led Assembly and Gov. George Pataki to become law.",
+    "label": 0
+  },
+  "4570": {
+    "sentence1": "Also demonstrating box-office strength - and getting seven Tony nominations - was a potent revival of Eugene O'Neill's family drama, Long Day's Journey Into Night.",
+    "sentence2": "Also demonstrating box-office strength -- and getting seven Tony nominations -- was a potent revival of Eugene ONeills family drama, Long Days Journey Into Night.\"",
+    "label": 1
+  },
+  "876": {
+    "sentence1": "Microsoft has described the technology as \"a brand new client platform for building smart, connected, media rich applications in Longhorn.\"",
+    "sentence2": "Microsoft calls it: \"A brand new client platform for building smart, connected, media-rich applications in Longhorn.\"",
+    "label": 1
+  },
+  "3078": {
+    "sentence1": "Late last month Microsoft restricted access to its MSN Messenger network.",
+    "sentence2": "Microsoft last month said it is updating its MSN Messenger service in October.",
+    "label": 0
+  },
+  "4099": {
+    "sentence1": "Michael Hill, a Sun reporter who is a member of the Washington-Baltimore Newspaper Guild's bargaining committee, estimated meetings to last late Sunday.",
+    "sentence2": "\"We hope it's symbolic,\" said Michael Hill, a Sun reporter and member of the guild's bargaining committee.",
+    "label": 0
+  },
+  "1374": {
+    "sentence1": "A big surge in consumer confidence has provided the only positive economic news in recent weeks.",
+    "sentence2": "Only a big surge in consumer confidence has interrupted the bleak economic news.",
+    "label": 1
+  },
+  "5539": {
+    "sentence1": "The local people say four Iraqis were killed and four were injured.",
+    "sentence2": "Witnesses said four Iraqis were killed and 14 injured during the protest and clash with British forces.",
+    "label": 0
+  },
+  "27": {
+    "sentence1": "Inhibited children tend to be timid with new people, objects, and situations, while uninhibited children spontaneously approach them.",
+    "sentence2": "Simply put, shy invividuals tend to be more timid with new people and situations.",
+    "label": 1
+  },
+  "4447": {
+    "sentence1": "He said the attackers left behind leaflets urging staff at the Ishtar Sheraton to stop working at the hotel and demanding U.S. forces leave Iraq.",
+    "sentence2": "He said the attackers left behind leaflets urging workers at the Ishtar Sheraton to stop working at the hotel.",
+    "label": 0
+  },
+  "2784": {
+    "sentence1": "Trading volume was incredibly light at 500.22 million shares, below an already thin 611.45 million exchanged at the same point Thursday.",
+    "sentence2": "Trading volume was extremely light at 1.05 billion shares, below an already thin 1.19 billion on Tuesday.",
+    "label": 1
+  },
+  "4789": {
+    "sentence1": "The findings appear in Wednesday's Journal of the American Medical Association (news - web sites).",
+    "sentence2": "The results are to be published in Wednesday's issue of The Journal of the American Medical Association.",
+    "label": 1
+  },
+  "141": {
+    "sentence1": "The loonie, meanwhile, continued to slip in early trading Friday.",
+    "sentence2": "The loonie, meanwhile, was on the rise again early Thursday.",
+    "label": 0
+  },
+  "1757": {
+    "sentence1": "Available July 7, the software supports the Solaris, IBM AIX, Red Hat Linux and Windows operating systems.",
+    "sentence2": "The OpForce product currently works with Solaris, AIX, Red Hat Linux and Windows servers.",
+    "label": 0
+  },
+  "2624": {
+    "sentence1": "\"This is not unanticipated,\" Chief Deputy District Attorney John Goold said Monday.",
+    "sentence2": "They often complain about misconduct,\" John Goold, chief deputy district attorney for Stanislaus County said.",
+    "label": 0
+  },
+  "500": {
+    "sentence1": "Massachusetts is one of 12 states that does not have the death penalty, having abolished capital punishment in 1984.",
+    "sentence2": "Massachusetts is one of 12 states without the death penalty, having abolished it in 1984.",
+    "label": 1
+  },
+  "650": {
+    "sentence1": "If convicted, they face up to five years in prison and a $250,000 fine on each of the 11 counts.",
+    "sentence2": "If convicted, each faces up to five years in prison and a fine of $250,000 or more based on the amount of gains involved.",
+    "label": 0
+  },
+  "3611": {
+    "sentence1": "On the cell's surface, the foreign components are recognised by other cells that then realise it is infected and kill it.",
+    "sentence2": "The foreign bits are recognized by other cells that realize it is infected and kill it.",
+    "label": 1
+  },
+  "661": {
+    "sentence1": "He acted as an international executive producer on Who Wants to be a Millionaire and The Weakest Link.",
+    "sentence2": "A Melbourne TV producer who worked on shows including Who Wants To Be a Millionaire?",
+    "label": 1
+  },
+  "4291": {
+    "sentence1": "On Friday, the Concorde started up around sunrise and seemed to launch itself straight out of the rising sun.",
+    "sentence2": "Yesterday, the Concorde seemed to launch itself straight out of the rising sun.",
+    "label": 1
+  },
+  "4233": {
+    "sentence1": "At 11:30 a.m., Edmund Hillary of New Zealand and Tenzing Norgay Sherpa of Nepal reached the summit.",
+    "sentence2": "Sherpa Tenzing Norgay, who reached the summit with Sir Edmund, died in 1986.",
+    "label": 0
+  },
+  "5347": {
+    "sentence1": "Police using pepper spray arrested 12 people Monday night at a march and rally by about 400 activists protesting an annual training seminar of the Law Enforcement Intelligence Unit.",
+    "sentence2": "Police used pepper spray and rubber bullets to disperse a downtown march and rally last night by activists protesting an annual police intelligence-training seminar.",
+    "label": 0
+  },
+  "1531": {
+    "sentence1": "The decomposed remains of 17-year-old Max Guarino of Manhattan were found floating near City Island April 25.",
+    "sentence2": "Max Guarino, 17, was found April 25 in the water off City Island.",
+    "label": 1
+  },
+  "4003": {
+    "sentence1": "The British Foreign Office said Monday that coalition authorities in Iraq were pleased that the men were freed.",
+    "sentence2": "The British Foreign Office said it had mediated the two men's release.",
+    "label": 0
+  },
+  "3332": {
+    "sentence1": "\"Generally unwanted - and often pornographic or with fraudulent intent - spam is a nuisance and a distraction,\" Gates writes, warming us up for the punchline.",
+    "sentence2": "Generally unwanted\u2014and often pornographic or with fraudulent intent \u2014spam is a nuisance and a distraction,\" Gates writes.",
+    "label": 0
+  },
+  "3363": {
+    "sentence1": "Hong Kong-based Phoenix TV quoted unnamed experts as saying launch will be between Oct. 10 and 17 and will carry two men.",
+    "sentence2": "The Web site of Hong Kong-based Phoenix TV quoted unnamed experts as saying it would happen between Oct. 10 and 17 and carry two men.",
+    "label": 1
+  },
+  "106": {
+    "sentence1": "A day earlier, a committee appointed by reformist President Mohammad Khatami called for an independent judicial inquiry into Kazemi's death.",
+    "sentence2": "A day earlier, a committee appointed by President Mohammad Khatami had called for an independent inquiry into the 54-year-old photojournalist's death.",
+    "label": 1
+  },
+  "3607": {
+    "sentence1": "Like the outgoing centre-left coalition, the next government is expected to come under pressure to hand over indicted war criminals or risk losing Western aid.",
+    "sentence2": "The next government is expected quickly to come under pressure to hand over iwar criminals or risk losing crucial Western aid.",
+    "label": 0
+  },
+  "1887": {
+    "sentence1": "Passenger Keith Charlton, who helped tackle the man, last night praised the efforts of the injured chief flight attendant, known to passengers as Greg.",
+    "sentence2": "Passenger Keith Charlton, who also tackled the attacker, praised the efforts of the injured chief flight attendant.",
+    "label": 1
+  },
+  "4470": {
+    "sentence1": "The broader Standard & Poor's 500 Index .SPX was down 0.04 points, or 0 percent, at 971.52.",
+    "sentence2": "Standard & Poor's 500 stock index futures for June were down 2.60 points at 965.70, while Nasdaq futures were down 7.50 points at 1,183.50.",
+    "label": 0
+  },
+  "3774": {
+    "sentence1": "This is just the latest movement in a continuing trend towards open source support of business applications.",
+    "sentence2": "This is just the latest movement in a continuing trend toward open-source support among business application vendors.",
+    "label": 1
+  },
+  "1413": {
+    "sentence1": "Annika Sorenstam gets her first opportunity to test that objective this week at the McDonald's LPGA Championship.",
+    "sentence2": "The appetizer devoured, Annika Sorenstam moves on to the entree this week at the McDonald's LPGA Championship.",
+    "label": 0
+  },
+  "2896": {
+    "sentence1": "Drax faced a financial crisis late last year after it lost its most lucrative sales contract, held with insolvent utility TXU Europe.",
+    "sentence2": "Drax\u2019s troubles began late last year when it lost its most lucrative sales contract, with the insolvent utility TXU Europe.",
+    "label": 1
+  },
+  "3642": {
+    "sentence1": "Kempenaers said some species are still faithful, notably swans and sea birds such as the albatross, which mate for life and are never unfaithful to their partners.",
+    "sentence2": "Kempenaers said fidelity still exists in some species, notably swans and sea birds such as the albatross that mate for life and are never unfaithful to their partners.",
+    "label": 1
+  },
+  "5381": {
+    "sentence1": "\"The European Union is basically absent,\" said Tito Barbini, regional minister for agriculture in Tuscany, Italy.",
+    "sentence2": "Tito Barbini, a regional minister for agriculture in Tuscany, Italy, criticized the absence Tuesday in Sacramento.",
+    "label": 1
+  },
+  "3067": {
+    "sentence1": "The appeal came as NATO was preparing to the take command of the 5,000 strong International Security Assistance Force (ISAF) on Monday.",
+    "sentence2": "The North Atlantic Treaty Organisation on Monday assumes command of the 4.600-strong International Security Assistance Force (ISAF) which is helping with security and reconstruction in the Afghan capital.",
+    "label": 0
+  },
+  "4491": {
+    "sentence1": "Perkins will travel to Lawrence today and meet with Kansas Chancellor Robert Hemenway.",
+    "sentence2": "Perkins and Kansas Chancellor Robert Hemenway declined comment Sunday night.",
+    "label": 0
+  },
+  "2760": {
+    "sentence1": "The memorandum analyzed lawful activities, such as recruiting demonstrators, and illegal activities, such as using fake documentation to get into a secured site.",
+    "sentence2": "The memo analyzed lawful activities like recruiting demonstrators, as well as illegal activities like using fake documentation to get into a secured site.",
+    "label": 1
+  },
+  "2659": {
+    "sentence1": "\"I conclude that plaintiffs have shown, albeit barely ... that Iraq provided material support to Bin Laden and Al Qaeda,\" Baer said.",
+    "sentence2": "Judge Harold Baer concluded Wednesday that lawyers for the two victims \"have shown, albeit barely ... that Iraq provided material support to bin Laden and al-Qaida.\"",
+    "label": 1
+  },
+  "2730": {
+    "sentence1": "After hours of negotiations, a SWAT team burst in early yesterday and found Hoffine dead.",
+    "sentence2": "Early Friday, the SWAT team burst in and found Hoffine dead.",
+    "label": 1
+  },
+  "2150": {
+    "sentence1": "\"I am listening to the same things I listened to 17 years ago,\" Hollings said.",
+    "sentence2": "Im hearing the same things I listened to 17 years ago.",
+    "label": 1
+  },
+  "5391": {
+    "sentence1": "Until now, sales of the entertainment-oriented PCs have been limited to the United States, Canada and Korea.",
+    "sentence2": "The computers are currently sold in Canada, the United States, and Korea.",
+    "label": 1
+  },
+  "1076": {
+    "sentence1": "He said: \"For the first time there is an easy and affordable way of making this treasure trove of BBC content available to all.\"",
+    "sentence2": "\"For the first time, there is an easy and affordable way of making this treasure trove of BBC content available to all,\" Dyke said.",
+    "label": 1
+  },
+  "4562": {
+    "sentence1": "It estimated on Thursday it has a 51 percent market share in Europe.",
+    "sentence2": "Boston Scientific said it has gained 51 percent of the coated-stent market in Europe.",
+    "label": 1
+  },
+  "1720": {
+    "sentence1": "In interviews with engineers, most of whom have not spoken publicly until now, the lines of discord between NASA's engineers and managers are evident.",
+    "sentence2": "In interviews with numerous engineers, most of whom have not spoken publicly until now, the lines of discord between NASA's engineers and managers stand out in stark relief.",
+    "label": 1
+  },
+  "1069": {
+    "sentence1": "The other 18 people in the building, including Harrison's ex-girlfriend, were not injured, police spokesman Don Aaron said.",
+    "sentence2": "The other 18 people inside the building - two visitors and 16 employees, including Harrison's ex-girlfriend - escaped unharmed, Aaron said.",
+    "label": 1
+  },
+  "1446": {
+    "sentence1": "He planned Monday to formally announce the effort alongside several union presidents.",
+    "sentence2": "He plans to announce the effort formally tomorrow in Cincinnati alongside several union presidents.",
+    "label": 1
+  },
+  "4084": {
+    "sentence1": "Sequent representatives could not immediately be reached for comment on the SCO announcement.",
+    "sentence2": "A spokesman for SCO could not be reached for comment this afternoon.",
+    "label": 1
+  },
+  "3089": {
+    "sentence1": "Gov. Bob Riley proposed the budget cuts after Alabama voters rejected his $1.2 billion tax plan Sept. 9.",
+    "sentence2": "After Alabama voters rejected his $1.2 billion tax plan Sept. 9, Riley forecast significant cuts in state programs.",
+    "label": 1
+  },
+  "5511": {
+    "sentence1": "The industry groups non-manufacturing index rose to 50.7 during the month, up from Marchs reading of 47.9.",
+    "sentence2": "The Arizona-based ISM reported Monday that its non-manufacturing index rose to 50.7 last month, from 47.9 in March.",
+    "label": 1
+  },
+  "3287": {
+    "sentence1": "The blaze was only 5 percent contained early Monday.",
+    "sentence2": "The blaze, started by lightning June 6, is considered 95 percent contained.",
+    "label": 0
+  },
+  "786": {
+    "sentence1": "University of Michigan President Mary Sue Coleman said in a statement on the university's Web site, \"Our fundamental values haven't changed.",
+    "sentence2": "\"Our fundamental values haven't changed,\" Mary Sue Coleman, president of the university, said in a statement in Ann Arbor.",
+    "label": 1
+  },
+  "3404": {
+    "sentence1": "I thought things went a bit overboard but I prefer to leave it on the field,\" Sarwan said.",
+    "sentence2": "\"A lot of things (were said), but I'd prefer to leave it on the field,\" he said.",
+    "label": 0
+  },
+  "888": {
+    "sentence1": "He served as a marine in the Second World War and afterward began submitting articles to magazines.",
+    "sentence2": "After serving as a marine in World War II, he began submitting articles to magazines.",
+    "label": 1
+  },
+  "4162": {
+    "sentence1": "\"I just hope that this event doesn't tarnish his career or take away from what he's done.\"",
+    "sentence2": "\"But I just hope that this event, whatever it was, doesn't tarnish his career or take away all that Sammy Sosa's done.",
+    "label": 1
+  },
+  "1177": {
+    "sentence1": "Gillespie sent a letter to CBS President Leslie Moonves asking for a historical review or a disclaimer.",
+    "sentence2": "Republican National Committee Chairman Ed Gillespie issued a letter Friday to CBS Television President Leslie Moonves.",
+    "label": 0
+  },
+  "1348": {
+    "sentence1": "Oh yeah, Miami, Boston College and Syracuse leaving the Big East to take a seat in the Atlantic Coast Conference.",
+    "sentence2": "Boston College, Miami and Syracuse are considering leaving the Big East for the Atlantic Coast Conference by the end of the month.",
+    "label": 1
+  },
+  "56": {
+    "sentence1": "Several of the questions asked by the audience in the fast-paced forum were new to the candidates.",
+    "sentence2": "Several of the audience questions were new to the candidates as well.",
+    "label": 1
+  },
+  "3864": {
+    "sentence1": "In Hong Kong, 24 patients were quarantined Wednesday after seven public hospital workers developed flu-like symptoms.",
+    "sentence2": "This after seven health care workers at a public hospital fell ill with flu-like symptoms.",
+    "label": 0
+  },
+  "1946": {
+    "sentence1": "\"The accuser arrived at the hospital wearing yellow knit panties - with someone else's semen and sperm in them, not that of Mr. Bryant,\" Mackey hammered triumphantly.",
+    "sentence2": "\"The accuser arrived at the hospital wearing panties with someone else's semen and sperm in them, not that of Mr. Bryant, correct?\"",
+    "label": 1
+  },
+  "831": {
+    "sentence1": "Baer said he had concluded that lawyers for the two victims \"have shown, albeit barely ... that Iraq provided material support to bin Laden and al-Qaeda\".",
+    "sentence2": "Judge Harold Baer concluded Wednesday that lawyers for the two victims \"have shown, albeit barely ... that Iraq provided material support to bin Laden and al-Qaida.\"",
+    "label": 1
+  },
+  "2834": {
+    "sentence1": "Mr. Berg says in an advertisement for it, \"More than my remembrances, this book intends to convey hers.\"",
+    "sentence2": "In an advertisement for the book, Berg says, \"More than my remembrances, this book intends to convey hers.\"",
+    "label": 1
+  },
+  "2247": {
+    "sentence1": "Klitschko said: \"I'm excited to box in Los Angeles first and then against Lennox Lewis.",
+    "sentence2": "\"I am excited to be fighting in Los Angeles and on HBO,\" Klitschko said.",
+    "label": 0
+  },
+  "2327": {
+    "sentence1": "The festival kicked off yesterday one day after the Competition Commission delivered its final verdict to the Government on the proposed \u00a34.1 billion merger.",
+    "sentence2": "The Competition Commission delivered its verdict yesterday on the proposed merger of the two big ITV players, Carlton and Granada.",
+    "label": 0
+  },
+  "4330": {
+    "sentence1": "Buoyed by some of the advice imparted by Nicklaus, Howell shot an 8-under 64 for a one-stroke lead over Kenny Perry.",
+    "sentence2": "Buoyed by advice imparted by Nicklaus, Howell shot an 8-under 64 on Thursday to enter today's round with a one-stroke lead over Kenny Perry.",
+    "label": 1
+  },
+  "2383": {
+    "sentence1": "Aspen Technology's shares dropped 74 cents, or 23 percent, to close at $2.48 on the Nasdaq.",
+    "sentence2": "In afternoon trading, Aspen's shares were off 89 cents or more than 27 percent at $2.33 per share.",
+    "label": 1
+  },
+  "687": {
+    "sentence1": "Emmy and Golden Globe Award-winners James Brolin and Judy Davis star as Ronald and Nancy Reagan in The Reagans.",
+    "sentence2": "James Brolin and Judy Davis play Ronald and Nancy Reagan in the CBS film.",
+    "label": 1
+  },
+  "5053": {
+    "sentence1": "The bomb exploded in Helmand province aboard a bus en route to the provincial capital, Lashkar Gah, according to news agency reports.",
+    "sentence2": "The bomb exploded in Helmand Province aboard a bus headed for the provincial capital, Lashkar Gah, according to wire reports.",
+    "label": 1
+  },
+  "3714": {
+    "sentence1": "A federal appeals court yesterday reinstated perjury charges against a San Diego student accused of lying about his association with 9/11 hijackers.",
+    "sentence2": "A U.S. appeals court in New York reinstated perjury charges against a Grossmont College student accused of lying about his knowledge of two of the Sept. 11 hijackers.",
+    "label": 1
+  },
+  "4973": {
+    "sentence1": "The Federal Trade Commission (FTC) asked Congress today for additional authority to fight unwanted Internet spam, which now accounts for up to half of all e-mail traffic.",
+    "sentence2": "The Federal Trade Commission asked Congress yesterday for broader powers to attack the rapidly growing problem of spam, which new studies show accounts for half of all e-mail traffic.",
+    "label": 1
+  },
+  "3514": {
+    "sentence1": "The unemployment rate rose a tenth of a percentage point to 6.1%, the highest level since July 1994.",
+    "sentence2": "The unemployment rate is predicted to have ticked up a percentage point to 6.1%.",
+    "label": 0
+  },
+  "4809": {
+    "sentence1": "Prosecutors did an about-face in May and asked that the autopsy reports be unsealed after portions of Conner Peterson's autopsy report favorable to the defense were leaked to the media.",
+    "sentence2": "They asked that the autopsy reports be unsealed after portions of the autopsy report on Peterson's unborn son that were favorable to the defense were leaked to the media.",
+    "label": 0
+  },
+  "421": {
+    "sentence1": "Attorney John Barnett, who represents Morse, showed photos of a scratch on Morse's neck and the officer's bloody ear.",
+    "sentence2": "After Jackson testified he never touched the officers during the struggle on the ground, Barnett showed photos of a scratch on Morse's neck and the officer's bloody ear.",
+    "label": 0
+  },
+  "914": {
+    "sentence1": "\"It's safe to assume that the Senate is prepared to pass some form of cap,\" King said.",
+    "sentence2": "Its safe to assume the Senate is prepared to pass some form of a cap....The level of it is to be debated.",
+    "label": 0
+  },
+  "2576": {
+    "sentence1": "He said Qualcomm has enjoyed many years of selling CDMA chips without much competition.",
+    "sentence2": "\"Qualcomm has enjoyed many years of selling...against little or no competition,\" Hubach said in the statement.",
+    "label": 1
+  },
+  "3432": {
+    "sentence1": "Prosecutor Jim Hardin called the decision a victory for Kathleen Peterson's family.",
+    "sentence2": "Members of Kathleen Peterson's family were not present.",
+    "label": 0
+  },
+  "5501": {
+    "sentence1": "Since then, Acacia had only had supervised visits with her grandmother, she said.",
+    "sentence2": "Since then, Acacia has spent little time with her grandmother.",
+    "label": 1
+  },
+  "3214": {
+    "sentence1": "Wal-Mart has said it plans to open at least 40 Supercenters in the state in the coming years; analysts expect four or more to be in San Diego County.",
+    "sentence2": "At least 40 of the outlets will be in California, and analysts expect four or more to be in San Diego County.",
+    "label": 0
+  },
+  "386": {
+    "sentence1": "Lord of the Rings director Peter Jackson and companion Fran Walsh arrive at the 74th Annual Academy Awards.",
+    "sentence2": "Lord of the Rings director Peter Jackson and longtime companion Fran Walsh.",
+    "label": 0
+  },
+  "3748": {
+    "sentence1": "Oak Brook, IL-based McDonalds is expected to launch several hundred restaurants by year's end.",
+    "sentence2": "The company's goal is to offer wireless service at several hundred restaurants by year's end.",
+    "label": 0
+  },
+  "1924": {
+    "sentence1": "Hormone replacement therapy that combines estrogen and progestin doubles a woman's risk of breast cancer, a British study of more than a million women has found.",
+    "sentence2": "A major British study has added to the evidence that hormone replacement therapy increases the risk of breast cancer, especially when women receive a combination of estrogen and progestin.",
+    "label": 1
+  },
+  "4550": {
+    "sentence1": "MEN who drink tea, particularly green tea, can greatly reduce their risk of prostate cancer, a landmark WA study has found.",
+    "sentence2": "DRINKING green tea can dramatically reduce the risk of men contracting prostate cancer, a study by Australian researchers has discovered.",
+    "label": 1
+  },
+  "3245": {
+    "sentence1": "\"I can tell you that it's routine for IBM to challenge its internal IT teams to rigorously test new platforms and technologies inside IBM.\"",
+    "sentence2": "\"It is routine for IBM to challenge its internal IT team to rigorously test new platforms and technology inside IBM.\"",
+    "label": 1
+  },
+  "397": {
+    "sentence1": "\"We're confident that the new leadership will take responsibility for the past actions of the Archdiocese of Boston,\" Lincoln said.",
+    "sentence2": "\"We are confident that the new leadership in Boston will be willing to take responsibility for the past actions of the archdiocese,' said Lincoln. \"",
+    "label": 1
+  },
+  "4967": {
+    "sentence1": "The attack seemed similar to others staged near foreign compounds in Riyadh on May 12.",
+    "sentence2": "The attack seemed similar to attacks staged near foreign compounds in Riyadh on May 12, for which officials have also blamed al-Qaida.",
+    "label": 0
+  },
+  "2722": {
+    "sentence1": "Duke and North Carolina have been resolute in their positions against expansion.",
+    "sentence2": "Two schools, Duke and North Carolina, have steadfastly opposed expansion.",
+    "label": 1
+  },
+  "3720": {
+    "sentence1": "Most economists had expected a more dire report, with many anticipating the fifth month of job losses in six months.",
+    "sentence2": "Most economists had been expecting a far more dire report, with many expecting to see the fifth month of job losses in six months in September.",
+    "label": 1
+  },
+  "4438": {
+    "sentence1": "Both were a few metres apart, Mr Laczynski pressing against the metal fence dividing court officials from the crowd.",
+    "sentence2": "Separated by a few metres, Mr Laczynski pressed against the metal fence which divides court officials from the crowd.",
+    "label": 1
+  },
+  "1943": {
+    "sentence1": "But Islamic Jihad's main leadership in the Gaza Strip disowned the bombing, saying the group was still committed to the ceasefire.",
+    "sentence2": "The group's leadership in Gaza insisted on Tuesday that it was still committed to the ceasefire.",
+    "label": 0
+  },
+  "2401": {
+    "sentence1": "The jury verdict, reached Wednesday after less than four hours of deliberation, followed a 2 1/2 week trial, during which Waagner represented himself.",
+    "sentence2": "The quick conviction followed a 2 1/2 week trial, during which the Venango County man represented himself.",
+    "label": 1
+  },
+  "1920": {
+    "sentence1": "About 25 countries have signed in the past four months, and about half of those have been signed in the past few weeks.",
+    "sentence2": "According to the State Department list, about 25 nations have signed bilateral agreements in the past four months, about half in the past three weeks.",
+    "label": 1
+  },
+  "689": {
+    "sentence1": "Levin's attorney, Bo Hitchcock, declined to comment Friday.",
+    "sentence2": "Hitchcock has declined to comment on the case, as has Levin.",
+    "label": 0
+  },
+  "1227": {
+    "sentence1": "The King of Prussia-based company could liquidate the other two chains if it cannot find a buyer by then, the company said.",
+    "sentence2": "The company, based in King of Prussia near Philadelphia, said it could liquidate the other two chains if it cannot find a buyer for them.",
+    "label": 1
+  },
+  "1633": {
+    "sentence1": "Justice Anthony Kennedy dissented in an opinion joined by Chief Justice William Rehnquist and Justices Antonin Scalia and Clarence Thomas.",
+    "sentence2": "He was joined by Chief Justice William H. Rehnquist and Justices Antonin Scalia and Clarence Thomas.",
+    "label": 1
+  },
+  "5111": {
+    "sentence1": "Shares of Halliburton fell 71 cents, or 3 percent, to close at $21.59 yesterday on the New York Stock Exchange.",
+    "sentence2": "Halliburton shares fell 54 cents, or 2.4 percent, to $21.76 a share in midday New York Stock Exchange trade.",
+    "label": 1
+  },
+  "4696": {
+    "sentence1": "Microsoft Corp. this week is releasing the second in a line of seven Microsoft Office Solution Accelerators for its suite.",
+    "sentence2": "Microsoft Monday released the second in a planned series of Solution Accelerators for its Office product lineup.",
+    "label": 1
+  },
+  "630": {
+    "sentence1": "A positive PSA test has to be followed up with a biopsy or other procedures before cancer can be confirmed.",
+    "sentence2": "Before confirming a diagnosis of cancer, a positive PSA test must be followed up with a biopsy or other procedures.",
+    "label": 1
+  },
+  "5257": {
+    "sentence1": "Mehr said police had no way of knowing what Kilpatrick was shooting at when he fired his gun.",
+    "sentence2": "Mehr said police had no way of knowing who or what Kilpatrick was shooting at with the single shot.",
+    "label": 1
+  },
+  "2882": {
+    "sentence1": "Hedge funds came under renewed scrutiny recently when New York Attorney General Eliot Spitzer unveiled a probe of illegal trading in mutual fund shares.",
+    "sentence2": "The industry came under renewed scrutiny recently with the launch by New York Attorney General Eliot Spitzer of an investigation of illegal trading in mutual fund shares.",
+    "label": 1
+  },
+  "3857": {
+    "sentence1": "Mallard's friend, Clete Jackson, and his cousin, Herbert Tyrone Cleveland, pleaded guilty last year to dumping Biggs' body.",
+    "sentence2": "That night Jackson and his cousin, Herbert Tyrone Cleveland, went with Mallard to her house.",
+    "label": 0
+  },
+  "5341": {
+    "sentence1": "He left the army for Syria where he received religious training.",
+    "sentence2": "He moved to Syria, where he underwent further religious training in traditional Islamic beliefs.",
+    "label": 0
+  },
+  "581": {
+    "sentence1": "That would be a potential setback to Chief Executive Phil Condit's strategy of bolstering defense-related sales during a slump in jetliner deliveries.",
+    "sentence2": "The inquiry may hinder Chief Executive Phil Condit's strategy of bolstering defense-related sales during a slump in jetliner deliveries.",
+    "label": 1
+  },
+  "570": {
+    "sentence1": "At best, Davydenko's supporters were naively ignorant of tennis etiquette; at worst, they cheated - yet went without penality from umpire Lars Graf.",
+    "sentence2": "At best, Davydenko's supporters were naively ignorant to tennis etiquette; at worst, they cheated \u2013 yet went unpenalised by umpire Lars Graf.",
+    "label": 1
+  },
+  "2980": {
+    "sentence1": "At midday Saturday, automatic gunfire rattled windows in the Qadesiyah neighborhood, a largely Arab area that borders a Kurdish quarter.",
+    "sentence2": "Automatic gunfire rattled windows in the Qadesiya neighborhood at midday today, a largely Arab area that borders a Kurdish quarter.",
+    "label": 1
+  },
+  "5555": {
+    "sentence1": "When ex-Mepham head coach Kevin McElroy walked into the court to testify, some of the victims' supporters turned their backs on him.",
+    "sentence2": "When varsity coach Kevin McElroy walked into the courthouse with his attorney, the crowd turned their backs on him.",
+    "label": 1
+  },
+  "1549": {
+    "sentence1": "The Nasdaq composite index fell 2.95, or 0.2 percent, for the week to 1,912.36 after stumbling 37.78 yesterday.",
+    "sentence2": "The Nasdaq eased 0.15 percent for the week after two consecutive up weeks.",
+    "label": 0
+  },
+  "3799": {
+    "sentence1": "Chaudhry was released 56 days later and the Fiji military installed an all-indigenous government led by Qarase, who won democratic elections in September 2001.",
+    "sentence2": "The Fijian military installed an all-indigenous government led by Mr Qarase, who won democratic elections in September 2001.",
+    "label": 0
+  },
+  "5339": {
+    "sentence1": "House Democrats are planning a series of town meetings throughout the nation this month to lay out their complaints about the House bill.",
+    "sentence2": "House Democrats plan town meetings this month to lay out their complaints about the House bill.",
+    "label": 1
+  },
+  "4975": {
+    "sentence1": "The combined companies' commercial and personal lines will be consolidated under the Travelers brand and will be based in Hartford, Conn., Travelers' current headquarters.",
+    "sentence2": "The combined company's commercial lines and personal lines business will be consolidated under the Travelers brand and based in Hartford, Connecticut.",
+    "label": 1
+  },
+  "2892": {
+    "sentence1": "BOCHK chief executive Liu Jinbao was transferred abruptly to Beijing last month.",
+    "sentence2": "He was chief executive of BOCHK until he was suddenly recalled to Beijing last month.",
+    "label": 1
+  },
+  "182": {
+    "sentence1": "At the time federal investigators were looking into how CFSB allocated shares of initial public stock offerings.",
+    "sentence2": "A federal grand jury and the Securities and Exchange Commission were looking into how the company allocated shares of initial public stock offerings.",
+    "label": 1
+  },
+  "3154": {
+    "sentence1": "A senior Administration official who briefed journalists on Friday said neither Mr Bush nor National Security Adviser Condoleezza Rice read the estimate in its entirety.",
+    "sentence2": "The senior administration official said neither Bush nor National Security Adviser Condoleezza Rice read the entire National Intelligence Estimate.",
+    "label": 1
+  },
+  "4925": {
+    "sentence1": "People who have opposed these actions throughout are now trying to find fresh reasons to say this wasn't the right thing to do.\"",
+    "sentence2": "\"What is happening here is that people who have opposed this action throughout are trying to find fresh reasons why it was not the right thing to do.\"",
+    "label": 1
+  },
+  "1400": {
+    "sentence1": "This is the only planet that has been found in orbit around a binary star system.",
+    "sentence2": "The new found planet is the only one known to orbit such a double-star system.",
+    "label": 1
+  },
+  "5197": {
+    "sentence1": "The new servers will run either Linux or the x86 version of Solaris, he said.",
+    "sentence2": "The servers can run Solaris x86 operating system or the standard Linux operating system.",
+    "label": 1
+  },
+  "5576": {
+    "sentence1": "Fighting erupted after four North Korean journalists confronted a dozen South Korean activists protesting human rights abuses in the North outside the main media centre.",
+    "sentence2": "Trouble flared when at least four North Korean reporters rushed from the Taegu media centre to confront a dozen activists protesting against human rights abuses in the North.",
+    "label": 1
+  },
+  "1445": {
+    "sentence1": "Shares of Smithfield closed up $1.64, or 8.5 percent, at $20.85, on the New York Stock Exchange.",
+    "sentence2": "Shares of Smithfield rose $1.64 yesterday to close at $20.85, a rise of 8.5 per cent, on the New York Stock Exchange.",
+    "label": 1
+  },
+  "1258": {
+    "sentence1": "The Prime Ministers of China, Russia and four central Asian nations have met in Beijing and approved a budget for their regional security grouping.",
+    "sentence2": "The prime ministers of China, Russia and four Central Asian countries signed agreements on Tuesday that set plans in motion for a long-awaited regional anti-terrorism centre in Uzbekistan.",
+    "label": 1
+  },
+  "4148": {
+    "sentence1": "Weyerhaeuser is the one of the worlds largest producers of softwood lumber, with the capacity to produce 7.6 billion board feet a year.",
+    "sentence2": "Weyerhaeuser, one of the world's largest producers of softwood, can produce about 7.6 billion board feet a year.",
+    "label": 1
+  },
+  "5048": {
+    "sentence1": "The indictment said he attended important meetings to plan the attacks, recruited fellow bombers and coordinated the operation.",
+    "sentence2": "Samudra not present in Bangkok, the indictment said, but attended a series of meetings before the attacks, recruiting fellow bombers and coordinating the operation.",
+    "label": 0
+  },
+  "3449": {
+    "sentence1": "Analysts expected earnings of 27 cents a share on revenue of $17.7 billion, Thomson First Call says.",
+    "sentence2": "Hewlett-Packard is putting in for a second-quarter profit of $659 million, or 29 cents a share, on revenue of $18 billion.",
+    "label": 0
+  },
+  "4026": {
+    "sentence1": "Customers that pay the $1,219 entrance fee get SMS 2003 with 10 device client access licenses.",
+    "sentence2": "Retail pricing for SMS 2003 with 10 device client access licenses is $1,219.",
+    "label": 1
+  },
+  "2721": {
+    "sentence1": "Authorities appealed to the public Friday to come forward and provide what could be the key to solving the sniper-style shootings that have killed three people outside area convenience stores.",
+    "sentence2": "Authorities looked to the public yesterday for help in solving the deadly sniper-style shootings of three people outside Charleston-area convenience stores.",
+    "label": 1
+  },
+  "4185": {
+    "sentence1": "Tennessee Titans quarterback Steve McNair apologized Thursday for his arrest hours earlier in Nashville on suspicion of drunken driving and illegal possession of a handgun.",
+    "sentence2": "Tennessee Titans quarterback Steve McNair was arrested Thursday and charged with drunken driving and possession of a handgun.",
+    "label": 0
+  },
+  "2975": {
+    "sentence1": "The rule bars groups from airing ads that promote, support, attack or oppose a candidate at any time.",
+    "sentence2": "It upheld fallback rules that bar the same groups from airing ads that promote, support, attack or oppose a candidate at any time.",
+    "label": 1
+  },
+  "2612": {
+    "sentence1": "A council resolution is considered essential in giving Iraqi or U.S.-controlled entities in Baghdad the legal authority to export oil.",
+    "sentence2": "Without an adopted resolution, no Iraqi, U.S. or U.N. entity in Baghdad has the legal authority to export oil.",
+    "label": 1
+  },
+  "4567": {
+    "sentence1": "Since early May, the city has received 1,400 reports of dead blue jays and crows, Jayroe said.",
+    "sentence2": "Since early May, the city has received 1,400 reports, he said.",
+    "label": 0
+  },
+  "4016": {
+    "sentence1": "\"At least two of them were supposed to be in positions of leadership for the younger boys.",
+    "sentence2": "\"At least two of [the suspects] were supposed to be in positions of leadership,\" he said.",
+    "label": 1
+  },
+  "377": {
+    "sentence1": "Microsoft is preparing to alter its Internet Explorer browser, following a patent verdict that went against the company, Microsoft said Friday.",
+    "sentence2": "Microsoft Corp. is preparing changes to its Internet Explorer (IE) browser because of a patent verdict against it, the company said Friday.",
+    "label": 1
+  },
+  "1488": {
+    "sentence1": "But the Russell 2000 index, the barometer of smaller company stocks, had a weekly gain of 3.71, or 0.9 percent, closing at 418.40.",
+    "sentence2": "But the Russell 2000, the barometer of stocks of smaller companies, had a weekly gain of 3.71, or 0.9 percent, closing at 418.40.",
+    "label": 1
+  },
+  "4173": {
+    "sentence1": "As part of a restructuring Peregrine sold its Remedy help desk software unit last year to BMC Software Inc.",
+    "sentence2": "Peregrine sold its Remedy business unit to BMC Software in November for $355 million.",
+    "label": 0
+  },
+  "798": {
+    "sentence1": "Foam flaking off from all over the tank left dozens of pockmarks each flight on the thermal tiles that cover much of the shuttle, Turcotte said.",
+    "sentence2": "During the problem liftoffs, foam left dozens of pockmarks on the thermal tiles that cover much of the shuttle, Turcotte said.",
+    "label": 0
+  },
+  "3390": {
+    "sentence1": "The Taiwan Stock Exchange will ask the Securities and Futures Commission (SFC) to suspend trading in Mosel shares.",
+    "sentence2": "A request for a two-month extension was denied and the Taiwan Stock Exchange is to ask the Securities and Futures Commission (SFC) to suspend trading in Mosel shares.",
+    "label": 0
+  },
+  "4297": {
+    "sentence1": "The best-performing stock was Altria Group Inc., which rose more than 27 percent to close at $42.31 a share.",
+    "sentence2": "Altria Group Inc. MO.N fell 50 cents, or 1.2 percent, to $41.81.",
+    "label": 0
+  },
+  "2944": {
+    "sentence1": "Initial reports indicated the shots had been fired from inside a mosque.",
+    "sentence2": "According to Central Command's initial reports, the attackers fired from a mosque in the city.",
+    "label": 1
+  },
+  "4998": {
+    "sentence1": "Both strain 121 and Pyrolobus belong to a branch on the tree of life known as the archaea.",
+    "sentence2": "Both Strain 121 and Pyrolobus fumarii are members of the unusual life domain known as Archaea.",
+    "label": 1
+  },
+  "2172": {
+    "sentence1": "Moore was expected to be discharged from the hospital Thursday or Friday, according to Jackie Green, a spokeswoman for the show's press agent.",
+    "sentence2": "The English star was expected to be discharged from the hospital soon, said Jackie Green, a spokeswoman for the show's press agent.",
+    "label": 1
+  },
+  "3073": {
+    "sentence1": "After the two-hour meeting on May 14, publisher Arthur O. Sulzberger Jr., executive editor Howell Raines and managing editor Gerald Boyd pledged quick remedies to staff grievances.",
+    "sentence2": "The committee will make recommendations to Publisher Arthur Sulzberger, Executive Editor Howell Raines and Managing Editor Gerald Boyd.",
+    "label": 0
+  },
+  "1998": {
+    "sentence1": "Doctors have advised that the boy get chemotherapy, but Daren and Barbara Jensen have refused, fearing the treatment would stunt Parker's growth and leave him sterile.",
+    "sentence2": "Daren and Barbara Jensen refused to heed doctors' recommendation of chemotherapy, fearing the treatment would stunt Parker's growth and leave him sterile.",
+    "label": 1
+  },
+  "2772": {
+    "sentence1": "By late Thursday afternoon, Putnam said the U.S. Attorney in the Southern District of New York had subpoenaed its trading documents, raising the possibility of a criminal indictment.",
+    "sentence2": "Earlier this week, Putnam said the Manhattan U.S. Attorney had subpoenaed its trading documents, raising the possibility of a criminal indictment.",
+    "label": 1
+  },
+  "654": {
+    "sentence1": "Germany's Foreign Ministry said it believed the passengers were from the northern states of Lower Saxony and Schleswig-Holstein, but had no further details.",
+    "sentence2": "Germany said most of the passengers were from the northern states of Lower Saxony and Schleswig-Holstein.",
+    "label": 0
+  },
+  "1546": {
+    "sentence1": "Emergency crews said some of the passengers were thrown partly out of the open side of the bus.",
+    "sentence2": "Emergency crews said no passenger was ejected, but some were thrown partly out of the open side of the bus.",
+    "label": 1
+  },
+  "3046": {
+    "sentence1": "Microsoft acquired Virtual PC when it bought the assets of Connectix earlier this year.",
+    "sentence2": "Microsoft acquired Virtual PC from its developer, Connectix, earlier this year.",
+    "label": 1
+  },
+  "4852": {
+    "sentence1": "The warning was the most serious the 15-nation bloc has sent Iran since they began negotiating a trade and cooperation agreement late last year.",
+    "sentence2": "It would be most serious warning since the 15-nation bloc has sent Iran since they began negotiating a trade and cooperation agreement late last year.",
+    "label": 1
+  },
+  "1031": {
+    "sentence1": "\"There is no conscious policy of the United States, I can assure you of this, to move the dollar at all,\" he said.",
+    "sentence2": "He also said there is no conscious policy by the United States to move the value of the dollar.",
+    "label": 1
+  },
+  "663": {
+    "sentence1": "After 9/11, Connolly said, agents spent thousands of hours investigating al-Bayoumi.",
+    "sentence2": "Connolly said FBI agents in San Diego and abroad spent thousands of hours investigating al-Bayoumi.",
+    "label": 1
+  },
+  "2412": {
+    "sentence1": "The weapon turned out to be a Halloween toy.",
+    "sentence2": "It turned out that the \"weapon\" was part of a Halloween costume.",
+    "label": 1
+  },
+  "3098": {
+    "sentence1": "\"It is probably not the easiest time to come in and take over the shuttle program, but then again, I look forward to the challenge,\" he said.",
+    "sentence2": "\"It's probably not the easiest time to come in and take over the shuttle program, but I look forward to the challenge,\" Parsons told reporters at NASA headquarters.",
+    "label": 1
+  },
+  "2092": {
+    "sentence1": "The Recording Industry Association of America says it plans to sue the song traders next month.",
+    "sentence2": "That is, if the Recording Industry Association of America has anything to say about it.",
+    "label": 0
+  },
+  "3915": {
+    "sentence1": "She was the only woman in her unit and a member of Teamsters Local 995.",
+    "sentence2": "She was the only woman employed as a warehouse worker and heavy equipment operator and the only woman in her Teamsters local.",
+    "label": 1
+  },
+  "3609": {
+    "sentence1": "Staff writer Dave Michaels contributed to this report.",
+    "sentence2": "Staff writers Frank Trejo and Robert Ingrassia contributed to this report.",
+    "label": 0
+  },
+  "4138": {
+    "sentence1": "His chief lawyer, Mahendradatta, said Bashir was mentally prepared for a heavy sentencing demand and felt the Marriott bombing would affect the decision.",
+    "sentence2": "A lawyer for Bashir, Mahendradatta, said earlier his client was mentally prepared for a heavy sentencing demand and had felt the Marriott bombing would affect the decision.",
+    "label": 1
+  },
+  "1265": {
+    "sentence1": "Forty to 50 years ago, the ratio was 3 to 1, Kessler said, and 10 years ago, it was 2 to 1.",
+    "sentence2": "Forty to 50 years ago, the ratio was about 3-to-1, Kessler said, and 10 years ago, it was about 2-to-1.",
+    "label": 1
+  },
+  "2049": {
+    "sentence1": "Last year, the board raised rents by 2 percent on one-year renewals, 4 percent on two-year leases.",
+    "sentence2": "For lofts, the board proposed increases of 4 percent for one-year leases and 7 percent for two-year renewals.",
+    "label": 1
+  },
+  "2414": {
+    "sentence1": "There were estimated to be between 400,000 and 750,000 Iraqis employed by state-owned enterprises, but most of the businesses were non- operative, he said.",
+    "sentence2": "There are estimated to be between 400,000 and 750,000 Iraqis employed by state-owned enterprises in Iraq, but most of the businesses are currently inoperative, he said.",
+    "label": 1
+  },
+  "2780": {
+    "sentence1": "Fidelity Investments, the nation's largest mutual-fund company, said it received a subpoena from New York Attorney General Eliot Spitzer's office regarding its investigation to potential fund-trading abuses.",
+    "sentence2": "Fidelity Investments has received a subpoena from New York Attorney General Eliot Spitzer, who is investigating charges of market-timing and late-day trading in the mutual fund industry.",
+    "label": 0
+  },
+  "924": {
+    "sentence1": "The study was presented yesterday in Chicago at the annual meeting of the Radiological Society of North America.",
+    "sentence2": "Both sets of findings were presented Monday at the annual meeting of the Radiological Society of North America in Chicago.",
+    "label": 1
+  },
+  "524": {
+    "sentence1": "The second company, temporarily dubbed ``InternationalCo.'', includes 19 international power and pipeline holdings.",
+    "sentence2": "The second company, to be called Prisma Energy International Inc., includes 19 international power and pipeline holdings.",
+    "label": 1
+  },
+  "2548": {
+    "sentence1": "Preventing stronger gains, News Corp <NCP.AX> fell 1.3 percent to A$12.43 and Brambles <BIL.AX> dropped 1.9 percent to A$4.75 after a weak performance overnight.",
+    "sentence2": "Holding the market back, News Corp <NCP.AX> fell two percent to A$12.34 and Brambles <BIL.AX> dropped 2.3 percent to A$4.73 after a weak performance overnight.",
+    "label": 1
+  },
+  "957": {
+    "sentence1": "In addition, the committee noted, \"while spending is firming, the labour market has been weakening\".",
+    "sentence2": "\"The evidence accumulated over the intermeeting period confirms that spending is firming, although the labor market has been weakening.",
+    "label": 1
+  },
+  "2061": {
+    "sentence1": "Sen. Patrick Leahy of Vermont, the committee's senior Democrat, later said the problem is serious but called Hatch's suggestion too drastic.",
+    "sentence2": "Sen. Patrick Leahy, the committee's senior Democrat, later said the problem is serious but called Hatch's idea too drastic a remedy to be considered.",
+    "label": 1
+  },
+  "4949": {
+    "sentence1": "Dr. Sutherland, 65, was a co-founder of Evans & Sutherland, an early maker of high-performance computers.",
+    "sentence2": "Sutherland is the 65-year-old computing pioneer who co-founded Evans & Sutherland, which made high-performance graphics computers.",
+    "label": 1
+  },
+  "1472": {
+    "sentence1": "He urged patience from Americans eager for the service, which is intended to block about 80 percent of telemarketing calls.",
+    "sentence2": "The free service was originally intended to block about 80 percent of telemarketer calls.",
+    "label": 0
+  },
+  "3041": {
+    "sentence1": "The latest outbreak seems to have begun with one of the female patients, a transfer from Jen Chi Hospital in Taipei.",
+    "sentence2": "The outbreak seems to have begun with one of the roommates, a transfer from Taipei's Jen Chi Hospital.",
+    "label": 1
+  },
+  "2720": {
+    "sentence1": "Cullen, 43, is charged with murdering a Catholic clergyman and attempting to kill another patient at Somerset Medical Center.",
+    "sentence2": "Cullen, 43, is charged with killing a Roman Catholic Church official and attempting to kill another patient at Somerset Medical Center in Somerville.",
+    "label": 1
+  },
+  "5185": {
+    "sentence1": "AirTran officials and a Boeing official declined to comment yesterday.",
+    "sentence2": "Trish York, a spokeswoman for Boeing, declined to comment on the deal.",
+    "label": 0
+  },
+  "4607": {
+    "sentence1": "People with two copies of the mutated gene have double this risk, the researchers said.",
+    "sentence2": "The risk is doubled for people with two copies of the mutated gene, the researchers said.",
+    "label": 1
+  },
+  "5243": {
+    "sentence1": "\"Your withdrawal from our country is inevitable, whether it happens today or tomorrow, and tomorrow will come soon.\"",
+    "sentence2": "\"Your withdrawal from our country is inevitable, whether it happens today or tomorrow,\" added the voice, which signed off giving the date as \"mid-September.\"",
+    "label": 0
+  },
+  "2164": {
+    "sentence1": "Matthew Lovett, 18, who just graduated from Collingswood High School, was among those arrested.",
+    "sentence2": "Matthew Lovett, 18, of Oaklyn, N.J., was among those arrested.",
+    "label": 1
+  },
+  "4908": {
+    "sentence1": "The interest rate sensitive two year Schatz yield was down 5.8 basis points at 1.99 percent.",
+    "sentence2": "The Swedish central bank cut interest rates by 50 basis points to 3.0 percent.",
+    "label": 0
+  },
+  "3615": {
+    "sentence1": "Blair's Foreign Secretary Jack Straw was to take his place on Monday to give a statement to parliament on the European Union.",
+    "sentence2": "Blair's office said his Foreign Secretary Jack Straw would take his place on Monday to give a statement to parliament on the EU meeting the prime minister attended last week.",
+    "label": 1
+  },
+  "1525": {
+    "sentence1": "The 30-year bond US30YT=RR grew 1-3/32 for a yield of 4.30 percent, down from 4.35 percent late Wednesday.",
+    "sentence2": "At 11 a.m. (1500 GMT), the 10-year note US10YT=RR was up 11/32 for a yield of 3.36 percent from 3.40 percent Wednesday.",
+    "label": 0
+  },
+  "308": {
+    "sentence1": "Only Intel Corp. has a lower dividend yield.",
+    "sentence2": "Only Intel's 0.3 percent yield is lower.",
+    "label": 1
+  },
+  "3258": {
+    "sentence1": "The other inmate fell but Selenski shimmed down the makeshift rope to a second-story roof and used the mattress to scale a razor-wire fence, Fischi said.",
+    "sentence2": "After the other inmate fell, Selenski used the mattress to scale a 10-foot, razor-wire fence, Fischi said.",
+    "label": 0
+  },
+  "4884": {
+    "sentence1": "But skeptics are concerned about the ease with which vendors can use these hardware-based security features to set digital rights management policies.",
+    "sentence2": "But skeptics are concerned about the ease at which these hardware-based security features could be used to set digital rights management policies by vendors.",
+    "label": 1
+  },
+  "116": {
+    "sentence1": "The United Nations' International Atomic Energy Agency asked for information on the allegation after the dossier was published, but Britain did not provide any, U.N. officials said.",
+    "sentence2": "The International Atomic Energy Agency asked for information on the uranium assertions after London's dossier was published, but Britain did not provide any, U.N. officials said.",
+    "label": 1
+  },
+  "3088": {
+    "sentence1": "Lu reclined in a soft chair wearing a woolly coat near the blackened capsule.",
+    "sentence2": "\"It's great to be back home,\" said Lu, dressed in a woolly coat near the blackened capsule.",
+    "label": 0
+  },
+  "859": {
+    "sentence1": "\"We continue to work with the Saudis on this, but they did not, as of the time of this tragic event, provide the additional security we requested.\"",
+    "sentence2": "\"But they did not, as of the time of this particular tragic event, provide the security we had requested,\" Mr Jordan said.",
+    "label": 0
+  },
+  "3809": {
+    "sentence1": "Instead, tickets for the Jersey jam went on sale last night through Ticketmaster.",
+    "sentence2": "Tickets, available through Ticketmaster, went on sale yesterday.",
+    "label": 1
+  },
+  "5220": {
+    "sentence1": "According to Microsoft's latest proxy report, Ballmer held nearly 471 million shares as of Sept. 9, 2002.",
+    "sentence2": "Mr. Ballmer held a split-adjusted 470.9 million Microsoft shares as of Sept. 9 - second only to Chairman Bill Gates.",
+    "label": 0
+  },
+  "4911": {
+    "sentence1": "Started on Christmas Day in 1931, the Met's matinee broadcasts have introduced opera to millions of people around the world.",
+    "sentence2": "Started on Christmas Day in 1931 with Humperdinck's \"Hansel and Gretel,\" the Met matinee broadcasts have introduced opera to millions of people around the world.",
+    "label": 1
+  },
+  "3505": {
+    "sentence1": "Dylan Baker and Lindsay Frost play her parents, Ed and Lois Smart.",
+    "sentence2": "Lindsay Frost and Dylan Baker played Elizabeth Smart's parents.",
+    "label": 1
+  },
+  "436": {
+    "sentence1": "\"We must defend those whom we dislike or even despise,\" said Neal R. Sonnett, a Miami lawyer who led an association panel on enemy combatants.",
+    "sentence2": "\"We must defend those whom we dislike or even despise,\" said Neal Sonnett, a Miami lawyer who headed an ABA task force on enemy combatants.",
+    "label": 1
+  },
+  "808": {
+    "sentence1": "Bremer will focus on the politics, Garner said, adding that he expects Bremer to arrive in Iraq by next week.",
+    "sentence2": "Bremer will focus on the politics and Garner on the rest of the reconstruction efforts, Garner said, adding that Bremer will arrive in Iraq by next week.",
+    "label": 0
+  },
+  "1603": {
+    "sentence1": "It was developed with consultation from more than 300 leaders in academia, industry, government and the public.",
+    "sentence2": "The plan, called The NIH Roadmap, was developed over 14 months with help from more than 300 consultants in industry and academia.",
+    "label": 0
+  },
+  "1651": {
+    "sentence1": "The stock closed Friday at $5.91, down $1.24, or 17 percent, on the Nasdaq Stock Market.",
+    "sentence2": "Shares of Brocade closed at $5.91, down $1.24, or 17.3 percent.",
+    "label": 1
+  },
+  "5237": {
+    "sentence1": "It was third time lucky for Hempleman-Adams, 46, after two previous abandoned attempts to make ballooning history.",
+    "sentence2": "It was third time lucky for the 46-year-old explorer who twice had to abandon attempts to make ballooning history.",
+    "label": 1
+  },
+  "1574": {
+    "sentence1": "But the new vaccine will not even begin to be tested in people until 2005 and will not be approved for use for several years after that.",
+    "sentence2": "However, the new vaccine won't begin to be tested in people until 2005 and won't be approved for use for several years after that.",
+    "label": 1
+  },
+  "5509": {
+    "sentence1": "The US will take on Canada in the third-place play-off in Carson on Saturday.",
+    "sentence2": "The United States will play Canada in the third-place game Saturday.",
+    "label": 1
+  },
+  "236": {
+    "sentence1": "On April 11, Mayor Bart Peterson said it was \"inconceivable\" that the airline would resume operations at the base that had employed 1,500 workers, including 1,100 mechanics.",
+    "sentence2": "On April 11, Mayor Bart Peterson conceded that the facility's fate was inevitable, quashing the hopes of the airline's 1,500 local workers, including 1,100 mechanics.",
+    "label": 1
+  },
+  "2791": {
+    "sentence1": "They did not nationalize them,\" Manouchehr Takin, an analyst at the Center for Global Energy Studies in London, said.",
+    "sentence2": "They did not nationalize them,\" said Manouchehr Takin of the Center for Global Energy Studies.",
+    "label": 1
+  },
+  "3697": {
+    "sentence1": "He was also expected to visit Yemen and Bahrain during his tour of the region.",
+    "sentence2": "Khatami, who arrived in Beirut Monday, was also to visit Syria, Yemen and Bahrain.",
+    "label": 0
+  },
+  "2754": {
+    "sentence1": "Freddie also said Leland C. Brendsel will retire as chairman and chief executive and resign from the board.",
+    "sentence2": "He replaces Leland Brendsel, 61, who retired as chairman and chief executive.",
+    "label": 0
+  },
+  "2070": {
+    "sentence1": "Peterson's lawyer, Mark Geragos of Los Angeles, was quick to swipe at the testing procedure.",
+    "sentence2": "Peterson's lawyer, Mark Geragos, of Los Angeles, has contested the DNA evidence, saying it is unreliable.",
+    "label": 1
+  },
+  "4794": {
+    "sentence1": "After 10 years of debate, the government is requiring food labels to reveal exact levels of the artery clogger.",
+    "sentence2": "That's about to change, now that the government is requiring food labels to reveal exact levels of the artery clogger.",
+    "label": 1
+  },
+  "3700": {
+    "sentence1": "He gave a surprisingly impassioned speech to the United Steelworkers of America, who announced their endorsement yesterday.",
+    "sentence2": "On Tuesday, he picked up the endorsement of the United Steelworkers of America.",
+    "label": 0
+  },
+  "1025": {
+    "sentence1": "\"Spring has arrived in Estonia -- we're back in Europe,\" Prime Minister Juhan Parts told a news conference on Sunday.",
+    "sentence2": "\"Spring has arrived in Estonia - we're back in Europe,\" Juhan Parts, prime minister, told a news conference last night.",
+    "label": 1
+  },
+  "826": {
+    "sentence1": "The report ranked 45 large companies based on employment, marketing, procurement, community reinvestment and charitable donations.",
+    "sentence2": "Of those three, only Dillard's responded to the survey that ranked 45 large companies on employment, marketing, procurement, community reinvestment and charitable donations.",
+    "label": 0
+  },
+  "1710": {
+    "sentence1": "Treasury\u0012s long-range plan is to provide retail buyers of all Treasury securities the ability to manage their holdings online in a single account.",
+    "sentence2": "The Treasury said wants to give retail buyers of all Treasury securities the ability eventually to manage holdings online in a single account.",
+    "label": 1
+  },
+  "4820": {
+    "sentence1": "Boeing said the final agreement is expected to be signed during the next few weeks.",
+    "sentence2": "The Korean Air deal is expected to be finalized \"in the next several weeks,\" Boeing spokesman Bob Saling said.",
+    "label": 1
+  },
+  "4876": {
+    "sentence1": "Dixon was otherwise the class of the field at Pikes Peak International Raceway.",
+    "sentence2": "Scott Dixon eventually made winning the Honda Indy 225 look easy Sunday at Pikes Peak International Raceway.",
+    "label": 0
+  },
+  "821": {
+    "sentence1": "\"Contrary to the court's decision, we firmly believe Congress gave the FTC authority to implement the national Do Not Call list.",
+    "sentence2": "\"Contrary to the court's decision, we firmly believe Congress gave the F.T.C. authority to implement the national do-not-call list,\" the congressmen said in a statement.",
+    "label": 1
+  },
+  "5512": {
+    "sentence1": "Named after the msblast.exe file that contains the program, MSBlast continued to spread to new computers on Thursday, but the rate of infection has slowed significantly.",
+    "sentence2": "Named after the msblast.exe file that contains the program, the MSBlast Internet worm infected more than 300,000 computers since Monday.",
+    "label": 0
+  },
+  "3350": {
+    "sentence1": "To the caller who claimed to have found a mini-cassette from the space shuttle Columbia: NASA is extremely interested in talking to you, \"no-questions-asked\".",
+    "sentence2": "To the Sound-Off caller who said they found a mini-cassette from the space shuttle Columbia: NASA is extremely interested in talking to you on a \"no-questions-asked\" basis.",
+    "label": 1
+  },
+  "1449": {
+    "sentence1": "Xerox itself paid a $10 million fine last year to settle similar SEC charges.",
+    "sentence2": "Xerox itself previously paid a $10-million penalty to settle the SEC accusations.",
+    "label": 1
+  },
+  "4961": {
+    "sentence1": "Stanford (51-17) and Rice (57-12) will play for the national championship tonight.",
+    "sentence2": "Rice (57-12) and Stanford (51-17) will meet in a winner-take-all matchup at 6:05 p.m. Monday.",
+    "label": 1
+  },
+  "3293": {
+    "sentence1": "\"Close co-operation between our law enforcement agencies, close co-operation between our intelligence services lie at the heart of the ongoing fight against terrorism.\"",
+    "sentence2": "Close cooperation between regional law enforcement agencies and intelligence services was at the heart of the fight against terrorism, he said.",
+    "label": 1
+  },
+  "4966": {
+    "sentence1": "The lawyer for Hollins Jr., Thomas Royce, has said his client had no link to the company that owned and operated E2.",
+    "sentence2": "Calvin Hollins Jr.'s attorney, Thomas Royce, repeatedly has said his client had no link with the company that owned and operated E2.",
+    "label": 1
+  },
+  "1423": {
+    "sentence1": "The companies also announced plans to collaborate on the design for future generations of memory technologies.",
+    "sentence2": "The two groups said they would collaborate on the design of future memory technologies.",
+    "label": 1
+  },
+  "3347": {
+    "sentence1": "Her 92-year-old husband is now severely debilitated by Alzheimer's disease.",
+    "sentence2": "The 92-year-old former president is suffering from Alzheimer's disease.",
+    "label": 1
+  },
+  "3541": {
+    "sentence1": "The company claims it's the largest single Apple VAR Xserve sale to date.",
+    "sentence2": "The company claimed it is the largest sale of Xserves by an Apple retailer.",
+    "label": 1
+  },
+  "2239": {
+    "sentence1": "\"Kahuku Ranch has world - class qualities - tremendous resources, tremendous beauty and tremendous value to global biodiversity.\"",
+    "sentence2": "\"Kahuku Ranch has world-class qualities\u2014tremendous resources, tremendous beauty and tremendous value to global biodiversity,\" he said.",
+    "label": 1
+  },
+  "2873": {
+    "sentence1": "The decision means that Qarase must invite up to eight Labor Party members into cabinet.",
+    "sentence2": "Mr Qarase must now invite up to eight Labour Party members into cabinet.",
+    "label": 1
+  },
+  "3686": {
+    "sentence1": "Immediately after the blast, people portraying some of the 150 \"victims\" stumbled amid the wreckage as emergency vehicles converged on the scene.",
+    "sentence2": "Immediately after the small explosion, people portraying victims stumbled amid the wreckage as fire trucks and other emergency vehicles converged.",
+    "label": 1
+  },
+  "2753": {
+    "sentence1": "Police investigating a fatal hit-and-run accident conducted a search Monday at the home of Bishop Thomas O'Brien, head of the Roman Catholic Diocese of Phoenix.",
+    "sentence2": "Police investigating a deadly hit-and-run accident went to the home of Phoenix's Roman Catholic bishop on Monday and found the windshield of his car caved in, authorities said.",
+    "label": 0
+  },
+  "3903": {
+    "sentence1": "She has also signed a contract with Random House to write two books.",
+    "sentence2": "Pauley also announced Thursday that she has struck a deal with Random House to pen two books.",
+    "label": 1
+  },
+  "1169": {
+    "sentence1": "\"NASA's organizational culture and structure had as much to do with this accident as the (loose) foam.\"",
+    "sentence2": "\"The NASA organizational culture had as much to do with this accident as the foam,\" the report said.",
+    "label": 1
+  },
+  "2653": {
+    "sentence1": "The company said it now expects second-quarter earnings of 68 cents and 72 cents a share, down from its prior outlook of 77 cents to 82 cents.",
+    "sentence2": "Avery Dennison said it now expects a second-quarter profit of 68 cents to 72 cents a share, down from its prior outlook of 77 cents to 82 cents.",
+    "label": 1
+  },
+  "4047": {
+    "sentence1": "Hilsenrath and Klarman each were indicted on three counts of securities fraud.",
+    "sentence2": "Klarman was charged with 16 counts of wire fraud.",
+    "label": 0
+  },
+  "730": {
+    "sentence1": "But in the end, all the worm did was visit a pornography site, said Vincent Weafer, a security director with Symantec Security Response in California.",
+    "sentence2": "But Vincent Weafer, security director with Symantec Security Response, said all the virus did was visit a pornography site.",
+    "label": 1
+  },
+  "1519": {
+    "sentence1": "U.S. Attorney Patrick Fitzgerald said the wholesalers were not to blame and were \"victims in this.\"",
+    "sentence2": "U.S. Attorney Patrick Fitzgerald declined to name the wholesalers, whom he called \"victims in this.\"",
+    "label": 0
+  },
+  "902": {
+    "sentence1": "The man, who entered the post office in Lakeside shortly before 3 p.m., gave up to deputies about 6:30 p.m.",
+    "sentence2": "The man had entered the post office on Woodside Avenue at Maine Avenue shortly before 3 p.m.",
+    "label": 0
+  },
+  "2146": {
+    "sentence1": "Whoever is selected will report directly to Robert Liscouski, the assistant secretary of homeland security for infrastructure protection.",
+    "sentence2": "The NCSD has about 60 employees, Robert Liscouski, the assistant secretary of homeland security for infrastructure protection, said at a briefing today.",
+    "label": 0
+  },
+  "5325": {
+    "sentence1": "The body's hair, sources said, appeared to be blond with dark roots, the same as Aronov's.",
+    "sentence2": "The body had blond hair with dark roots, and was roughly the same height and build as the 5-foot-4 Ms. Aronov, the officials said.",
+    "label": 0
+  },
+  "5087": {
+    "sentence1": "Hurricane Claudette moved toward the Texas coast on Tuesday and was expected to strengthen before making landfall later in the day, forecasters said.",
+    "sentence2": "The US National Hurricane Center said the hurricane was heading toward the Texas coast and could strengthen before it hits land later in the day.",
+    "label": 1
+  },
+  "2714": {
+    "sentence1": "In Kentucky, Democratic Attorney General Ben Chandler faces U.S. Rep. Ernie Fletcher.",
+    "sentence2": "Kentucky: Republican Ernie Fletcher, a three-term House member, is battling Democratic state Attorney General Ben Chandler.",
+    "label": 1
+  },
+  "4298": {
+    "sentence1": "\"Whatever has happened to you by way of punishment is certainly more than enough,\" Covello told the 49-year-old, whose family, friends and supporters filled half the courtroom.",
+    "sentence2": "\"What has happened to you, sir, by way of punishment, is certainly more than enough,\" Covello said.",
+    "label": 0
+  },
+  "3161": {
+    "sentence1": "The broader Standard & Poor's 500 Index .SPX ended up 1.03 points, or 0.10 percent, at 998.51, ending at its highest since late June 2002.",
+    "sentence2": "The broader Standard & Poor's 500 Index .SPX was off 1.67 points, or 0.17 percent, at 995.81.",
+    "label": 0
+  },
+  "5452": {
+    "sentence1": "Monday said it has its first customer for its controversial Intellectual Property Compliance License for SCO UNIX Rights.",
+    "sentence2": "SCO says it has signed the first enterprise customer to its controversial Intellectual Property Compliance License.",
+    "label": 1
+  },
+  "2447": {
+    "sentence1": "The search feature works with around 120,000 titles from 190 publishers, which translates into some 33 million pages of searchable text.",
+    "sentence2": "The feature, which has the approval of book publishers, puts some 33 million pages of searchable text at the disposal of Amazon.com shoppers.",
+    "label": 1
+  },
+  "1706": {
+    "sentence1": "The two forms account for about 30 percent of the approximately 7 million immigration benefits applications received annually, immigration officials said.",
+    "sentence2": "The two forms constitute 30 percent of the 7 million applications filed to the bureau each year.",
+    "label": 1
+  },
+  "4534": {
+    "sentence1": "Shares of McDonald's Corp. and Wendy's International Inc. continued a modest run-up on the New York Stock Exchange Monday.",
+    "sentence2": "Shares of McDonald's and Wendy's continued their recent recovery Monday, rising more than 1 percent on the New York Stock Exchange in afternoon trade.",
+    "label": 1
+  },
+  "1698": {
+    "sentence1": "SEA 05D is the Naval Sea Systems Command\u2019s technical authority for surface ship design and engineering.",
+    "sentence2": "The Future Concepts and Surface Ship Design Group is the Naval Sea Systems Command\u2019s technical authority for all surface ship design and engineering.",
+    "label": 1
+  },
+  "2544": {
+    "sentence1": "Analysts surveyed by Reuters Research expected earnings of 13 cents a share on revenue of $6.7 billion, on average.",
+    "sentence2": "Analysts currently expect earnings of 13 cents a share and revenue of $6.7 billion, on average, according to a survey by Reuters Research.",
+    "label": 1
+  },
+  "2366": {
+    "sentence1": "The suspects are expected to turn themselves in to Pennsylvania authorities within the next few days.",
+    "sentence2": "The boys are expected to surrender voluntarily to Pennsylvania authorities within the next several days, Zimmer said.",
+    "label": 1
+  },
+  "1303": {
+    "sentence1": "Even the pizza man took part, delivering a flier with the missing girl's picture along with the pizza and a two-liter bottle of Pepsi to Cruz's house.",
+    "sentence2": "Even the pizza delivery took part, unwittingly delivering a leaflet with the missing girl's picture during his run to Cruz's house.",
+    "label": 1
+  },
+  "4960": {
+    "sentence1": "The Nasdaq composite index added 30.46 points, or 2 percent, to 1,520.15.",
+    "sentence2": "The Nasdaq had a weekly gain of 17.27, or 1.2 percent, closing at 1,520.15 after gaining 30.46 yesterday.",
+    "label": 0
+  },
+  "3212": {
+    "sentence1": "And although he has acted in period dramas before in screen versions of Jane Austens Persuasion and Charlotte Brontes Jane Eyre Henchard is a breed apart.",
+    "sentence2": "And although he has acted in period dramas before - in screen versions of Jane Austen's \"Persuasion\" and Charlotte Bronte's \"Jane Eyre\" - Henchard is a breed apart.",
+    "label": 1
+  },
+  "2554": {
+    "sentence1": "Siebel, whose fortunes soared with the tech boom, has cut nearly one-third of its workforce since the end of 2001.",
+    "sentence2": "With the purge, Siebel will have cut 2,400 employees - or nearly one-third of its workforce - since the end of 2001.",
+    "label": 1
+  },
+  "953": {
+    "sentence1": "\"We see the First Amendment to protect religious liberty, not crush religious liberty,\" said Patrick Mahoney, director of the Christian Defense Coalition.",
+    "sentence2": "\"We put the call out,\" said the Rev. Patrick J. Mahoney, director of the Christian Defense Coalition.",
+    "label": 0
+  },
+  "2755": {
+    "sentence1": "Progress Software plans to acquire privately held DataDirect Technologies for about $88 million in cash, the companies said Friday.",
+    "sentence2": "Progress Software Corp. is acquiring DataDirect Technologies Ltd., a privately held supplier of data-access software, for approximately $88 million, the companies said Friday.",
+    "label": 1
+  },
+  "439": {
+    "sentence1": "Earlier, they had defied a police order and cried \"Allahu Akbar\" (God is Greatest) as Bashir walked to his seat in the tightly guarded courtroom.",
+    "sentence2": "Earlier, Bashir's supporters had defied a police order and cried \"Allahu Akbar (God is Greatest)\" as he walked to his seat.",
+    "label": 1
+  },
+  "4774": {
+    "sentence1": "\"There are a number of locations in our community, which are essentially vulnerable,\" Mr Ruddock said.",
+    "sentence2": "\"There are a range of risks which are being seriously examined by competent authorities,\" Mr Ruddock said.",
+    "label": 0
+  },
+  "2377": {
+    "sentence1": "The center's president, Joseph Torsella, was struck on the head but was able to walk to an ambulance.",
+    "sentence2": "National Constitution Center President Joseph Torsella was hit in the head and knocked to his knees.",
+    "label": 0
+  },
+  "612": {
+    "sentence1": "As of Tuesday, almost 250 health-care workers were in quarantine.",
+    "sentence2": "In addition, 6,800 people were in quarantine and thousands of health-care workers in working quarantine.",
+    "label": 0
+  },
+  "5014": {
+    "sentence1": "The leader of Myanmar's National League for Democracy won a 1990 election by a landslide but was never allowed to govern.",
+    "sentence2": "Suu Kyi's National League for Democracy won a landslide election in 1990 but has never been allowed to govern.",
+    "label": 1
+  },
+  "5090": {
+    "sentence1": "\"They were tossed around like feathers,\" Gordon said.",
+    "sentence2": "\"The concrete barriers (between lanes) were being tossed around like feathers.\"",
+    "label": 1
+  },
+  "5483": {
+    "sentence1": "The NLC advised motorists to stay at home and petrol stations to shut down during the strike.",
+    "sentence2": "It has ordered motorists to stay off the streets and petrol stations to shut down during the strike.",
+    "label": 1
+  },
+  "77": {
+    "sentence1": "The delegates said raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations, bank accounts of terror-related organizations and money transfers.",
+    "sentence2": "Bin Laden\u2019s men pointed out that raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations, bank accounts of terror-related organizations and money transfers.",
+    "label": 1
+  },
+  "1692": {
+    "sentence1": "For the second year in a row, rises in hospital costs accounted for much of the inflation, accounting for 51 percent of the overall cost increase.",
+    "sentence2": "For the second year in a row, rises in hospital costs dominated the increase, accounting for 51 percent of the overall cost spiral.",
+    "label": 1
+  },
+  "270": {
+    "sentence1": "Instead, the high court said that drug makers did not adequately show why the plan should be prevented from taking effect.",
+    "sentence2": "Stevens said that the drug manufacturers had not shown why the plan should be prevented from taking effect.",
+    "label": 1
+  },
+  "1372": {
+    "sentence1": "Today, we preserve essential tools to foster voice competition in the local market.",
+    "sentence2": "\"We preserve essential tools to foster voice competition,\" Copps said.",
+    "label": 1
+  },
+  "5584": {
+    "sentence1": "The teenager was in surgery at a hospital and the extent of his injuries was not available, police said.",
+    "sentence2": "The teen was in surgery at Sacred Heart Medical Center, and the extent of his injuries was not available, Bragdon said.",
+    "label": 1
+  },
+  "4869": {
+    "sentence1": "If successful, the \"Muses-C\" will be the first probe to make a two-way trip to an asteroid.",
+    "sentence2": "If successful, it will be the first to bring back a rock sample from an asteroid, Kawaguchi said.",
+    "label": 0
+  },
+  "2090": {
+    "sentence1": "\"If that ain't a Democrat, then I must be at the wrong meeting,\" he said to a standing ovation.",
+    "sentence2": "And if that ain't a Democrat, then I must be in the wrong meeting,\" he said to thunderous applause from his supporters.",
+    "label": 1
+  },
+  "4637": {
+    "sentence1": "The report forecasts there will be 71,079 hot spots worldwide this year, up from just 14,752 in 2002 and 1,214 in 2001.",
+    "sentence2": "The report also claims that there will be up to 9.3 million visitors to hot spots this year, up again from the meagre 2.5 million in 2002.",
+    "label": 0
+  },
+  "2572": {
+    "sentence1": "Other, more traditional tests are also available.",
+    "sentence2": "Traditional tests also are available at no cost today.",
+    "label": 0
+  },
+  "2243": {
+    "sentence1": "His daughter, Nina Axelrod, told The Associated Press that he died in his sleep, apparently of heart failure.",
+    "sentence2": "Axelrod died in his sleep of heart failure, said his daughter, Nina Axelrod.",
+    "label": 1
+  },
+  "4408": {
+    "sentence1": "The spacecraft is scheduled to blast off as early as tomorrow or as late as Friday from the Jiuquan launching site in the Gobi Desert.",
+    "sentence2": "The spacecraft is scheduled to blast off between next Wednesday and Friday from a launching site in the Gobi Desert.",
+    "label": 1
+  },
+  "1137": {
+    "sentence1": "The pilot decided to fly to Kennedy, which has longer runways than Newark Airport.",
+    "sentence2": "\"Realizing this, the pilot changed course and diverted to Kennedy, which has longer runways.\"",
+    "label": 1
+  },
+  "4675": {
+    "sentence1": "Mr. Bremer said Iran continued to interfere in fledgling political reconstruction, including Tehran s intelligence service.",
+    "sentence2": "Mr. Bremer said that Iran, including its intelligence service, continued to interfere in fledgling political reconstruction.",
+    "label": 1
+  },
+  "2292": {
+    "sentence1": "Protesters had been calling for an end to the country's hard-line establishment and for supreme leader Khamenei's death.",
+    "sentence2": "The protesters denounced the country's supreme leader, hard-liner Ayatollah Ali Khamenei.",
+    "label": 0
+  },
+  "3457": {
+    "sentence1": "PLAYRIGHT George Axelrod, who anticipated the sexual revolution with The Seven Year Itch and Will Success Spoil Rock Hunter?",
+    "sentence2": "From Broadway comedies like \"The Seven Year Itch\" (1952), \"Will Success Spoil Rock Hunter?\"",
+    "label": 0
+  },
+  "2729": {
+    "sentence1": "In 2001, President Bush named Kathleen Gregg one of six appointees to the Student Loan Marketing Association, the largest US lender for students.",
+    "sentence2": "In 2001, President Bush named her to the Student Loan Marketing Association, the largest U.S. lender for students.",
+    "label": 1
+  },
+  "5030": {
+    "sentence1": "\"But HRT should not be used to prevent heart disease or any other chronic condition.\"",
+    "sentence2": "\"The clear message is it should not be used to prevent cardiovascular disease,\" Manson said.",
+    "label": 0
+  },
+  "3415": {
+    "sentence1": "It also offers a built-in NAND flash boot loader so that high-density NAND flash memory can be used without having to install an additional support chip.",
+    "sentence2": "The S3C2440 has a built-in NAND flash boot loader, for example, so that high-density NAND flash memory can be installed without an additional support chip.",
+    "label": 1
+  },
+  "1002": {
+    "sentence1": "And \"although the preconditions for recovery remain in place,\" it said the prospects for British exports were \"weaker than previously expected.\"",
+    "sentence2": "\"Although the preconditions for recovery remain in place, the prospect for external demand for UK output is weaker than previously expected.\"",
+    "label": 1
+  },
+  "134": {
+    "sentence1": "More than half of the songs were purchased as albums, Apple said.",
+    "sentence2": "Apple noted that half the songs were purchased as part of albums.",
+    "label": 1
+  },
+  "5072": {
+    "sentence1": "Monkeypox is usually found only in central and western Africa.",
+    "sentence2": "Prairie dogs, usually found in southwestern and western states, aren\u2019t indigenous to Wisconsin.",
+    "label": 0
+  },
+  "3372": {
+    "sentence1": "Nordstrom also is expanding its play area in the children's clothes area, adding salt-water fish tanks and activities.",
+    "sentence2": "Nordstrom also is expanding its play area in the children\u2019s clothes area, adding salt-water fish tanks and activities for children while their parents shop.",
+    "label": 1
+  },
+  "5561": {
+    "sentence1": "Brendsel and chief financial officer Vaughn Clarke resigned June 9.",
+    "sentence2": "The company's chief executive retired and chief financial officer resigned.",
+    "label": 1
+  },
+  "2967": {
+    "sentence1": "On Sunday August 3, the House of Deputies voted nearly 2-1 in favor of the Reverend Gene Robinson of New Hampshire.",
+    "sentence2": "On Tuesday in Minneapolis, the House of Bishops gave final approval on a 62-43 vote for the Rev. V. Gene Robinson of New Hampshire to become bishop.",
+    "label": 1
+  },
+  "3522": {
+    "sentence1": "Britain has said it will oppose articles calling for closer coordination of tax and economic policy, to uphold the national right of veto.",
+    "sentence2": "Britain has said it wants to haggle over articles of the draft calling for closer coordination of tax and economic policy.",
+    "label": 0
+  },
+  "3487": {
+    "sentence1": "Nelson,27, is being retried on civil-rights charges stemming from the disturbance which led to Rosenbaum's death.",
+    "sentence2": "Nelson, 27, is being retried on civil rights charges stemming from the disturbance that led to Rosenbaum's death.",
+    "label": 1
+  },
+  "4723": {
+    "sentence1": "\"Enron company executives engaged in widespread and pervasive fraud,\" prosecutor Samuel Buell told the Associated Press.",
+    "sentence2": "\"Enron company executives engaged in widespread and pervasive fraud to manipulate the company's earnings results,\" Buell said.",
+    "label": 0
+  },
+  "2528": {
+    "sentence1": "The answer, the group said, would be to \"create a format that can be used by all devices but can accommodate other formats.\"",
+    "sentence2": "The DHWG says it will instead create a format that can be used by all devices but can accommodate other formats.",
+    "label": 1
+  },
+  "552": {
+    "sentence1": "A rival distributor, Mike Selwyn from United International Pictures, says that unlike The Matrix Revolutions, he cannot detect any advance scepticism, even within the business.",
+    "sentence2": "A rival distributor, Mike Selwyn, of United International Pictures, says he cannot detect, unlike The Matrix Revolutions, any advance scepticism.",
+    "label": 1
+  },
+  "965": {
+    "sentence1": "Regardless, its first quarter saw a profit of $721 million, or 29 cents, on revenue of $17.9 billion.",
+    "sentence2": "Analysts expected earnings of 27 cents a share on revenue of $17.7 billion, Thomson First Call says.",
+    "label": 0
+  },
+  "1676": {
+    "sentence1": "Gartner analysts said that businesses are not yet feeling confident enough to upgrade corporate PCs.",
+    "sentence2": "What's more, companies are not feeling confident enough to replace older PCs, the analyst firm said.",
+    "label": 1
+  },
+  "1414": {
+    "sentence1": "The dollar gained against the euro, yen and Swiss franc after September U.S. retail sales figures came in slightly weaker than consensus forecasts.",
+    "sentence2": "The greenback rose steeply against the euro, yen and Swiss franc despite weaker-than-expected September U.S. retail sales figures.",
+    "label": 1
+  },
+  "4502": {
+    "sentence1": "Also, businesses throughout Utah are volunteering to display Amber alerts on their signs.",
+    "sentence2": "Other businesses are volunteering to put the alerts on their electronic signs and billboards.",
+    "label": 1
+  },
+  "1550": {
+    "sentence1": "The House version pays 80 percent of a senior's first $2,000 in drug costs after a $250 deductible.",
+    "sentence2": "Under the House-passed plan, seniors would pay 20 percent of drug costs, plus a $250 deductible annually.",
+    "label": 0
+  },
+  "1712": {
+    "sentence1": "After he was led into the execution chamber and strapped to a gurney, Swisher raised his head and appeared to smile as his spiritual adviser spoke to him.",
+    "sentence2": "After he was led into the execution chamber and strapped to a gurney, Swisher raised his head and appeared to smile as the prison chaplain spoke in his ear.",
+    "label": 1
+  },
+  "3310": {
+    "sentence1": "With the government grant added in, the airline earned $246 million, or 30 cents a share.",
+    "sentence2": "That was more than double the $102 million, or 13 cents a share, for the year-earlier quarter.",
+    "label": 0
+  },
+  "90": {
+    "sentence1": "But Mitsubishi Tokyo Financial (JP:8306: news, chart, profile) declined 3,000 yen, or 0.65 percent, to 456,000 yen.",
+    "sentence2": "Sumitomo Mitsui Financial (JP:8316: news, chart, profile) was down 2.5 percent at 198,000 yen.",
+    "label": 0
+  },
+  "3756": {
+    "sentence1": "Shares of GE were slipping 17 cents, or 0.6%, to $28.02 in Instinet premarket trading.",
+    "sentence2": "Shares in GE were down 7 cents to $28.12 by the close of trading in New York.",
+    "label": 0
+  },
+  "5312": {
+    "sentence1": "Her lawyer, M. H. Reese Norris, called the decision an injustice and promised to appeal.",
+    "sentence2": "Scruggs refused to comment as she left the courthouse but her lawyer, Reese Norris, called the verdict an injustice.",
+    "label": 0
+  },
+  "1664": {
+    "sentence1": "The victims included seven Lebanese, four Egyptians, one Saudi and one Sudanese, the ministry official said.",
+    "sentence2": "State television said the dead included seven Lebanese, four Egyptians, one Saudi, one Sudanese and four whose nationalities were not named.",
+    "label": 0
+  },
+  "1030": {
+    "sentence1": "Shares of EDS gained $1.49, or 6.6 percent, to $23.999 early Wednesday on the New York Stock Exchange.",
+    "sentence2": "Shares were off 30 cents, or 1.3 percent, at $22.58 on Tuesday on the New York Stock Exchange.",
+    "label": 0
+  },
+  "142": {
+    "sentence1": "Ms. Haque, meanwhile, was on her turquoise cellphone with the smiley faces organizing the prom.",
+    "sentence2": "Fatima, meanwhile, was on her turquoise cell phone organizing the prom.",
+    "label": 1
+  },
+  "4877": {
+    "sentence1": "Simon shares Tuesday closed up 42 cents, or about 1 percent, at $39.45 on the New York Stock Exchange.",
+    "sentence2": "Simon Property's shares rose 42 cents to $39.45 at the close of New York Stock Exchange trading Tuesday.",
+    "label": 1
+  },
+  "234": {
+    "sentence1": "She told Murray, \"We ... we have ... the fresh air is going down fast!\"",
+    "sentence2": "\"The fresh air is going down fast!\" she screamed at Murray.",
+    "label": 1
+  },
+  "2894": {
+    "sentence1": "Watson, of Whitakers, N.C., was found guilty of making a false threat to detonate explosives, and destruction of federal property.",
+    "sentence2": "Dwight Watson, 50, was convicted of making a false threat to detonate explosives and of destroying federal property.",
+    "label": 1
+  },
+  "3775": {
+    "sentence1": "Dusenbery's fiancee, Jessica Wheat, said he was considering settling down in Fort Campbell and making the Army his career.",
+    "sentence2": "Jessica Wheat, who said she and Dusenbery were planning to marry, said Dusenbery was considering settling down in Fort Campbell and making the Army his career.",
+    "label": 1
+  },
+  "3632": {
+    "sentence1": "Think Dynamics, which is based in Toronto, will become part of IBM's Software Group.",
+    "sentence2": "The 36 employees at Think Dynamics will remain in Toronto and become IBM employees, Crowe said.",
+    "label": 0
+  },
+  "5101": {
+    "sentence1": "EDS said that it was \"responding to a subpoena and providing documents and information to the SEC\".",
+    "sentence2": "EDS is \"in the process of responding to a subpoena and providing documents and information to the SEC,\" the company said.",
+    "label": 1
+  },
+  "3491": {
+    "sentence1": "There are no suspects in the shooting, which took place around 9:15 p.m. on Wednesday at East 126th Street and Fifth Avenue, the police said.",
+    "sentence2": "Police said there was an argument before the slaying at East 126th Street and Fifth Avenue around 9 p.m.",
+    "label": 0
+  },
+  "5228": {
+    "sentence1": "Shortly after the opening bell, the Dow Jones Industrial Average was up 11.13 to 9,228.48, while the S&P 500 index gained 1.74 to 982.33.",
+    "sentence2": "After a weak start, the Dow Jones Industrial Average ended the day up 26.26 to 9,217.35, while the S&P 500 index rose 3 to 980.59.",
+    "label": 0
+  },
+  "2064": {
+    "sentence1": "Malaysia has launched an aggressive media campaign over its water dispute with Singapore.",
+    "sentence2": "MALAYSIA will launch a publicity campaign in local newspapers today giving its version of the water dispute with Singapore.",
+    "label": 1
+  },
+  "2475": {
+    "sentence1": "Still, Mauresmo has the confidence of having beaten Serena for the first time and also is buoyed by Venus Williams' upset loss Sunday to Vera Zvonareva.",
+    "sentence2": "She has the confidence of having beaten her for the first time and she is buoyed by Venus Williams' upset loss of two days ago.",
+    "label": 1
+  },
+  "4300": {
+    "sentence1": "Hundreds of soldiers took part in the early morning raid, an apparent signal to Hamas that Israel would not limit itself to airstrikes in Gaza.",
+    "sentence2": "Hundreds of soldiers were involved, an apparent signal to Hamas that Israel would not limit itself to air strikes in Gaza.",
+    "label": 1
+  },
+  "4688": {
+    "sentence1": "State police said as many as 30 workers were trapped immediately after the garage collapsed.",
+    "sentence2": "As many as 30 people were believed to be trapped inside initially, the state police said.",
+    "label": 1
+  },
+  "3057": {
+    "sentence1": "\"There are some who feel that if they attack us, we may decide to leave prematurely,\" Mr Bush said at the White House.",
+    "sentence2": "\"There are some who feel like conditions are such that they can attack us there,\" Bush told reporters at the White House on Wednesday.",
+    "label": 0
+  },
+  "5468": {
+    "sentence1": "The April decline was the biggest since October, 2001.",
+    "sentence2": "Energy prices dropped by 8.6 percent, the biggest decline since July 1986.",
+    "label": 0
+  },
+  "2855": {
+    "sentence1": "\"This will put a severe crimp in our reserves,\" O'Keefe said Friday during a roundtable discussion with reporters at NASA headquarters.",
+    "sentence2": "\"This is going to put a severe crimp in our reserves,\" O'Keefe said during a breakfast with reporters.",
+    "label": 1
+  },
+  "4176": {
+    "sentence1": "Chi-Chi's has agreed to keep the restaurant closed until Jan. 2 _ two months after it voluntarily closed following initial reports of the disease.",
+    "sentence2": "Chi-Chi's has agreed to keep the restaurant closed until Jan. 2 -- two months after it voluntarily closed when the disease was first reported.",
+    "label": 1
+  },
+  "4227": {
+    "sentence1": "But Peterson added, \"I don't know anybody in the conference committee who's fighting to keep it out completely.\"",
+    "sentence2": "But Peterson added, I dont know anybody in the conference committee whos fighting to keep it out completely.",
+    "label": 1
+  },
+  "4001": {
+    "sentence1": "She survives him as do their four children -- sons Anthony and Kelly, daughters Linda Hope and Nora Somers -- and four grandchildren.",
+    "sentence2": "Hope is survived by his wife; sons Anthony and Kelly; daughters Linda and Nora Somers; and four grandchildren.",
+    "label": 1
+  },
+  "5235": {
+    "sentence1": "Dubbed Project Mad Hatter, the Linux-based desktop is being promoted by Sun as a more secure and less expensive alternative to Windows.",
+    "sentence2": "Designed to compete with Microsoft Corp., Project Mad Hatter is being positioned by Sun as a cheaper, secure alternative desktop operating system to Microsoft's various desktop offerings.",
+    "label": 1
+  },
+  "3237": {
+    "sentence1": "The victim, who was also not identified, was taken to Kings County Hospital in critical condition.",
+    "sentence2": "The shooting victim was taken to Kings County Hospital Center, where he later died, the police said.",
+    "label": 0
+  },
+  "474": {
+    "sentence1": "Advancing issues outnumbered decliners about 8 to 5 on the New York Stock Exchange.",
+    "sentence2": "Declining issues outnumbered advancers slightly more than 3 to 1 on the New York Stock Exchange.",
+    "label": 0
+  },
+  "1393": {
+    "sentence1": "General Wesley Clark finally confirmed this week that he would seek the Democratic nomination to run against President George Bush in next year's presidential elections.",
+    "sentence2": "Retired General Wesley Clark's entry into the race for the Democratic presidential nomination will almost certainly strengthen anti-war forces determined to unseat US President George W Bush next year.",
+    "label": 0
+  },
+  "1764": {
+    "sentence1": "Eustachy acknowledged at a news conference Wednesday that he was an alcoholic and was seeking treatment.",
+    "sentence2": "Eustachy disclosed this week that he is an alcoholic and is seeking treatment.",
+    "label": 1
+  },
+  "3422": {
+    "sentence1": "It decided instead to issue them before the stock market opened Monday after the downgrade of its debt late Friday by Moody's, the credit rating agency.",
+    "sentence2": "It decided instead to issue them before the stock market opened Monday to counteract the downgrade of its debt late Friday by Moody's to one step above junk status.",
+    "label": 0
+  },
+  "2536": {
+    "sentence1": "However, disability declined by more than 10 percent for those 60 to 69, the study said.",
+    "sentence2": "Meanwhile, for people aged 60 to 69, disability declined by more than 10 percent.",
+    "label": 1
+  },
+  "2025": {
+    "sentence1": "Variable annuity sales were $4.2 billion, 82 percent higher than a year ago.",
+    "sentence2": "Variable annuity sales surged 82 percent to $4.2 billion.",
+    "label": 0
+  },
+  "1727": {
+    "sentence1": "Quattrone, 47, was highly influential at Credit Suisse First Boston during the tech bubble.",
+    "sentence2": "Quattrone, 47, was highly influential working in the Palo Alto office of Credit Suisse First Boston during the tech bubble.",
+    "label": 1
+  },
+  "535": {
+    "sentence1": "\"What this allows us to do is have a crossover that is much more fuel efficient and aimed at young families.\"",
+    "sentence2": "\"What this allows us to do is have a crossover that is much more fuel- efficient, aimed at young families,\" Mr. Cowger said.",
+    "label": 1
+  },
+  "1860": {
+    "sentence1": "\"The court expects that 25 years from now, the use of racial preferences will no longer be necessary,\" O'Connor wrote.",
+    "sentence2": "O'Connor wrote, \"We expect that 25 years from now, the use of racial preferences will no longer be necessary.\"",
+    "label": 1
+  },
+  "295": {
+    "sentence1": "They said: \u201cWe believe that the time has come for legislation to make public places smoke-free.",
+    "sentence2": "\"The time has come to make public places smoke-free,\" they wrote in a letter to the Times newspaper.",
+    "label": 1
+  },
+  "1875": {
+    "sentence1": "Because of that, the family had kept him from the home over the objections of the grandmother, police said.",
+    "sentence2": "Because of that, the family had run him out of the house over the objections of the grandmother and he was living on the street.",
+    "label": 0
+  },
+  "2014": {
+    "sentence1": "His 1996 Chevrolet Tahoe was found abandoned in a Virginia Beach, Va., parking lot June 25.",
+    "sentence2": "His sport utility vehicle was found June 25, abandoned without its license plates in Virginia Beach, Va.",
+    "label": 1
+  },
+  "1296": {
+    "sentence1": "\"We are starting the epidemic with more cases and more areas affected than last year.",
+    "sentence2": "\"It indicates we are starting the epidemic with more cases than last year,\" Gerberding said.",
+    "label": 1
+  }
+}
