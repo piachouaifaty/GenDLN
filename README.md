@@ -19,7 +19,7 @@ This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stac
 
 Note: We provie an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P](https://openreview.net/pdf?id=64xhaOC8gE) of the paper.
 
-#### Citation
+#### Citation (BibTex)
 
     @inproceedings{
     chouayfati2025gendln,
