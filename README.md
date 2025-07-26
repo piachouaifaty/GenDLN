@@ -6,9 +6,11 @@ This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stac
 
     GenDLN/
     ├── datasets/
-    │   ├── claudette      # R Markdown file for generating reports
+    │   ├── claudette
     │   ├── llm_safe_mrpc
     ├── ga_post_preocessing_R/
+    │   ├── GA_Runs.Rmd      # R Markdown file for generating reports
+    │   ├── GA_Runs.html     # Rendered example on dummy_logs
     │   ├── R_helpers      # Normalization, parsing, processing, plotting... scripts
     │   ├── dummy_logs     # example logs to run the GA_Runs.Rmd
     ├── framework/
