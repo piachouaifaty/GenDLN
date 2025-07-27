@@ -13,7 +13,7 @@ This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stac
     │   ├── GA_Runs.html     # Rendered example on dummy_logs
     │   ├── R_helpers      # Normalization, parsing, processing, plotting... scripts
     │   ├── dummy_logs     # example logs to run the GA_Runs.Rmd
-    ├── framework/
+    ├── genetic_dln/       # GenDLN framework
 
 
 
