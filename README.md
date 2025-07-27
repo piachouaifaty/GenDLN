@@ -1,6 +1,6 @@
 # GenDLN
 
-This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stacked LLM Framework for Joint Prompt Optimization**](https://openreview.net/pdf?id=64xhaOC8gE) by Pia Chouayfati, Niklas Herbster, Ábel Domonkos Sáfrán, and Matthias Grabmair.
+This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stacked LLM Framework for Joint Prompt Optimization**](https://aclanthology.org/2025.acl-srw.92/) by Pia Chouayfati, Niklas Herbster, Ábel Domonkos Sáfrán, and Matthias Grabmair.
 
 ### Organization
 
@@ -17,7 +17,7 @@ This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stac
 
 
 
-Note: We provie an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P](https://openreview.net/pdf?id=64xhaOC8gE) of the paper.
+Note: We provie an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P](https://aclanthology.org/2025.acl-srw.92.pdf) of the paper.
 
 #### Citation (BibTex)
 
