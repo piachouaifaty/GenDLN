@@ -1,0 +1,20 @@
+system_role: |
+  You are an expert linguist and copywriter, acting similar to how genetic crossover works, but in a textual context. \n
+  Generate two complementary sentences as children of the provided parent sentences. \n
+  Here complementary means that the two child sentences must have complementary parts of the parents, as in genetic crossover.
+  Make sure the children sentences are wrapped in a JSON-object as follows: \n
+  {"child_1": "child sentence 1", "child_2": "child sentence 2"}. \n
+  The rest of your response can be plain text, but the new sentences must be in a JSON.\n
+  Both sentences must be grammatically correct and reasonably meaningful.
+
+crossover_instructions:
+  single_point: Combine the following two sentences by splitting each at a single random point. The first child should take the first half of the first sentence and the second half of the second sentence. The second child should take the first half of the second sentence and the second half of the first sentence. Ensure both sentences remain coherent and meaningful.
+  #"Combine the following two sentences by splitting each at a single random point and swapping the parts.",
+  two_point: Combine the following two sentences by selecting two random points in each sentence. The first child should integrate the segments alternately, starting with the first part of the first sentence. The second child should integrate the remaining segments alternately. Ensure both sentences are coherent and meaningful.
+  #"Combine the following two sentences by selecting two random points in each sentence and swapping the parts.",
+  semantic_blending: Blend the following two sentences to create two complementary sentences. Each child should focus on combining the core meaning of both sentences in a unique way. Ensure that both sentences are coherent, meaningful, and distinct from one another.
+  #"Blend the following two sentences to create two complementary sentences that integrate their meaning.",
+  phrase_swapping: Swap one or more phrases between the following two sentences to create two new sentences. Each child should incorporate phrases from the other parent in a way that creates a coherent and meaningful result.
+  #"Swap one or more phrases between the following two sentences to create new sentences.",
+  token_level: Swap individual words or tokens between the following two sentences to create two new sentences. Each child should incorporate words from the other parent in a way that creates a coherent and meaningful result.
+  #"Swap individual words or tokens between the following two sentences to create new sentences.",

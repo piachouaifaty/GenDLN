@@ -1,0 +1,82 @@
+[
+    {
+        "prompt": "[To determine the fairness of a given statement, carefully assess its language for explicitness, considering whether it provides clear and unambiguous terms, conditions, and consequences affecting user autonomy, privacy, and understanding, without compromising user rights or imposing unreasonable restrictions, while prioritizing responsible communication, fair expression, and thorough transparency, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost precision, fairness, and transparency.]",
+        "accuracy": 0.7208333333333333
+    },
+    {
+        "prompt": "[When assessing the fairness of a statement, thoroughly examine its language for explicit transparency, considering whether it clearly outlines terms, potential consequences, and reasonable expectations for user interactions, prioritizing respect for user autonomy, privacy, and understanding, categorizing as \\\"fair\\\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions or compromise user understanding, autonomy, or rights, and \\\"unfair\\\" otherwise, striving for high accuracy and fairness in the classification process.]",
+        "accuracy": 0.7208333333333333
+    },
+    {
+        "prompt": "[To evaluate the fairness of a given statement, integrate utmost transparency in its language by explicitly outlining the terms and potential consequences of user interaction, while giving due consideration to the user's autonomy, privacy, and understanding, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions, and \"unfair\" otherwise.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To determine the fairness of a statement, meticulously examine its language for transparency, explicitly outlining the terms and potential consequences of user interaction, prioritizing respect for user autonomy and privacy, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions, and \"unfair\" otherwise, with utmost precision, fairness, and transparency, carefully evaluating potential impact on user autonomy, privacy, and understanding, without compromising user rights, while ensuring clear expectations and preventing ambiguity, misleading information, or unreasonable restrictions.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To categorize a statement, scrutinize its language for transparency by explicitly outlining terms, potential consequences, and reasonable expectations, while prioritizing responsible communication, fairness, and user autonomy, analyzing whether it effectively discloses information, respects user privacy and rights, and avoids ambiguity, misleading information, or unreasonable restrictions, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost precision, fairness, and transparency.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To categorize a statement as \"fair\" or \"unfair\", scrutinize its language for transparency, carefully evaluating whether it provides clear, unambiguous, and justifiable terms and conditions that do not compromise user understanding, autonomy, or rights, consistently prioritizing responsible communication, respect for user privacy, and adherence to fair business practices, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions, and \"unfair\" otherwise, with utmost attention to detail, precision, and fairness, and constantly striving for high accuracy and fairness in the classification process.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[When categorizing a statement, meticulously scrutinize its language for explicit transparency, weighing the clarity of provided information against potential ambiguities, while prioritizing respect for user autonomy, privacy, and understanding, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions, and \"unfair\" otherwise, with utmost precision and fairness.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To categorize a statement as \u201cfair\u201d or \u201cunfair\u201d, scrutinize its language for transparent explicitness, evaluating whether it clearly outlines terms, potential consequences, and reasonable expectations, while prioritizing responsible communication, respect for user autonomy, and adherence to regulatory guidelines, categorize as \u201cfair\u201d if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \u201cunfair\u201d otherwise, with utmost attention to detail, precision, and fairness, considering potential ambiguity, unclear expectations, and unreasonable restrictions, and striving for high accuracy and fairness in the classification process.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To categorize a statement, scrutinize its language for semantic transparency, weighing the clarity of provided information against potential ambiguities, while prioritizing respect for user autonomy, privacy, and understanding, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost attention to detail, precision, and fairness, considering the potential impact on user autonomy, privacy, and understanding, while ensuring clear expectations, preventing ambiguity, misleading information, or unreasonable restrictions.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[Carefully examine each statement's language for explicit transparency, respect for user autonomy and privacy, and adherence to regulatory guidelines, rigorously evaluating potential ambiguity, unclear expectations, or unreasonable restrictions, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost precision, fairness, and transparency, considering the potential impact on user autonomy, privacy, and understanding, while ensuring clear expectations, preventing ambiguity, misleading information, or unreasonable restrictions.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[When evaluating the fairness of a statement, comprehensively analyze its language, meticulously examining whether it transparently outlines terms, potential consequences, and reasonable expectations, while prioritizing respect for user autonomy, privacy, and understanding, avoiding ambiguity, unclear expectations, or unreasonable restrictions, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost precision, fairness, and transparency, considering the potential impact on user autonomy, privacy, and understanding.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To determine the fairness of a statement, carefully analyze its language for explicitness, evaluating whether it clearly outlines terms, potential consequences, and reasonable expectations, while prioritizing respect for user autonomy, privacy, and understanding, avoiding ambiguity, unclear expectations, or unreasonable restrictions, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost attention to detail, precision, and fairness, considering the potential impact on user autonomy, privacy, and understanding, while ensuring clear expectations, preventing ambiguity, misleading information, or unreasonable restrictions, and striving for high accuracy and fairness in the classification process.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[When evaluating the fairness of a statement, carefully examine its language for transparency, explicitly outlining terms, potential consequences, and reasonable expectations, ensuring clarity and precision, while prioritizing respect for user autonomy, privacy, and understanding, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions, and \"unfair\" otherwise, with meticulous attention to detail, precision, and fairness, evaluating potential impact on user autonomy, privacy, and understanding, while preventing ambiguity, unclear expectations, or unreasonable restrictions, and striving for high accuracy and fairness in the classification process.]",
+        "accuracy": 0.725
+    },
+    {
+        "prompt": "[To classify a statement, meticulously scrutinize its language for transparency, respect for user autonomy and privacy, and adherence to regulatory guidelines; rigorously evaluate for ambiguity, misleading information, or unreasonable restrictions; prioritize responsible communication, fair expression, and user comprehension, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions, and \"unfair\" otherwise, while striving for accuracy and fairness, and considering the potential impact on user autonomy, privacy, and understanding, without imposing undue limitations, unclear expectations, or contradictions to user rights.]",
+        "accuracy": 0.7285714285714285
+    },
+    {
+        "prompt": "[When classifying a statement, thoroughly examine its language for transparency, carefully evaluating whether it explicitly outlines terms, potential consequences, and reasonable expectations for user interactions, prioritizing respect for user autonomy, privacy, and understanding, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost precision, fairness, and transparency, ensuring clarity, precision, and fairness in the classification process.]",
+        "accuracy": 0.7285714285714285
+    },
+    {
+        "prompt": "[To determine the fairness of a statement, meticulously analyze its language for transparency and respect for user autonomy and privacy, considering the explicitness of disclosed terms, potential consequences, and reasonable expectations; rigorously evaluate whether it presents clear and unambiguous language, respects user rights, and does not compromise user understanding, autonomy, or rights; prioritize responsible communication, fair expression, and user comprehension, and categorize as \"fair\" if the statement meets these criteria, and \"unfair\" otherwise, with utmost precision, fairness, and transparency.]",
+        "accuracy": 0.7291666666666666
+    },
+    {
+        "prompt": "[To categorize a statement as \"fair\" or \"unfair\", scrutinize its language for transparency, respect for user autonomy and privacy, and adherence to regulatory guidelines; evaluate the potential impact on user understanding, autonomy, and rights, prioritizing responsible communication, fair expression, and user comprehension, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with meticulous attention to detail, precision, and fairness, integrating utmost transparency in its language by explicitly outlining the terms and potential consequences of user interaction, while giving due consideration to the user's autonomy, privacy, and understanding, without imposing undue limitations, unclear expectations, or contradictions to user rights.]",
+        "accuracy": 0.7291666666666666
+    },
+    {
+        "prompt": "[To categorize a statement as \"fair\" or \"unfair\", integrate delicate nuance in its language by explicitly outlining the terms and potential consequences of user interaction, while meticulously evaluating the potential impact on user autonomy, privacy, and understanding, prioritizing responsible communication, fair expression, and user comprehension, and categorize as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost precision, fairness, and transparency, considering the potential ambiguity, unclear expectations, or unreasonable restrictions, without imposing undue limitations or contradictions to user rights.]",
+        "accuracy": 0.7291666666666666
+    },
+    {
+        "prompt": "[To categorize a statement as \"fair\" or \"unfair\", meticulously evaluate its language for transparency, consider whether it appropriately discloses information to users, respects privacy, and does not impose unreasonable restrictions on user interactions, prioritizing responsible communication, fairness, and user autonomy, categorizing as \"fair\" if the statement transparently outlines terms and consequences, respects user privacy, and does not compromise user understanding, autonomy, or rights, and \"unfair\" otherwise, with utmost attention to detail, precision, and fairness.]",
+        "accuracy": 0.7333333333333333
+    },
+    {
+        "prompt": "[To accurately classify a statement as \\\"fair\\\" or \\\"unfair\\\", meticulously scrutinize its language for explicit transparency, assessing whether it provides clear and unambiguous terms, conditions, and consequences, while prioritizing respect for user autonomy, privacy, and understanding, categorizing as \\\"fair\\\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions or compromise user understanding, autonomy, or rights, and \\\"unfair\\\" otherwise, with utmost precision and fairness, considering the potential impact on user autonomy, privacy, and understanding, and striving for high accuracy and fairness in the classification process.]",
+        "accuracy": 0.7333333333333333
+    }
+]

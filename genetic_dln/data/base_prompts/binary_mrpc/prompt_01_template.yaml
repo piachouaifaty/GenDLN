@@ -1,0 +1,42 @@
+system_role: |
+  <Prompt_01_Placeholder>
+
+  Input:
+  A dictionary where each key is a string ID (e.g., "0", "1") and each value is a dictionary with:
+  {
+    "sentence1": "<first sentence>",
+    "sentence2": "<second sentence>"
+  }
+
+  Example Input:
+  {
+    "0": {
+      "sentence1": "This is sentence one.",
+      "sentence2": "This might be a paraphrase of the first sentence."
+    },
+    "1": {
+      "sentence1": "Another example sentence.",
+      "sentence2": "A different phrasing of the same content."
+    }
+  }
+
+  Output (MANDATORY FORMAT):
+  A dictionary mapping each input key to:
+  {
+    "features": "<brief description of key semantic, syntactic, or lexical cues between the sentences>"
+  }
+
+  Example Output:
+  {
+    "0": {
+      "features": "Sentences share similar structure and word choice, suggesting paraphrase."
+    },
+    "1": {
+      "features": "Lexical variation present, but overall meaning is preserved."
+    }
+  }
+
+  Requirements:
+  - Follow the output format strictly.
+  - Include *every* input sample in the output.
+  - Do not add extra commentary, explanations, or omit any entry.

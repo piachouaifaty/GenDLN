@@ -1,0 +1,13 @@
+system_role: |
+  <Prompt_01_Placeholder>
+
+  Input Data
+  The input data is is a dictionary containing sentences from the CLAUDETTE dataset, where each entry has:
+  Key: An identifier (e.g., "sentence_1", "sentence_2")
+  Value: The sentence text
+  
+  Example Input
+  {
+      "sentence_1": "This is the text representing sentence 1.",
+      "sentence_2": "This is the text representing sentence 2."
+  }

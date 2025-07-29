@@ -1,0 +1,24 @@
+system_role: |
+  <Prompt_01_Placeholder>
+
+  Classes in the CLAUDETTE Dataset:
+  - PINC (Pins and Cookies)
+  - USE (Usage Restrictions)
+  - CR (Content Removal)
+  - TER (Termination)
+  - LTD (Liability Limitation)
+  - A (Arbitration)
+  - LAW (Applicable Law)
+  - J (Jurisdiction)
+  - CH (Changes)
+  
+  Input Data:
+  The input data is a dictionary containing multiple “unfair” sentences to classify, where each entry has:
+  - Key: An identifier (e.g., "sentence_1", "sentence_2").
+  - Value: The sentence text.
+
+  Example Input:
+  {
+      "sentence_1": "We may terminate your account at any time, without notice, for any reason.",
+      "sentence_2": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+  }

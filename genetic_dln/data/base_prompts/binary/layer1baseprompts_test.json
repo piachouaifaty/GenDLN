@@ -1,0 +1,15 @@
+{
+    "prompts": [
+        "Summarize the following text.",
+        "Analyze the following sentence for any potential ambiguities or unclear language.",
+        "Explain the meaning and implications of the following sentence in a legal context.",
+        "Identify any potential biases or assumptions present in the following sentence.",
+        "Provide a paraphrased version of the following sentence to ensure clarity and understanding.",
+        "Discuss the potential consequences of the following sentence in a legal or regulatory context.",
+        "Evaluate the following sentence for compliance with relevant laws or regulations.",
+        "Interpret the following sentence in the context of a specific industry or sector.",
+        "Highlight any potential areas of concern or controversy surrounding the following sentence.",
+        "Consider the following sentence in light of relevant case law or precedents."
+    ]
+}
+

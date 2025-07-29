@@ -1,0 +1,114 @@
+{
+    "generation_id": "GXX",  // Unique identifier for the generation
+    "best_individual": {    // Information about the best-performing individual in the generation
+        "generation": "GXX",
+        "individual_id": "IYY",  // Unique identifier for the individual
+        "individual": {          // The individual itself, represented as a tuple of prompts
+            "prompt_1": "string",
+            "prompt_2": "string"
+        },
+        "raw_metrics": {         // Raw metrics directly from the evaluation (e.g., DLN output)
+            "accuracy": float,
+            "precision": float,
+            "recall": float,
+            "f1": float,
+            "macro_f1": float,
+            "weighted_f1": float,
+            "micro_f1": float,
+            "auc_roc": float,
+            "semantic": float,
+            "diversity": float,
+            "perplexity": float,
+            "response_length": float
+        },
+        "normalized_metrics": {  // Normalized metrics used for fitness calculation
+            "accuracy": float,
+            "precision": float,
+            "recall": float,
+            "f1": float,
+            "macro_f1": float,
+            "weighted_f1": float,
+            "micro_f1": float,
+            "auc_roc": float,
+            "semantic": float,
+            "diversity": float,
+            "perplexity": float,  // Normalized perplexity, higher is better
+            "response_length": float // Normalized response length, closer to ideal is better
+        },
+        "fitness_score": float,  // Final fitness score (weighted sum of metrics)
+        "weights": {             // Weights used for fitness calculation
+            "accuracy": float,
+            "f1": float,
+            "precision": float,
+            "recall": float,
+            "macro_f1": float,
+            "weighted_f1": float,
+            "micro_f1": float,
+            "auc_roc": float,
+            "semantic": float,
+            "diversity": float,
+            "perplexity": float,
+            "response_length": float
+        },
+        "timestamp": "datetime"  // Timestamp of when this individual was evaluated
+    },
+    "worst_individual": {       // Similar structure as 'best_individual'
+        ...
+    },
+    "average_fitness": float,    // Average fitness score across all individuals in the generation
+    "fitness_summary": [         // List of all individuals and their fitness data in the generation
+        {
+            "generation": "GXX",
+            "individual_id": "IYY",
+            "individual": {
+                "prompt_1": "string",
+                "prompt_2": "string"
+            },
+            "raw_metrics": {
+                "accuracy": float,
+                "precision": float,
+                "recall": float,
+                "f1": float,
+                "macro_f1": float,
+                "weighted_f1": float,
+                "micro_f1": float,
+                "auc_roc": float,
+                "semantic": float,
+                "diversity": float,
+                "perplexity": float,
+                "response_length": float
+            },
+            "normalized_metrics": {
+                "accuracy": float,
+                "precision": float,
+                "recall": float,
+                "f1": float,
+                "macro_f1": float,
+                "weighted_f1": float,
+                "micro_f1": float,
+                "auc_roc": float,
+                "semantic": float,
+                "diversity": float,
+                "perplexity": float,
+                "response_length": float
+            },
+            "fitness_score": float,
+            "weights": {
+                "accuracy": float,
+                "f1": float,
+                "precision": float,
+                "recall": float,
+                "macro_f1": float,
+                "weighted_f1": float,
+                "micro_f1": float,
+                "auc_roc": float,
+                "semantic": float,
+                "diversity": float,
+                "perplexity": float,
+                "response_length": float
+            },
+            "timestamp": "datetime"
+        },
+        ...
+    ]
+}

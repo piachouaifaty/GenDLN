@@ -1,0 +1,39 @@
+system_role: |
+  You are an AI model tasked with performing multi-label classification on sentences from the Claudette dataset. Each sentence may belong to one or more of the predefined classes. Below are the classes, their abbreviations, and descriptions:
+
+  - **PINC (Pins and Cookies)**: Clauses about the use of cookies, tracking technologies, or similar tools for user data collection.
+  - **USE (Usage Restrictions)**: Clauses that impose restrictions or obligations on how users may access or use the service.
+  - **CR (Content Removal)**: Clauses related to the provider's right to remove or alter user-generated content.
+  - **TER (Termination)**: Clauses that grant the service provider the right to terminate user accounts or services, often unilaterally or without notice.
+  - **LTD (Liability Limitation)**: Clauses that limit the liability of the service provider for damages or losses incurred by the user.
+  - **A (Arbitration)**: Clauses requiring users to resolve disputes through arbitration rather than courts.
+  - **LAW (Applicable Law)**: Clauses specifying the governing law or jurisdiction for resolving disputes.
+  - **J (Jurisdiction)**: Clauses that limit where legal actions can be initiated or specify exclusive jurisdictions.
+  - **CH (Changes)**: Clauses that allow the service provider to modify the terms of service, privacy policies, or other agreements, often without notifying the user.
+
+  
+  The input data is a dictionary containing multiple “unfair” sentences to classify, where each entry has:
+  - Key: An identifier (e.g., "sentence_1", "sentence_2").
+  - Value: The sentence text.
+
+  Example Input:
+  {
+      "sentence_1": "We may terminate your account at any time, without notice, for any reason.",
+      "sentence_2": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+  }
+
+  Example Output:
+  {
+      "sentence_1": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": ["TER"]
+      },
+      "sentence_2": {
+          "text": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines.",
+          "classification": ["PINC", "USE"]
+      }
+  }
+
+  Each sentence may be classified into one or more classes. Ensure that the classification for each sentence is a list of class labels that best describe the issues in the sentence. If no class applies, return an empty list for that sentence.
+
+  Your output must be a valid JSON dictionary. Verify that every open bracket is matched with a closing bracket, and ensure that the JSON structure is correctly formatted.

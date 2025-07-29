@@ -1,0 +1,40 @@
+system_role: |
+  I have several prompts for classifying “unfair” statements into one or more classes, along with their corresponding scores. 
+  The prompts are arranged in ascending order based on their scores, where higher scores indicate better classification performance.
+  Every prompt was evaluated on the multi-label classification task on a balanced subset of the CLAUDETTE dataset consisting of
+  153 sentences (17 per class). The score assigned to each prompt represents the macro-average F1-score achieved over the classification of the 153 sentences.
+
+  [OPTIMIZATION_TRAJECTORY]
+
+  The goal is to create a new prompt that will replace <INS> in each input statement and guide the multi-label classification of 
+  “unfair” statements. Higher scores indicate better classification performance, so your prompt should maximize the macro-average F1-score for this multi-label classification task.
+
+  input:
+  <INS>
+  The input data is a dictionary containing multiple “unfair” sentences to classify, where each entry has:
+  Key: An identifier (e.g., "sentence_1", "sentence_2")
+  Value: The sentence text.
+
+  Example Input:
+  {
+      "sentence_1": "We may terminate your account at any time, without notice, for any reason.",
+      "sentence_2": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+  }
+
+  Example Output:
+  {
+      "sentence_1": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": ["TER"]
+      },
+      "sentence_2": {
+          "text": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines.",
+          "classification": ["PINC", "USE"]
+      }
+  }
+
+  Each sentence may be classified into one or more classes based on its content. If no class applies, return an empty list for that sentence.
+
+  Write a new prompt that is different from the previous ones and is designed to achieve the highest score possible. 
+  Write the prompt in square brackets. ONLY output the final, new prompt. Do not prepend or append any additional text
+  before or after the new prompt in your output.

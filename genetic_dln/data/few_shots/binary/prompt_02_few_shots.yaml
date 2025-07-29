@@ -1,0 +1,95 @@
+input: |
+  previous_outputs:
+    sentence_5092:
+      text: "We may terminate your WhatsApp account if you repeatedly infringe the intellectual property rights of others."
+      ambiguities:
+        - "'May terminate' introduces discretion without clear criteria."
+        - "'Repeatedly infringe' lacks a specific threshold."
+      fairness: "Potentially unfair due to lack of clarity in enforcement criteria."
+  
+    sentence_3390:
+      text: "In the event that VeryChic is found liable, the limit of compensation provided for in Article L.211-16 of the Tourism Code and the provisions of the Montreal Convention of the 28th May 1999, the modified Warsaw Convention of the 12th October 1929, or the applicable European regulations, will apply."
+      ambiguities:
+        - "References multiple complex legal documents."
+        - "'Limit of compensation' is not clearly defined."
+      fairness: "Potentially unfair due to complexity and lack of clear compensation limits."
+  
+    sentence_1509:
+      text: "The foregoing disclaimers, waivers and limitations shall apply notwithstanding any failure of essential purpose of any limited remedy."
+      ambiguities:
+        - "Uses complex legal terms like 'failure of essential purpose.'"
+        - "Broadly applies limitations, possibly undermining consumer rights."
+      fairness: "Unfair due to heavy bias favoring the provider."
+  
+    sentence_56:
+      text: "No insurance is included in the prices of offers displayed on the site."
+      ambiguities: None
+      fairness: "Fair, as it provides clear information to the user."
+  
+    sentence_57:
+      text: "No other commercial activities are permitted on or through the service without DeviantArt's written approval."
+      ambiguities:
+        - "Does not detail the process for obtaining 'written approval.'"
+      fairness: "Fair, but could improve transparency regarding approval process."
+  
+    sentence_58:
+      text: "Member agrees to notify Alibaba.com immediately if you become aware of any unauthorized use of your password or your account or any other breach of security of your account."
+      ambiguities:
+        - "Places responsibility on the user without specifying the provider's obligations."
+      fairness: "Neutral; reasonable but could include reciprocal obligations from the provider."
+  
+  sentences_to_classify:
+    {
+      "sentence_5092": {
+        "text": "we may terminate your whatsapp account if you repeatedly infringe the intellectual property rights of others.",
+      },
+      "sentence_3390": {
+          "text": "in the event that verychic is found liable, the limit of compensation provided for in article l.211-16 of the tourism code and the provisions of the montreal convention of the 28th may 1999, the modified warsaw convention of the 12th october 1929, or the applicable european regulations, will apply.",
+      },
+      "sentence_1509": {
+          "text": "the foregoing disclaimers, waivers and limitations shall apply notwithstanding any failure of essential purpose of any limited remedy.",
+      },
+      "sentence_56": {
+          "text": "no insurance is included in the prices of offers displayed on the site.",
+      },
+      "sentence_57": {
+          "text": "no other commercial activities are permitted on or through the service without deviantart 's written approval.",
+      },
+      "sentence_58": {
+          "text": "member agrees to notify alibaba.com immediately if you become aware of any unauthorized use of your password or your account or any other breach of security of your account.",
+      }
+    }
+
+output: |
+  {
+    "sentence_5092": {
+        "text": "we may terminate your whatsapp account if you repeatedly infringe the intellectual property rights of others.",
+        "classification": "unfair",
+        "rationale": "The phrase 'may terminate' is discretionary, and 'repeatedly infringe' lacks clear criteria, making enforcement subjective."
+    },
+    "sentence_3390": {
+        "text": "in the event that verychic is found liable, the limit of compensation provided for in article l.211-16 of the tourism code and the provisions of the montreal convention of the 28th may 1999, the modified warsaw convention of the 12th october 1929, or the applicable european regulations, will apply.",
+        "classification": "unfair",
+        "rationale": "References complex legal documents and does not define 'limit of compensation,' which makes it inaccessible to users."
+    },
+    "sentence_1509": {
+        "text": "the foregoing disclaimers, waivers and limitations shall apply notwithstanding any failure of essential purpose of any limited remedy.",
+        "classification": "unfair",
+        "rationale": "Broad limitations favor the provider, using complex legal terms that undermine consumer rights."
+    },
+    "sentence_56": {
+        "text": "no insurance is included in the prices of offers displayed on the site.",
+        "classification": "fair",
+        "rationale": "Clearly informs users that insurance is not included in the displayed prices."
+    },
+    "sentence_57": {
+        "text": "no other commercial activities are permitted on or through the service without deviantart 's written approval.",
+        "classification": "fair",
+        "rationale": "Reasonable restriction, though the process for 'written approval' could be more transparent."
+    },
+    "sentence_58": {
+        "text": "member agrees to notify alibaba.com immediately if you become aware of any unauthorized use of your password or your account or any other breach of security of your account.",
+        "classification": "neutral",
+        "rationale": "Places responsibility on users but lacks clarity on how Alibaba.com will assist in resolving security breaches."
+    }
+  }

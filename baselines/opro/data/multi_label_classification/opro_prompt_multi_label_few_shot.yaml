@@ -1,0 +1,73 @@
+system_role: |
+  For each sentence contained within the input data, evaluate and accurately classify it into one or more of the following categories, ensuring a complete and precise multi-label classification that covers all relevant aspects: - PINC (Pins and Cookies): Any mention or implication of cookies, tracking methods, or other data collection activities. - USE (Usage Restrictions): Statements defining constraints or conditions on how users can interact with the service. - CR (Content Removal): Provisions granting authority to the provider to modify or remove content created by users. - TER (Termination): Terms allowing the provider to end user accounts or access to the services, potentially without prior notification. - LTD (Liability Limitation): Clauses aiming to limit the provider's responsibility for damages or losses encountered by users. - A (Arbitration): Mandates for resolving disputes through arbitration instead of court litigation. - LAW (Applicable Law): Stipulated legal codes or laws that govern the terms of the agreement. - J (Jurisdiction): Specific legal venues or jurisdictions set for dispute resolution. - CH (Changes): Provisions that allow modifications to terms or policies with or without informing users. Carefully analyze the content and implications within each sentence to determine the comprehensive set of categories it belongs to, applying all applicable categories rigorously to capture all pertinent dimensions.
+
+  
+  The input data is a dictionary containing multiple “unfair” sentences to classify, where each entry has:
+  - Key: An identifier (e.g., "sentence_1", "sentence_2").
+  - Value: The sentence text.
+
+  Example Input:
+  {
+      "sentence_1": "We may terminate your account at any time, without notice, for any reason.",
+      "sentence_2": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+  }
+
+  Example Output:
+  {
+      "sentence_1": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": ["TER"]
+      },
+      "sentence_2": {
+          "text": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines.",
+          "classification": ["PINC", "USE"]
+      }
+  }
+  
+  Examples:
+  Input:
+  {
+    "sentence_1": "Please read them carefully, because by using the website you agree to be bound by them and to enter into an agreement with us based on such terms and conditions -lrb- this \"agreement\" -rrb-, whether or not you register as a member in MyHeritage -lrb- \"member\" -rrb-.",
+    "sentence_2": "We reserve the right to modify any provision hereof from time to time, in our sole discretion, and such modification shall be effective immediately upon its posting on the website.",
+    "sentence_3": "We will not edit or monitor user-provided content, but we reserve the right to remove any user-provided content which comes to our attention and which, in our sole discretion, breaches this agreement.",
+    "sentence_4": "You agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuation of the services or any part thereof.",
+    "sentence_5": "Except for the government entities listed below: any claims arising out of or relating to these terms or the services will be governed by the laws of California, other than its conflict of laws rules; all disputes related to these terms or the services will be brought solely in the federal or state courts located in San Francisco, California; and you consent to personal jurisdiction in these courts.",
+    "sentence_6": "Upon registration, the member accepts these TCOU and the privacy policy and agrees to fulfill his or her obligations, and particularly those set out in the member code of conduct under article 9 of these TCOU.",
+    "sentence_7": "-lrb- Section 6 -rrb- Depending upon where you access the Myspace services, many types of disputes that may arise in connection with your access to and use of the Myspace services are subject to mandatory arbitration, which includes your waiver of a right to a jury trial, and a class action waiver."
+  }
+
+  Output:
+  {
+    "sentence_1": {
+      "text": "Please read them carefully, because by using the website you agree to be bound by them and to enter into an agreement with us based on such terms and conditions -lrb- this \"agreement\" -rrb-, whether or not you register as a member in MyHeritage -lrb- \"member\" -rrb-.",
+      "classification": ["USE"]
+    },
+    "sentence_2": {
+      "text": "We reserve the right to modify any provision hereof from time to time, in our sole discretion, and such modification shall be effective immediately upon its posting on the website.",
+      "classification": ["CH"]
+    },
+    "sentence_3": {
+      "text": "We will not edit or monitor user-provided content, but we reserve the right to remove any user-provided content which comes to our attention and which, in our sole discretion, breaches this agreement.",
+      "classification": ["CR"]
+    },
+    "sentence_4": {
+      "text": "You agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuation of the services or any part thereof.",
+      "classification": ["LTD"]
+    },
+    "sentence_5": {
+      "text": "Except for the government entities listed below: any claims arising out of or relating to these terms or the services will be governed by the laws of California, other than its conflict of laws rules; all disputes related to these terms or the services will be brought solely in the federal or state courts located in San Francisco, California; and you consent to personal jurisdiction in these courts.",
+      "classification": ["J", "LAW"]
+    },
+    "sentence_6": {
+      "text": "Upon registration, the member accepts these TCOU and the privacy policy and agrees to fulfill his or her obligations, and particularly those set out in the member code of conduct under article 9 of these TCOU.",
+      "classification": ["PINC", "USE"]
+    },
+    "sentence_7": {
+      "text": "-lrb- Section 6 -rrb- Depending upon where you access the Myspace services, many types of disputes that may arise in connection with your access to and use of the Myspace services are subject to mandatory arbitration, which includes your waiver of a right to a jury trial, and a class action waiver.",
+      "classification": ["A"]
+    }
+  }
+
+  Each sentence may be classified into one or more classes. Ensure that the classification for each sentence is a list of class labels that best describe the issues in the sentence. If no class applies, return an empty list for that sentence.
+
+  Your output must be a valid JSON dictionary. Verify that every open bracket is matched with a closing bracket, and ensure that the JSON structure is correctly formatted.

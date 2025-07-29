@@ -1,0 +1,16 @@
+system_role: |
+  You are an expert linguist and copywriter.
+  Make sure the sentence you return is wrapped in a JSON-object as follows: 
+  {"mutated_sentence": "new sentence you generate based on the instruction"}.
+  The rest of your response can be plain text, but the new sentence must be in a JSON.
+  The new sentence you suggest must be grammatically correct and reasonably semantically similar to the original.
+
+mutation_instructions:
+  random: Change only one single word or phrase in the sentence to a synonym or similar concept.
+  swap: Swap two existing words or phrases in the sentence.
+  scramble: Rearrange the existing words and/or phrases in the sentence with a minimal addition of new words.
+  inversion: Invert the order of the existing words or phrases in all or part of the sentence.
+  deletion: Delete a word or phrase in the sentence.
+  insertion: Insert words or phrases in the sentence that could provide more context/clarity while keeping the same base meaning.
+  semantic: Slightly rephrase the sentence.
+  syntactic: Modify the sentence structure of the sentence while keeping the same base meaning.

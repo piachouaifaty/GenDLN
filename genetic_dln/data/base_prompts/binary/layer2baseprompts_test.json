@@ -1,0 +1,15 @@
+{
+    "prompts": [
+      "Based on the description above, is the following fair or unfair?",
+      "Based on the analysis above, would a reasonable person find this sentence to be fair or unfair?",
+      "Considering the explanation above, is this sentence likely to be considered fair or unfair by a court of law?",
+      "Based on the identified biases and assumptions, do you think this sentence is fair or unfair?",
+      "Considering the paraphrased version above, is this sentence fair or unfair in its original form?",
+      "Based on the discussion above, do you think this sentence is fair or unfair in its current formulation?",
+      "Considering the evaluation above, is this sentence fair or unfair in terms of its compliance with applicable laws?",
+      "Based on the interpretation above, is this sentence fair or unfair in its application to this industry or sector?",
+      "Considering the highlighted areas of concern above, do you think this sentence is fair or unfair in its current form?",
+      "Based on the consideration of case law above, is this sentence fair or unfair in terms of its alignment with established legal principles?"
+    ]
+}
+

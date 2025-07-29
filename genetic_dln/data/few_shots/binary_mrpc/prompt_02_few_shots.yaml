@@ -1,0 +1,55 @@
+input: |
+  {
+    "previous_outputs": {
+      "0": {
+        "features": "Both sentences describe the risk of ballot tampering for 1.42 million Californians using electronic voting. Sentence 2 adds numeric context by stating the proportion of voters this group represents (9.3% of 15.3 million), which is not mentioned in sentence 1. The core concern is shared, but the scope of information differs slightly."
+      },
+      "1": {
+        "features": "Both sentences mention Chirac's authority to pardon and his refusal of Humbert's request. Sentence 2 introduces the specific content of the request — to be allowed to die — which is not mentioned in sentence 1. The overall structure is similar, but the detail level differs."
+      },
+      "2": {
+        "features": "Both sentences refer to a statement made by Sheena Young of the infertility support network. They share the same subject and outcome but differ in phrasing — one uses 'hoped', the other 'said the proposed guidelines should'. The attribution structure and verb tense vary slightly."
+      },
+      "3": {
+        "features": "The sentences describe the same legislation and timeline, but the second introduces new information — White House endorsement and a subjective description of speed — that changes the semantic meaning."
+      }
+    },
+    "sentence_pairs_to_classify": {
+      "0": {
+        "sentence1": "Their worst-case scenario is the accidental deletion or malicious falsification of ballots from the 1.42 million Californians who could vote on electronic touch-screen machines.",
+        "sentence2": "Their worst-case scenario is the accidental deletion or malicious falsification of ballots from the 1.42 million Californians voting electronically - 9.3 percent of the state's 15.3 million registered voters."
+      },
+      "1": {
+        "sentence1": "Chirac, who can pardon a law-breaker, refused Humbert's request last year but kept in close touch with the family.",
+        "sentence2": "Chirac, who has the authority to pardon law-breakers, refused Humbert's request to be allowed to die last year but kept in close touch with the family."
+      },
+      "2": {
+        "sentence1": "Sheena Young of Child, the national infertility support network, hoped the guidelines would lead to a more \"fair and equitable\" service for infertility sufferers.",
+        "sentence2": "Sheena Young, a spokesman for Child, the national infertility support network, said the proposed guidelines should lead to a more \"fair and equitable\" service for infertility sufferers."
+      },
+      "3": {
+        "sentence1": "Legislation making it harder for consumers to erase their debts in bankruptcy court won overwhelming House approval in March.",
+        "sentence2": "Legislation making it harder for consumers to erase their debts in bankruptcy court won speedy, House approval in March and was endorsed by the White House."
+      }
+    }
+
+
+output: |
+  {
+    "0": {
+      "classification": 0,
+      "rationale": "Although both sentences report on the same fact and are even identical until a certain point, the second sentence provides additional information that, in this context, provides non-trivial additional information on the general issue, the number of California's registered voters and the percentage of which are voting electronically."
+    },
+    "1": {
+      "classification": 1,
+      "rationale": "Both sentences communicate that Chirac rejected Humbert’s request while maintaining contact with the family. The second sentence elaborates on the nature of the request, but the overall message remains consistent."
+    },
+    "2": {
+      "classification": 1,
+      "rationale": "Both sentences express the same opinion attributed to Sheena Young, differing only in minor phrasing and attribution. The message and intent are equivalent."
+    },
+    "3": {
+      "classification": 0,
+      "rationale": "The second sentence introduces additional information — that the bill was endorsed by the White House and approved speedily — which is not implied by the first. This makes the two statements semantically non-equivalent."
+    }
+  }

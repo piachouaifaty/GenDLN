@@ -1,0 +1,15 @@
+{
+    "prompts": [
+        "Create a feature enriched output that provides a reasoning for each sentence's most likely classification.",
+        "Generate an explanation-rich classification for each sentence, including the reasoning behind the classification decision.",
+        "Provide a detailed analysis for each sentence, outlining the reasoning for its classification into the most likely category.",
+        "Construct a comprehensive output that explains the rationale for each sentence's classification.",
+        "Develop an enriched response that details the reasoning for each sentence's assigned classification.",
+        "Offer a feature-oriented output that justifies the classification of each sentence with clear reasoning.",
+        "Generate a detailed report justifying each sentence's classification with specific reasoning.",
+        "Create a classification output enriched with reasoning for every sentence in the input.",
+        "Produce an output that pairs each sentence with an explanation for its classification.",
+        "Develop a thorough output that provides reasoning for the classification of each input sentence.",
+        "Deliver a reasoning-augmented classification output for each provided sentence."
+    ]
+}

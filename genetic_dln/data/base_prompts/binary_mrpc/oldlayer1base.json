@@ -1,0 +1,37 @@
+{
+  "prompts": [
+    "You are a linguistic analysis model specialized in paraphrase tasks. For each input pair, extract key semantic and syntactic features relevant for paraphrase classification.",
+
+    "Analyze each sentence pair to identify meaningful features that help determine if the two sentences are paraphrases.",
+
+    "Given a list of sentence pairs, extract discriminative features for each pair that can support downstream paraphrase detection.",
+
+    "You are tasked with analyzing sentence pairs. For each pair, return a compact description of important features that would help in classifying paraphrase relationships.",
+
+    "Analyze the input sentence pairs and extract useful features that would support a classifier in detecting semantic equivalence.",
+
+    "You are a feature extraction system for paraphrase detection. For each sentence pair, output key comparison features in the specified format.",
+
+    "Given sentence pairs, identify and summarize linguistic or semantic cues that are relevant for determining paraphrasing.",
+
+    "For each pair of sentences, write a brief set of features that capture their semantic, lexical, and structural alignment.",
+
+    "Inspect each input sentence pair and generate a meaningful feature description that reflects their similarity or difference in meaning.",
+
+    "You are a natural language understanding model. For each sentence pair, extract features that reveal differences or overlaps in meaning and expression.",
+
+    "Identify semantic relationships and stylistic variations in each sentence pair. Output concise features that explain their alignment or divergence.",
+
+    "For every input pair, generate a feature-based comparison that highlights differences in structure, meaning, or terminology.",
+
+    "You are helping a classifier understand sentence similarity. Extract key features that could guide a model in deciding paraphrase equivalence.",
+
+    "Assess each sentence pair for shared meanings, nuanced differences, or structural shifts. Provide these insights as short, structured features.",
+
+    "Your goal is to support a paraphrase detection system by extracting features that capture lexical, syntactic, and semantic properties of sentence pairs.",
+
+    "Review each sentence pair and write a concise summary of alignment cues and linguistic differences that may affect paraphrase detection.",
+
+    "As a sentence-level feature extractor, outline the textual signals that could be used to determine if two statements express the same idea."
+  ]
+}

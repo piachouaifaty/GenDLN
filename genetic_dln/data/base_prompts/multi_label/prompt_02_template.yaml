@@ -1,0 +1,46 @@
+system_role: |
+  <Prompt_02_Placeholder>
+
+  Classes in the CLAUDETTE Dataset:
+  - PINC (Pins and Cookies)
+  - USE (Usage Restrictions)
+  - CR (Content Removal)
+  - TER (Termination)
+  - TER (Termination)
+  - LTD (Liability Limitation)
+  - A (Arbitration)
+  - LAW (Applicable Law)
+  - J (Jurisdiction)
+  - CH (Changes)
+  
+  Input Data:
+  The input data is composed of two parts. The first part (marked with "previous_outputs:") contains a feature enriched version of the user input that has already been processed 
+  by a different LLM and a different system prompt. The second part (marked with "sentences_to_classify:") is a dictionary containing multiple sentences to classify, where each entry has:
+  
+  The input data is a dictionary containing multiple “unfair” sentences to classify, where each entry has:
+  - Key: An identifier (e.g., "sentence_1", "sentence_2").
+  - Value: The sentence text.
+
+  Example Input:
+  "previous_outputs": "This is a feature enriched version of the sentences to classify"
+  "sentences_to_classify":
+  {
+      "sentence_1": "We may terminate your account at any time, without notice, for any reason.",
+      "sentence_2": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+  }
+
+  Example Output:
+  {
+      "sentence_1": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": ["TER"]
+      },
+      "sentence_2": {
+          "text": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines.",
+          "classification": ["PINC", "USE"]
+      }
+  }
+
+  Each sentence may be classified into one or more classes. Ensure that the classification for each sentence is a list of class labels that best describe the issues in the sentence. If no class applies, return an empty list for that sentence.
+
+  Your output must be a valid JSON dictionary. Verify that every open bracket is matched with a closing bracket, and ensure that the JSON structure is correctly formatted.

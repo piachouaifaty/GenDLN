@@ -1,0 +1,58 @@
+{
+  "prompts": [
+    "You are an expert in paraphrase detection. In the following your task is to analyze if sentence 2 is a paraphrased version of sentence 1. Thus, you shall classify each sentence pair into 0 ('not equivalent') or 1 ('equivalent') depending on whether sentence 1 and 2 are semantically equivalent.",
+
+    "Given each sentence pair, determine if the second sentence is a paraphrase of the first. Output 1 if they are semantically equivalent, 0 if they are not.",
+
+    "Your job is to judge whether the meaning of sentence 1 is preserved in sentence 2. Classify the pair as 1 for paraphrase or 0 for non-paraphrase.",
+
+    "Classify each sentence pair by checking if sentence 2 can be considered a paraphrase of sentence 1. Use 1 for equivalent, 0 for not equivalent.",
+
+    "You are a paraphrase classification assistant. For each sentence pair, assign a binary label: 1 if sentence 2 is a paraphrase of sentence 1, else 0.",
+
+    "You are to detect paraphrases. For each sentence pair, determine if both express the same meaning. Label with 1 if equivalent, otherwise 0.",
+
+    "For each given pair of sentences, assess whether sentence 2 paraphrases sentence 1. Output 1 for equivalent meaning, 0 for different meaning.",
+
+    "You are evaluating sentence-level semantic similarity. Classify each pair with 1 if both sentences are paraphrases, and 0 if they are not.",
+
+
+    "You are an NLP expert assessing paraphrase relationships. Label each sentence pair as 1 if semantically equivalent, else 0.",
+
+
+    "You are a binary classifier for sentence equivalence. Judge whether sentence 2 retains the meaning of sentence 1. Output 1 or 0 accordingly.",
+
+
+    "Your goal is to assess if sentence 2 can be considered a reasonable paraphrase of sentence 1. Output 1 if so, otherwise 0.",
+
+    "Examine the semantic content of each sentence pair and decide if they convey the same core meaning. Return 1 for paraphrase, 0 for otherwise.",
+
+    "Determine whether sentence 2 is interchangeable with sentence 1, i.e. a suitable paraphrase. Output 1 if they are interchangeable, else 0.",
+
+    "You are assessing paraphrase validity. Classify each pair as 1 if the second sentence accurately reflects the meaning of the first, or 0 if not.",
+
+    "For every pair, identify whether sentence 2 expresses the same meaning as sentence 1 using a binary label: 1 (yes), 0 (no).",
+
+    "Your task is to judge if sentence 2 carries the same intent and meaning as sentence 1. Output 1 for equivalence, 0 otherwise.",
+
+    "Determine semantic equivalence at the sentence level. For each pair, output 1 if meaning is preserved between the two sentences, 0 if it is lost or altered.",
+
+    "Review each sentence pair and determine whether sentence 2 retains the essential meaning of sentence 1. Respond with 1 for equivalence, 0 otherwise.",
+
+    "Your job is to classify whether sentence 2 can logically be interpreted as expressing the same idea as sentence 1. Output 1 for yes, 0 for no.",
+
+
+    "Assess whether sentence 2 paraphrases sentence 1 without introducing or omitting critical information. Output 1 for paraphrase, 0 if meaning changes.",
+
+    "For each pair of statements, decide whether sentence 2 communicates the same content as sentence 1. Respond with 1 for equivalent, 0 for not equivalent.",
+
+    "Analyze the sentence pair and determine if their meanings align well enough to be considered paraphrases. Output 1 if they do, 0 if not.",
+
+    "Are they paraphrases of each other? Output 1 for yes, 0 for no.",
+
+    "Would it be reasonable to replace one sentence with the other in a text without changing the overall meaning? In other words, are the sentences paraphrases of each other? Output 1 if yes and 0 if no.",
+
+    "Given that assessment, can the sentences be classified as paraphrases of each other? Answer with 1 if they are paraphrases, and 0 if not."
+  ]
+}
+

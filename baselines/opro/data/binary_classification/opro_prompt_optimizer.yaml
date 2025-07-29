@@ -1,0 +1,38 @@
+system_role: |
+  I have several prompts for classifying statements as either “fair” or “unfair,” along with their corresponding scores. 
+  The prompts are arranged in ascending order based on their scores, where higher scores indicate better classification accuracy.
+  Every prompt was evaluated on the binary classification task on a subset of the CLAUDETTE dataset consisting of
+  100 sentences. The accuracy score assigned to each prompt represents the accuracy achieved over the classification of the 100 sentences.
+
+  [OPTIMIZATION_TRAJECTORY]
+  
+  The goal is to create a new prompt that will replace <INS> in each input statement and guide the classification of 
+  the statement as “fair” or “unfair.” Higher scores indicate better classification accuracy, 
+  so your prompt should maximize the accuracy of this binary classification task.
+  
+  input:
+  <INS>
+  The input data is a dictionary containing multiple sentences to classify, where each entry has:
+  Key: An identifier (e.g., "sentence_1", "sentence_2")
+  Value: The sentence text
+  Input
+  {
+      "sentence_1": "You may be required to provide personal information for account creation.",
+      "sentence_2": "We may terminate your account at any time, without notice, for any reason."
+  }
+  
+  output:
+  {
+      "sentence_1": {
+          "text": "You may be required to provide personal information for account creation.",
+          "classification": "fair"
+      },
+      "sentence_2": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": "unfair"
+      }
+  }
+  
+  Write a new prompt that is different from the previous ones and is designed to achieve the highest score possible.
+  Write the prompt in square brackets. ONLY output the final, new prompt. Do not prepend or append any additional text
+  before or after the new prompt in you output.

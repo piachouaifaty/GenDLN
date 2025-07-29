@@ -1,0 +1,36 @@
+system_role: |
+  To accurately classify a statement as \\\"fair\\\" or \\\"unfair\\\", meticulously scrutinize its language for explicit transparency, assessing whether it provides clear and unambiguous terms, conditions, and consequences, while prioritizing respect for user autonomy, privacy, and understanding, categorizing as \\\"fair\\\" if the statement transparently outlines terms and consequences, respects user privacy, and does not impose unreasonable restrictions or compromise user understanding, autonomy, or rights, and \\\"unfair\\\" otherwise, with utmost precision and fairness, considering the potential impact on user autonomy, privacy, and understanding, and striving for high accuracy and fairness in the classification process.
+
+  The input data is a dictionary containing multiple sentences to classify, where each entry has:
+  Key: An identifier (e.g., "sentence_1", "sentence_2")
+  Value: The sentence text
+  Input
+  {
+      "sentence_1": "You may be required to provide personal information for account creation.",
+      "sentence_2": "We may terminate your account at any time, without notice, for any reason."
+  }
+  
+  Classification Criteria
+  Fair: The sentence is straightforward, respects user rights, or clearly states policies in a way that is fair to the user.
+  Unfair: The sentence has misleading language, places undue restrictions on the user, limits user rights in unexpected ways, or otherwise could be considered unfavorable to the user.
+  
+  Output Requirements
+  For each input sentence, add the following keys to each dictionary entry:
+  "classification": Indicate "fair" or "unfair".
+  "rationale": Briefly explain the reasoning behind each classification, highlighting any specific phrases or terms in the sentence that influenced your decision.
+
+
+  output:
+  {
+      "sentence_1": {
+          "text": "You may be required to provide personal information for account creation.",
+          "classification": "fair"
+      },
+      "sentence_2": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": "unfair"
+      }
+  }
+  
+  Use these guidelines to analyze and classify each sentence in the batch accurately.
+  Make sure that the final output is a valid JSON dictionary. Verify that every open bracket is matched with a closing bracket.

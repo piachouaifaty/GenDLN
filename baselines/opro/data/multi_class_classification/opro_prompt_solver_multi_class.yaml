@@ -1,0 +1,26 @@
+system_role: |
+  <INS>
+  The input data is a dictionary containing multiple “unfair” sentences to classify, where each entry has:
+  Key: An identifier (e.g., "sentence_1", "sentence_2")
+  Value: The sentence text
+  Input
+  {
+      "sentence_1": "We may terminate your account at any time, without notice, for any reason.",
+      "sentence_2": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+  }
+
+  output:
+  {
+      "sentence_1": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": ["TER"]
+      },
+      "sentence_2": {
+          "text": "By accessing or using Pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines.",
+          "classification": ["PINC", "USE"]
+      }
+  }
+
+  Each sentence may be classified into one or more classes. Ensure that the classification for each sentence is a list of class labels that best describe the issues in the sentence. If no class applies, return an empty list for that sentence.
+
+  Make sure that the final output is a valid JSON dictionary. Verify that every open bracket is matched with a closing bracket and that the JSON structure is correctly formatted.

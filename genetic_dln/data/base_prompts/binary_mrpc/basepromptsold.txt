@@ -1,0 +1,152 @@
+LAYER 1 (OLD) --> ARROW MEANS WAS DELETED
+
+{
+  "prompts": [
+
+    "You are a linguistic analysis model specialized in paraphrase tasks. For each input pair, extract key semantic and syntactic features relevant for paraphrase classification.",
+
+    -->"Your task is to examine sentence pairs and describe features that indicate whether they express the same meaning. Focus on semantics, structure, and lexical similarity.",
+
+    "Analyze each sentence pair to identify meaningful features that help determine if the two sentences are paraphrases.",
+
+    -->"You are a sentence similarity expert. For each input pair, produce a short, informative feature summary to assist in identifying paraphrases.",
+
+    "Given a list of sentence pairs, extract discriminative features for each pair that can support downstream paraphrase detection.",
+
+    -->"For every sentence pair in the input, generate a brief but rich feature description capturing key signals for semantic similarity.",
+
+    "You are tasked with analyzing sentence pairs. For each pair, return a compact description of important features that would help in classifying paraphrase relationships.",
+
+    "Analyze the input sentence pairs and extract useful features that would support a classifier in detecting semantic equivalence.",
+
+    -->"As a semantic analysis assistant, extract and describe features from each sentence pair that can indicate paraphrase or non-paraphrase.",
+
+    "You are a feature extraction system for paraphrase detection. For each sentence pair, output key comparison features in the specified format.",
+
+    "Given sentence pairs, identify and summarize linguistic or semantic cues that are relevant for determining paraphrasing.",
+
+    "For each pair of sentences, write a brief set of features that capture their semantic, lexical, and structural alignment.",
+
+    -->"You are analyzing sentence pairs to assist in paraphrase classification. Output key descriptive features per sample in the required dictionary format.",
+
+    "Inspect each input sentence pair and generate a meaningful feature description that reflects their similarity or difference in meaning.",
+
+    -->"Your job is to extract features for each sentence pair that could be helpful in a paraphrase classification pipeline. Output the result strictly in the required format.",
+
+    -->"Evaluate sentence pairs and describe core semantic elements and variations that could influence paraphrase classification.",
+
+    "You are a natural language understanding model. For each sentence pair, extract features that reveal differences or overlaps in meaning and expression.",
+
+    -->"Your task is to analyze linguistic features such as word overlap, phrase structure, and intent to support paraphrase identification.",
+
+    "Identify semantic relationships and stylistic variations in each sentence pair. Output concise features that explain their alignment or divergence.",
+
+    "For every input pair, generate a feature-based comparison that highlights differences in structure, meaning, or terminology.",
+
+    "You are helping a classifier understand sentence similarity. Extract key features that could guide a model in deciding paraphrase equivalence.",
+
+    "Assess each sentence pair for shared meanings, nuanced differences, or structural shifts. Provide these insights as short, structured features.",
+
+    "Your goal is to support a paraphrase detection system by extracting features that capture lexical, syntactic, and semantic properties of sentence pairs.",
+
+    "Review each sentence pair and write a concise summary of alignment cues and linguistic differences that may affect paraphrase detection.",
+
+    "As a sentence-level feature extractor, outline the textual signals that could be used to determine if two statements express the same idea.",
+
+    "Examine each sentence pair and extract distinguishing features that would help a downstream model judge paraphrase likelihood.",
+
+    "Your job is to find patterns in sentence pairs that indicate whether they express similar or different meanings. Output a compact list of relevant features.",
+
+    -->"Analyze each pair to uncover sentence-level cues — such as negation, quantifiers, or rephrased entities — that might impact paraphrase status.",
+
+    "You are a linguistic alignment engine. Identify whether key predicates, named entities, and relationships are preserved across the sentence pair.",
+
+    "Highlight phrasing shifts, information asymmetry, or reordering patterns that could influence whether the sentence pair is semantically aligned.",
+
+    "For each input pair, extract lexical and structural markers — including synonym usage, clause structure, and entity alignment — that contribute to paraphrase detection.",
+
+    "Extract the central premise of each of the two sentences, what information does each convey?",
+
+    "As an expert writer, would you say the two sentences convey the same main idea? What would you say is the point of each sentence?",
+
+    "Could the two sentence reasonably be exchanged within a text without changing the general meaning of the text? Why or why not?"
+  ]
+}
+
+
+LAYER 2 (OLD) --> ARROW MEANS WAS DELETED
+
+
+{
+  "prompts": [
+    "You are an expert in paraphrase detection. In the following your task is to analyze if sentence 2 is a paraphrased version of sentence 1. Thus, you shall classify each sentence pair into 0 ('not equivalent') or 1 ('equivalent') depending on whether sentence 1 and 2 are semantically equivalent.",
+
+    -->"As a specialist in sentence similarity, your task is to determine whether sentence 2 conveys the same meaning as sentence 1. Classify each pair with 1 (equivalent) or 0 (not equivalent).",
+
+    "Given each sentence pair, determine if the second sentence is a paraphrase of the first. Output 1 if they are semantically equivalent, 0 if they are not.",
+
+    -->"You are a semantic equivalence evaluator. For each pair, decide whether sentence 2 restates sentence 1. Return 1 for equivalent pairs, and 0 otherwise.",
+
+    "Your job is to judge whether the meaning of sentence 1 is preserved in sentence 2. Classify the pair as 1 for paraphrase or 0 for non-paraphrase.",
+
+    -->"Evaluate whether sentence 2 expresses the same idea as sentence 1. Assign a label of 1 for semantic equivalence and 0 if the meanings differ.",
+
+    "Classify each sentence pair by checking if sentence 2 can be considered a paraphrase of sentence 1. Use 1 for equivalent, 0 for not equivalent.",
+
+    "You are a paraphrase classification assistant. For each sentence pair, assign a binary label: 1 if sentence 2 is a paraphrase of sentence 1, else 0.",
+
+    -->"Decide whether the second sentence in each pair is semantically equivalent to the first. Output 1 for paraphrase, 0 for non-paraphrase.",
+
+    "You are to detect paraphrases. For each sentence pair, determine if both express the same meaning. Label with 1 if equivalent, otherwise 0.",
+
+    "For each given pair of sentences, assess whether sentence 2 paraphrases sentence 1. Output 1 for equivalent meaning, 0 for different meaning.",
+
+    "You are evaluating sentence-level semantic similarity. Classify each pair with 1 if both sentences are paraphrases, and 0 if they are not.",
+
+    -->"For each sentence pair, check whether sentence 2 restates the meaning of sentence 1. Assign a label of 1 (equivalent) or 0 (not equivalent).",
+
+    "You are an NLP expert assessing paraphrase relationships. Label each sentence pair as 1 if semantically equivalent, else 0.",
+
+    -->"Your task is to classify sentence pairs by meaning similarity. Output 1 if sentence 2 paraphrases sentence 1, 0 if not.",
+
+    -->"Determine if sentence 2 expresses the same core idea as sentence 1. Return 1 if the meaning is preserved, 0 if it is not.",
+
+    "You are a binary classifier for sentence equivalence. Judge whether sentence 2 retains the meaning of sentence 1. Output 1 or 0 accordingly.",
+
+    -->"Determine whether sentence 2 and sentence 1 can be considered paraphrases of each other. Output 1 for yes, 0 for no.",
+
+    "Your goal is to assess if sentence 2 can be considered a reasonable paraphrase of sentence 1. Output 1 if so, otherwise 0.",
+
+    "Examine the semantic content of each sentence pair and decide if they convey the same core meaning. Return 1 for paraphrase, 0 for otherwise.",
+
+    "Determine whether sentence 2 is interchangeable with sentence 1, i.e. a suitable paraphrase. Output 1 if they are interchangeable, else 0.",
+
+    "You are assessing paraphrase validity. Classify each pair as 1 if the second sentence accurately reflects the meaning of the first, or 0 if not.",
+
+    "For every pair, identify whether sentence 2 expresses the same meaning as sentence 1 using a binary label: 1 (yes), 0 (no).",
+
+    "Your task is to judge if sentence 2 carries the same intent and meaning as sentence 1. Output 1 for equivalence, 0 otherwise.",
+
+    "Determine semantic equivalence at the sentence level. For each pair, output 1 if meaning is preserved between the two sentences, 0 if it is lost or altered.",
+
+    "Review each sentence pair and determine whether sentence 2 retains the essential meaning of sentence 1. Respond with 1 for equivalence, 0 otherwise.",
+
+    "Your job is to classify whether sentence 2 can logically be interpreted as expressing the same idea as sentence 1. Output 1 for yes, 0 for no.",
+
+    -->"Judge whether sentence 2 restates the meaning of sentence 1 in different words. If so, return 1; if not, return 0.",
+
+    "Assess whether sentence 2 paraphrases sentence 1 without introducing or omitting critical information. Output 1 for paraphrase, 0 if meaning changes.",
+
+    "For each pair of statements, decide whether sentence 2 communicates the same content as sentence 1. Respond with 1 for equivalent, 0 for not equivalent.",
+
+    "Analyze the sentence pair and determine if their meanings align well enough to be considered paraphrases. Output 1 if they do, 0 if not.",
+
+    "Are they paraphrases of each other? Output 1 for yes, 0 for no.",
+
+    "Would it be reasonable to replace one sentence with the other in a text without changing the overall meaning? In other words, are the sentences paraphrases of each other? Output 1 if yes and 0 if no.",
+
+    "Given that assessment, can the sentences be classified as paraphrases of each other? Answer with 1 if they are paraphrases, and 0 if not."
+  ]
+}
+
+

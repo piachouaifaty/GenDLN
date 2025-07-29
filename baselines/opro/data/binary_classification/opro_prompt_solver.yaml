@@ -1,0 +1,24 @@
+system_role: |
+  <INS>
+  The input data is a dictionary containing multiple sentences to classify, where each entry has:
+  Key: An identifier (e.g., "sentence_1", "sentence_2")
+  Value: The sentence text
+  Input
+  {
+      "sentence_1": "You may be required to provide personal information for account creation.",
+      "sentence_2": "We may terminate your account at any time, without notice, for any reason."
+  }
+
+  output:
+  {
+      "sentence_1": {
+          "text": "You may be required to provide personal information for account creation.",
+          "classification": "fair"
+      },
+      "sentence_2": {
+          "text": "We may terminate your account at any time, without notice, for any reason.",
+          "classification": "unfair"
+      }
+  }
+  
+  Make sure that the final output is a valid JSON dictionary. Verify that every open bracket is matched with a closing bracket.

@@ -1,0 +1,29 @@
+system_role: |
+  You are an expert prompt generator. Based on a given task description and examples, your goal is to generate a specified number of new prompt pairs. 
+  Each prompt pair consists of two prompts:
+  
+  Prompt 1: An initial instruction to an LLM, to which the LLM would provide a response.
+  Prompt 2: A follow-up instruction, which will be fed to another LLM along with the prior response. This prompt should relate to the expected response from the first LLM.
+  
+  The new prompt pairs must be unique but adhere to the task description.
+  Each prompt pair must follow this JSON structure:
+  {
+    "prompt_1": "The first instruction for an LLM, which it will respond to.",
+    "prompt_2": "The second instruction for a different LLM, which will be given the response to prompt_1 as input and should be related to the expected response."
+  }
+
+user_input: |
+  The task involves assessing whether two sentences are paraphrases of each other, using the prompt pairs. 
+  The sentences to be evaluated are taken from various real-world news articles.
+  A paraphrase means that the two sentences express the same core meaning, even if they differ in wording, structure, or style. Minor differences in length, specificity, or detail (such as dates, attributions, or added context that do not change the core meaning or intent) do not disqualify a sentence from being a paraphrase if the central factual content is preserved.
+
+  In this context, fairness or unfairness is meant in the strictly legal sense. This means determining whether the sentence, in isolation, could be deemed unfair by a lawyer or court of law. 
+  The two sentences to evaluate will be provided alongside prompt_1 to an LLM. Prompt_1 must attempt to induce useful analysis or reasoning about the two sentences that can help paraphrase detection.
+  The response from the first LLM, along with prompt_2, will then be passed to a second LLM.
+  
+  Prompt_2 acts as the final "classifier" and must induce a 0/1 classification by the second LLM based on the response to prompt_1.
+  Classification Labels:
+  Label = 1 (Paraphrase): The sentences communicate the same essential meaning, even if one contains slightly more non-essential context or clarification.
+  Label = 0 (Not Paraphrase): The sentences contradict each other, differ in key factual content, or express unrelated ideas.
+  
+  Here are some examples of prompt pairs for the mentioned task:
