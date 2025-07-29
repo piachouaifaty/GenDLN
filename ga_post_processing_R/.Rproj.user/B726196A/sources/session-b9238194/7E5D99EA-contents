@@ -1,0 +1,60 @@
+
+
+```{r}
+search_in_files <- function(files, search_term) {
+  matches <- lapply(files, function(file) {
+    lines <- readLines(file, warn = FALSE)
+    matched_lines <- grep(search_term, lines, value = TRUE, ignore.case = TRUE)
+    if (length(matched_lines) > 0) {
+      return(data.frame(file = file, line = matched_lines, stringsAsFactors = FALSE))
+    } else {
+      return(NULL)
+    }
+  })
+  do.call(rbind, matches)  # Combine results into a dataframe
+}
+
+# Example usage:
+files <- list.files(file.path(root_dir, "logs"), pattern = ".*\\.log$", full.names = TRUE)
+#print(files)
+result <- search_in_files(files, "cannot provide")
+
+# View results
+print(result)
+```
+
+```{r}
+search_in_files <- function(files, terms) {
+  matches <- lapply(files, function(file) {
+    lines <- readLines(file, warn = FALSE, encoding = "UTF-8")
+    
+    # Create a regex pattern that ensures all terms appear on the same line (order-independent)
+    pattern <- paste0("(?=.*", paste(terms, collapse = ")(?=.*"), ")")
+    
+    # Search for lines that contain ALL terms
+    matched_lines <- grep(pattern, lines, value = TRUE, ignore.case = TRUE, perl = TRUE)
+    
+    if (length(matched_lines) > 0) {
+      return(data.frame(file = file, line = matched_lines, stringsAsFactors = FALSE))
+    } else {
+      return(NULL)
+    }
+  })
+  
+  # Handle empty result case
+  if (length(matches) == 0 || all(sapply(matches, is.null))) {
+    return(data.frame(file = character(), line = character()))
+  }
+  
+  return(do.call(rbind, matches))  # Combine results into a dataframe
+}
+
+# Example usage:
+files <- list.files(file.path(root_dir, "logs"), pattern = ".*\\.log$", full.names = TRUE)
+
+# Search for lines containing BOTH "controversial" AND "cannot"
+result <- search_in_files(files, c("controversial", "cannot"))
+
+# View results
+print(result)
+```

@@ -1,0 +1,176 @@
+---
+title: "Results"
+author: ""
+date: "2025-01-18"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load necessary libraries
+library(tidyverse)
+library(jsonlite)
+library(here)
+library(purrr)
+library(data.table)
+library(kableExtra)
+library(DT)
+library(reactable)
+library(readr)
+
+
+root_dir <- here::here()  # Automatically sets the root directory to the R Markdown file's location
+
+source(file.path(getwd(), "R_helpers", "helper_functions_CSVs.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_GALOG.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_VAL.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_PARTIALRUNS.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_PLOTTING.R"))
+
+```
+
+# Directories
+
+```{r user_data_dir, echo = FALSE}
+# Allow user to override the data directory with an absolute path
+user_data_dir <- NULL  # Set this to an absolute path if needed
+#CHANGE THIS TO LOCATION OF RUN DATA
+```
+
+```{r paths and set up, echo=FALSE}
+# Define project directories
+
+# Default paths (relative to the R Markdown file)
+data_dir <- file.path(root_dir, "..", "..", "Google Drive", "My Drive", "TUM_LegalNLP_RunData", "run_data")  # Google Drive directory
+output_dir <- file.path(data_dir, "..", "run_stats_and_mapping")  # Local output directory
+
+data_dir <- if (!is.null(user_data_dir)) normalizePath(user_data_dir, mustWork = FALSE) else data_dir
+
+# Create the output directory if it doesn't exist
+if (!dir.exists(output_dir)) {
+  dir.create(output_dir, recursive = TRUE)
+  if (dir.exists(output_dir)) {
+    cat("Output directory created successfully:", output_dir, "\n")
+  } else {
+    cat("Failed to create output directory:", output_dir, "\n")
+  }
+} else {
+  cat("Output directory already exists:", output_dir, "\n")
+}
+
+log_dir = file.path(data_dir, "logs")
+summary_dir = file.path(data_dir, "summaries")
+validation_dir = file.path(data_dir, "validation")
+
+plot_dir <- file.path(output_dir, "plots")
+
+if (!dir.exists(plot_dir)) {
+  dir.create(plot_dir, recursive = TRUE)
+  if (dir.exists(plot_dir)) {
+    cat("Plot directory created successfully:", plot_dir, "\n")
+  } else {
+    cat("Failed to create plot directory:", plot_dir, "\n")
+  }
+} else {
+  cat("Plot directory already exists:", plot_dir, "\n")
+}
+
+```
+
+```{r print paths, echo = FALSE}
+# Debugging: print paths
+cat("Root directory:", root_dir, "\n")
+cat("Data directory:", data_dir, "\n")
+cat("Output directory:", output_dir, "\n")
+cat("Plot directory:", plot_dir, "\n")
+```
+
+```{r print subpaths, echo = FALSE}
+# Debugging: print paths
+cat("GA Logs directory:", log_dir, "\n")
+cat("Run summaries directory:", summary_dir, "\n")
+cat("Validation summaries directory:", validation_dir, "\n")
+```
+
+### Validated Run Batches
+
+```{r, echo = TRUE}
+output_csv <- file.path(output_dir, "multi_run_batch_summaries.csv")
+
+# Example usage:
+batch_run_summaries = build_run_batch_summaries(summary_dir, validation_dir, output_csv)
+```
+
+```{r, echo = FALSE}
+datatable(
+  batch_run_summaries,
+  options = list(
+    autoWidth = TRUE,         # Automatically adjust column widths
+    scrollX = TRUE,           # Enable horizontal scrolling if necessary
+    dom = 't',                # Remove search, filter, etc. (customizable)
+    pageLength = 5            # Set number of rows per page
+  ),
+  width = "100%"              # Set table width to 100% of the screen
+)
+```
+
+### Validated Runs
+
+```{r,echo = TRUE, results="hide"}
+all_runs = build_all_run_summaries(file.path(output_dir, "multi_run_batch_summaries.csv"), log_dir , validation_dir, file.path(output_dir, "all_run_summaries.csv"))
+```
+To get binary and multi results with expanded validation columns:
+
+```{r, echo = TRUE, results = "hide"}
+all_run_summaries_csv = file.path(output_dir, "all_run_summaries.csv")
+processed_summaries = process_run_summaries(all_run_summaries_csv)
+
+binary_df <- processed_summaries$binary
+multiclass_df <- processed_summaries$multiclass
+```
+
+
+
+
+#### Binary Runs
+
+```{r, echo=FALSE}
+datatable(
+  binary_df,
+  options = list(
+    autoWidth = TRUE,         # Automatically adjust column widths
+    scrollX = TRUE,           # Enable horizontal scrolling if necessary
+    dom = 't',                # Remove search, filter, etc. (customizable)
+    pageLength = 5            # Set number of rows per page
+  ),
+  width = "100%"              # Set table width to 100% of the screen
+)
+```
+
+
+#### Multi Runs
+
+```{r, echo=FALSE}
+datatable(
+  multiclass_df,
+  options = list(
+    autoWidth = TRUE,         # Automatically adjust column widths
+    scrollX = TRUE,           # Enable horizontal scrolling if necessary
+    dom = 't',                # Remove search, filter, etc. (customizable)
+    pageLength = 5            # Set number of rows per page
+  ),
+  width = "100%"              # Set table width to 100% of the screen
+)
+```
+
+
+Write to `output_dir`
+```{r, echo = TRUE}
+fwrite(binary_df, file.path(output_dir, "all_run_summaries_binary.csv"))
+fwrite(multiclass_df, file.path(output_dir, "all_run_summaries_multi.csv"))
+```
+
+
+

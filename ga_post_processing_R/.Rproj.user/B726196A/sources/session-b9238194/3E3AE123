@@ -1,0 +1,27 @@
+{
+    "id": "3E3AE123",
+    "path": "~/ALL_GENDLN/LegalNLPLab/ga_post_processing_R/GA_Runs.Rmd",
+    "project_path": "GA_Runs.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1753506270695.0,
+    "source_on_save": true,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "5,3",
+        "scrollLine": "0",
+        "last_setup_crc32": "b92381941ad28a25"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1753508566,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1753508566069,
+    "read_only": false,
+    "read_only_alternatives": []
+}

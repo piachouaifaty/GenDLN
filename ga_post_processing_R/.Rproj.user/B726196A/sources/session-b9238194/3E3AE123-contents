@@ -1,0 +1,972 @@
+---
+title: "GA Run Helper"
+author: ""
+date: "2025-01-18"
+output: html_document
+---
+
+This R Markdown document is designed as a comprehensive toolkit to assist with the processing, analysis, and visualization of Genetic Algorithm (GA) runs stored in structured ga_log files produced by GenDLN.
+
+The purpose of this notebook is to:
+	•	Parse and normalize GA log files into tidy, human-readable data structures.
+	•	Extract relevant metadata, hyperparameters, and performance summaries.
+	•	Visualize key metrics such as fitness scores, F1 scores, and convergence behavior across generations.
+	•	Aggregate and validate batch results across multiple GA runs.
+	•	Facilitate reporting, debugging, and reproducibility of GA experiments.
+
+The analysis pipeline is modular and relies on a collection of helper functions organized into thematic scripts (e.g., CSV processing, log normalization, plotting). These are loaded automatically from the R_helpers directory.
+
+Before running any analysis, ensure you have updated the data directory path (user_data_dir) to point to the location of your GA run data, typically housed in a structured folder on your local or shared drive.
+
+This notebook is meant to be both interactive and reproducible. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Install missing packages and load required libraries
+required_packages <- c(
+  "tidyverse", "jsonlite", "here", "purrr", 
+  "data.table", "dplyr", "ggplot2", "tidyr", 
+  "readr", "stringdist"
+)
+
+# Function to check and install missing packages
+install_if_missing <- function(packages) {
+  missing_packages <- packages[!(packages %in% installed.packages()[, "Package"])]
+  if (length(missing_packages) > 0) {
+    install.packages(missing_packages, dependencies = TRUE)
+  }
+  invisible(lapply(packages, library, character.only = TRUE))
+}
+
+# Run the function
+install_if_missing(required_packages)
+
+# Load necessary libraries
+library(tidyverse)
+library(jsonlite)
+library(here)
+library(purrr)
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(readr)
+library(stringdist)
+
+root_dir <- here::here()  # Automatically sets the root directory to the R Markdown file's location
+
+source(file.path(getwd(), "R_helpers", "helper_functions_CSVs.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_GALOG.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_VAL.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_PARTIALRUNS.R"))
+source(file.path(getwd(), "R_helpers", "helper_functions_PLOTTING.R"))
+```
+
+# Directories for Analysis
+
+```{r user_data_dir}
+# Allow user to override the data directory with an absolute path
+user_data_dir <- NULL  # Set this to an absolute path if needed
+
+user_data_dir <-file.path(getwd(), "dummy_logs")
+#CHANGE THIS TO LOCATION OF RUN DATA
+```
+
+
+```{r}
+main_gdrive_dir = file.path(root_dir, "..", "..", "Google Drive", "My Drive", "TUM_LegalNLP_RunData")
+```
+
+
+```{r paths and set up, echo=FALSE}
+# Define project directories
+
+# Default paths (relative to the R Markdown file)
+data_dir <- file.path(root_dir, "..", "..", "Google Drive", "My Drive", "TUM_LegalNLP_RunData", "run_data")  # Google Drive directory
+output_dir <- file.path(data_dir, "..", "run_stats_and_mapping")  # Local output directory
+
+data_dir <- if (!is.null(user_data_dir)) normalizePath(user_data_dir, mustWork = FALSE) else data_dir
+
+# Create the output directory if it doesn't exist
+if (!dir.exists(output_dir)) {
+  dir.create(output_dir, recursive = TRUE)
+  if (dir.exists(output_dir)) {
+    cat("Output directory created successfully:", output_dir, "\n")
+  } else {
+    cat("Failed to create output directory:", output_dir, "\n")
+  }
+} else {
+  cat("Output directory already exists:", output_dir, "\n")
+}
+
+log_dir = file.path(data_dir, "logs")
+summary_dir = file.path(data_dir, "summaries")
+validation_dir = file.path(data_dir, "validation")
+
+plot_dir <- file.path(output_dir, "plots")
+
+if (!dir.exists(plot_dir)) {
+  dir.create(plot_dir, recursive = TRUE)
+  if (dir.exists(plot_dir)) {
+    cat("Plot directory created successfully:", plot_dir, "\n")
+  } else {
+    cat("Failed to create plot directory:", plot_dir, "\n")
+  }
+} else {
+  cat("Plot directory already exists:", plot_dir, "\n")
+}
+
+```
+
+```{r print paths, echo = FALSE}
+# Debugging: print paths
+cat("Root directory:", root_dir, "\n")
+cat("Data directory:", data_dir, "\n")
+cat("Output directory:", output_dir, "\n")
+cat("Plot directory:", plot_dir, "\n")
+```
+
+```{r print subpaths, echo = FALSE}
+# Debugging: print paths
+cat("GA Logs directory:", log_dir, "\n")
+cat("Run summaries directory:", summary_dir, "\n")
+cat("Validation summaries directory:", validation_dir, "\n")
+```
+
+## HELPER FUNCTIONS
+
+### Normalizing ga_log to data-readable format
+The `normalize_ga_log` function is designed to process and normalize Genetic Algorithm (GA) log files, ensuring the data is structured consistently for downstream analysis. It extracts and organizes key metadata, generation details, and configuration parameters into a well-defined format.
+
+#### Inputs
+
+- `file_path`: A string representing the path to the GA log file in JSON format.
+
+
+#### Outputs
+
+The function returns a **list** containing the following elements:
+
+1. **`initial_generation`**
+   - A dataframe representing the data for the **first generation** (generation 0).
+   - Includes details such as fitness scores, raw metrics, and any additional attributes present in the first generation.
+
+2. **`run_generations`**
+   - A dataframe or list containing the details of **subsequent generations** (from generation 1 onwards).
+   - Includes data such as generation numbers, fitness scores, and other related metrics.
+
+3. **`completed_generations`**
+   - An integer indicating the total number of completed generations (excluding generation 0).
+
+4. **`metadata`**
+   - A list containing general information about the GA log run, including:
+     - `early_stopping`: Details about early stopping configurations.
+     - `runtime`: The runtime of the GA process.
+     - `system_info`: System-level metadata.
+     - `config`: Configuration details of the GA process.
+     - `hyperparameters`: Hyperparameter settings used during the run.
+     - `ga_log_filename`: The name of the GA log file.
+
+
+##### How to Use the Function
+
+1. **Call the function with the log file path:**
+
+
+```{r}
+file_path <- file.path(log_dir, "ga_log_20250119_102339.log")
+```
+
+```{r}
+normalized_log <- normalize_ga_log(file_path)
+```
+
+2.	**Access specific components of the normalized log:**
+
+```
+print(normalized_log$metadata)
+```
+
+```
+print(normalized_log$initial_generation)
+```
+
+```
+print(normalized_log$run_generations)
+```
+
+```
+print(normalized_log$completed_generations)
+```
+
+
+### Extracting information from a ga_log
+
+The `extract_log_info` function is designed to process and extract relevant information from Genetic Algorithm (GA) log files, typically stored in JSON format. The function normalizes the log data, extracts key metadata, parameters, and results, and returns the information in a structured format.
+
+#### Inputs
+
+- `file_path`: A string representing the path to the GA log file in JSON format.
+- `flatten`: A logical flag (default is `FALSE`) that determines whether the returned data is in a **flat dataframe format** or a **nested list structure**.
+
+#### Outputs
+
+The function returns either a nested list or a flat dataframe, depending on the value of the `flatten` parameter.
+
+##### Nested List Structure (Default)
+If `flatten = FALSE`, the function returns a **nested list** with the following keys:
+
+1. **`info`**:
+   - Contains metadata and general information about the GA run.
+   - Example fields:
+     - `ga_log_filename`: The name of the log file.
+     - `system_info`: JSON-encoded system information.
+     - `run_start_time`: The start time of the run.
+     - `runtime_mins`: Runtime in minutes.
+     - `task`: Task type (e.g., "binary" or "multiclass").
+
+2. **`ga_params`**:
+   - Holds the parameters of the GA configuration.
+   - Example fields:
+     - `fitness_function`: Name of the fitness function used.
+     - `population_size`: Number of individuals in the population.
+     - `completed_generations`: Number of completed generations.
+     - `selection_strategy`: Type of selection strategy (e.g., "tournament").
+     - `mutation_rate`: Mutation rate used during evolution.
+
+3. **`results`**:
+   - Includes information from the initial and last generations.
+   - Example fields:
+     - `initial_gen_best_fitness`: Best fitness from the initial generation.
+     - `initial_gen_best_accuracy`: Best accuracy from the initial generation.
+     - `prompt_1` and `prompt_2`: Prompts associated with the best individual.
+     - `best_fitness`: Best fitness from the last generation.
+     - `best_accuracy`: Best accuracy from the last generation.
+     - `raw_metrics`: JSON-encoded raw metrics of the best individual.
+
+*Flat Dataframe Structure*
+If `flatten = TRUE`, the function returns a **single dataframe** with all the extracted information combined into columns. 
+This format is ideal for analysis and storage.
+
+---
+
+#### How to Use the Function
+
+1. **Process a GA log file in nested list format:**
+
+   ```r
+   result <- extract_log_info(file_path = "path/to/ga_log.json")
+   print(result$info)       # View the metadata
+   print(result$ga_params)  # View the GA parameters
+   print(result$results)    # View the results
+   ```
+
+```
+# example
+head(extract_log_info(file_path, flatten = FALSE))
+```
+
+2. **Process a GA log file in flat dataframe format:**
+```
+head(extract_log_info(file_path, flatten = TRUE))
+```
+
+### Reconstructing Summary for Partial Runs
+
+The `reconstruct_summary_for_partial_run` function is designed to process and consolidate multiple partial log files whose "multi_run" in the framework got interrupted for some reason, leaving behind orpgan ga_logs without a summary to consolidate them and include them in this analysis pipeline.
+
+#### Function Description
+
+#### `reconstruct_summary_for_partial_run`
+
+This function processes a set of log files generated during a GA run and produces a consolidated summary in JSON format. It ensures the resulting summary adheres to the structure expected by downstream pipelines.
+
+##### Inputs
+
+- `partial_logs_dir`: The directory containing the partial GA log files. These files should be in `.log` format. Ideally, they would be in their own directory until they are processed and a summary is generated for them, in which case they can be readded to the general `logs_dir`.
+- `output_file`: The path to the output JSON file where the reconstructed summary will be saved (usually, you would want to save it in the `summary_dir`.
+
+##### Outputs
+
+- A JSON `ga_runs_summary_timestamp.jsn` file containing a list of all runs, their configurations, and the corresponding log file name.
+
+```{r}
+main_gdrive_dir
+```
+
+
+```
+# Define the directory containing the partial logs
+
+location_of_orphan_runs = file.path(main_gdrive_dir, "run_31012025-04022025_logs")
+
+partial_logs_dir <- file.path(location_of_orphan_runs)
+
+# Define the output file path
+output_file <- file.path(summary_dir, "ga_runs_summary_20250205_000000.json")
+
+# Run the function
+reconstruct_summary_for_partial_run(partial_logs_dir, output_file)
+```
+
+
+### Building Run Summaries
+`build_run_batch_summaries`
+
+#### **Purpose**
+This function processes GA run summary files and validation files, extracts relevant information, and creates or updates a `multi_run_batch_summaries.csv` file. It consolidates summaries, their validation status, and associated log files.
+
+#### **Inputs**
+- **`summaries_dir`**: Directory path containing the summary files (`*.json`).
+- **`validation_dir`**: Directory path containing the validation files (`*.json`).
+- **`output_csv`**: Path to the output CSV file (`multi_run_batch_summaries.csv`).
+
+#### **Outputs**
+- Writes a CSV file (`multi_run_batch_summaries.csv`) containing:
+  - `summary_filename`: Name of the summary file.
+  - `num_runs`: Number of runs in the summary.
+  - `run_date`: Date of the run parsed from the filename.
+  - `validated`: Boolean indicating if the summary has a matching validation file.
+  - `validation_filename`: Name of the matching validation file, if present.
+  - `log_files`: Comma-separated string of log file names.
+  - `Notes`: Placeholder for additional notes.
+
+#### **Process**
+1. **Load summary and validation files**:
+   - Reads all JSON files from the given directories.
+
+2. **Extract information from summary files**:
+   - Reads summary files and extracts:
+     - `num_runs`, `run_date`, `log_files`, and corresponding validation file status.
+
+3. **Update or create the output CSV**:
+   - If the file exists, appends new rows while avoiding duplicates.
+   - If the file doesn’t exist, writes the data from scratch.
+
+
+```
+output_csv <- file.path(output_dir, "multi_run_batch_summaries.csv")
+
+# Example usage:
+build_run_batch_summaries(summary_dir, validation_dir, output_csv)
+```
+
+### `add_notes_to_summary`
+
+#### **Purpose**
+This function allows appending notes to specific entries in the `multi_run_batch_summaries.csv` file. It is designed to enhance the information in the `Notes` column by adding context or remarks about particular summaries.
+
+#### **Inputs**
+- **`csv_path`**: Path to the existing `multi_run_batch_summaries.csv` file.
+- **`summary_filename`**: The name of the summary file for which the note should be added.
+- **`new_note`**: The note to append to the `Notes` column for the corresponding entry.
+
+#### **Outputs**
+- The function updates the `Notes` column in the specified CSV file by appending the `new_note` to any existing notes for the matching `summary_filename`.
+
+#### **Process**
+1. **Validate Inputs**:
+   - Ensures the specified CSV file exists.
+   - Confirms that the `summary_filename` exists in the CSV file.
+
+2. **Append the Note**:
+   - Concatenates the `new_note` with any existing notes in the `Notes` column for the specified `summary_filename`.
+   - Uses a semicolon (`; `) to separate multiple notes.
+
+3. **Save the Updated Data**:
+   - Writes the modified data back to the CSV file.
+
+#### **Usage Example**
+```
+add_notes_to_summary(output_csv, "ga_runs_summary_20250118_033650.json", "Was run before implementing -1 fitness for empty prompts - probably invalid")
+```
+
+### `build_all_run_summaries`
+
+#### **Purpose**
+The `build_all_run_summaries` function processes GA log files, validation files, and a summary list directory to generate a comprehensive CSV file containing run metadata, validation results, and additional information.
+
+#### **Inputs**
+- **`summary_list_dir`**: Path to the `multi_run_batch_summaries.csv` file containing metadata about GA runs.
+- **`logs_dir`**: Directory containing GA log files.
+- **`validation_dir`**: Directory containing validation JSON files.
+- **`output_csv`**: Path to save the resulting combined CSV file.
+
+#### **Outputs**
+- A CSV file at the location specified by `output_csv`, containing all processed GA run summaries and their validation results.
+- Returns the combined data as a dataframe.
+
+#### **Process**
+1. **Load the Summary Data**:
+   - Reads the `multi_run_batch_summaries.csv` file using `fread`.
+
+2. **Iterate Over Each Row**:
+   - Extracts log files and processes each one to gather GA metadata and validation results.
+
+3. **Normalize and Validate Data**:
+   - Normalizes paths for logs and validations.
+   - Checks if files exist and logs a warning if any are missing.
+
+4. **Extract Log and Validation Data**:
+   - Uses the `extract_log_info` function to process GA logs.
+   - Processes validation results using the `extract_validation_entry_info` function.
+
+5. **Combine Results**:
+   - Aggregates all processed logs and validations into a single dataframe.
+   - Writes the resulting data to `output_csv`.
+   
+
+```
+build_all_run_summaries(file.path(output_dir, "multi_run_batch_summaries.csv"), log_dir , validation_dir, file.path(output_dir, "all_run_summaries.csv"))
+```
+
+
+### `process_run_summaries`
+
+#### **Purpose**
+The `process_run_summaries` function processes the combined run summaries from a CSV file and separates them into two categories: binary tasks and multiclass tasks. It extracts relevant metrics, adds derived columns, and returns two dataframes.
+
+#### **Inputs**
+- **`all_run_summaries_csv`**: Path to the combined run summaries CSV file generated by `build_all_run_summaries`.
+
+#### **Outputs**
+- A list containing two dataframes:
+  - **`binary`**: Dataframe for binary tasks with additional extracted metrics.
+  - **`multiclass`**: Dataframe for multiclass tasks with additional extracted metrics.
+
+#### **Process**
+1. **Load Data**:
+   - Reads the CSV using `fread`.
+   - Checks for the required columns: `task`, `raw_metrics`, and `validation_results`.
+
+2. **Extract Metrics**:
+   - A helper function, `clean_and_extract_metric`, uses regex to extract specific metrics from JSON-like strings in the `raw_metrics` and `validation_results` columns.
+
+3. **Process Binary Tasks**:
+   - For binary tasks, adds the following columns:
+     - `best_macro_avg_f1_score`
+     - `best_weighted_avg_f1_score`
+     - `val_macro_avg_f1_score`
+     - `val_weighted_avg_f1_score`
+     - `val_accuracy`
+
+4. **Process Multiclass Tasks**:
+   - For multiclass tasks, adds similar columns, adjusting for the format of the metrics in `raw_metrics` and `validation_results`.
+
+5. **Reorder Columns**:
+   - Ensures a consistent column order for both dataframes.
+
+6. **Return**:
+   - Returns a list containing the processed `binary` and `multiclass` dataframes.
+
+#### **Usage Example**
+
+```
+all_run_summaries_csv = file.path(output_dir, "all_run_summaries.csv")
+processed_summaries = process_run_summaries(all_run_summaries_csv)
+
+binary_df <- processed_summaries$binary
+multiclass_df <- processed_summaries$multiclass
+```
+
+```
+fwrite(binary_df, file.path(output_dir, "all_run_summaries_binary.csv"))
+fwrite(multiclass_df, file.path(output_dir, "all_run_summaries_multi.csv"))
+```
+
+
+### Generate GA Report
+
+`generate_ga_report`
+
+####PURPOSE:
+
+The generate_ga_report function generates a detailed report for a Genetic Algorithm (GA) run. It processes GA log files, extracts metadata, analyzes fitness and accuracy metrics across generations, and creates a human-readable report summarizing key results and configurations.
+
+#### INPUTS:
+- file_path: path to the GA log file to be processed. 
+
+#### OUTPUTS:
+The function generates the following outputs:
+	1.	report:
+- A comprehensive text-based report summarizing:
+- General GA configuration details.
+- Performance metrics (e.g., accuracy, fitness scores, F1 scores) for the best and worst individuals across generations.
+- Statistical summaries (mean, standard deviation, min, max) for key metrics like accuracy, fitness score, and F1 scores.
+	2.	ga_journey:
+-	A structured list capturing the journey of the GA across generations. Each entry includes details about the best and worst individuals, their metrics, and the average fitness of the population for that generation.
+	3.	summary_statistics:
+- A list of aggregated statistics (mean, standard deviation, min, max) for the following metrics:
+- Accuracy
+- Fitness score
+- Macro average F1 score
+- Weighted average F1 score
+- Average population fitness
+
+##### EXAMPLE USAGE:
+```
+log_file <- file.path(“path/to/ga_log.json”)
+report_results <- generate_ga_report(log_file)
+ga_report <- report_results$report
+ga_journey <- report_results$ga_journey
+summary_stats <- report_results$summary_statistics
+cat(ga_report)
+print(summary_stats)
+```
+
+```{r}
+report_and_stats <- generate_ga_report(file.path(log_dir, "ga_log_20250201_203117.log"))
+```
+
+# Metric Extraction and Visualization Functions
+
+## Predefined Metric Colors
+
+The `metric_colors` object defines a custom color palette for key metrics. This can be modified to suit user preferences.
+
+- **Purpose**: To standardize color mapping for the plots.
+- **Default Values**:
+  - `accuracy`: "#1f77b4"
+  - `fitness_score`: "#ff7f0e"
+  - `average_fitness`: "#2ca02c"
+  - `macro_avg_f1_score`: "#d62728"
+  - `weighted_avg_f1_score`: "#9467bd"
+
+---
+
+## `extract_all_metrics` - summary metrics across generations
+
+### **Purpose**
+
+The `extract_all_metrics` function processes the fitness data from the log file to extract key performance metrics across all generations for binary or multiclass tasks.
+
+### **Inputs**
+
+- `log_data`: A structured object obtained from the `normalize_ga_log` function. It contains metadata, configuration, and fitness data for each generation.
+
+### **Outputs**
+
+A tidy dataframe containing the following columns:
+
+- `generation`: The generation number (0, 1, 2, ...).
+- `Metric`: The name of the metric (e.g., `accuracy`, `fitness_score`).
+- `Metric_Value`: The value of the corresponding metric for each generation.
+- `task`: The task type, either `binary` or `multiclass`.
+
+### **Process**
+
+1. **Task Identification**:
+   - Determines if the task is `binary` or `multiclass` based on the configuration in the `log_data`.
+
+2. **Metric Extraction**:
+   - Extracts the following metrics for each generation:
+     - `accuracy`
+     - `fitness_score`
+     - `average_fitness`
+     - `macro_avg_f1_score`
+     - `weighted_avg_f1_score`
+
+3. **Pivoting**:
+   - Transforms the metrics into a long format for easier plotting.
+
+---
+
+## `plot_metrics` 
+
+### **Purpose**
+
+The `plot_metrics` function generates a line plot for selected metrics over multiple generations.
+
+### **Inputs**
+
+- `file_path`: Path to the log file containing the GA data.
+- `requested_metrics`: A character vector of metrics to include in the plot. 
+**Allowed values:** "accuracy", "fitness_score", "average_fitness", "macro_avg_f1_score", "weighted_avg_f1_score"
+
+### **Outputs**
+
+A line plot showing the progression of requested metrics across generations. 
+
+### **Process**
+
+1. **Data Normalization**:
+   - Uses the `normalize_ga_log` function to standardize and process the log file.
+
+2. **Metric Extraction**:
+   - Calls the `extract_all_metrics` function to retrieve all metrics.
+
+3. **Filtering**:
+   - Filters the metrics to include only those specified in `requested_metrics`.
+
+4. **Plotting**:
+   - Uses `ggplot2` to create a customizable line plot:
+     - X-axis: Generation number.
+     - Y-axis: Metric values.
+     - Lines and points: Represent different metrics.
+   - Includes the log filename as a caption.
+
+### **Customization Options**
+
+- Color Palette: Controlled by `metric_colors`.
+- X-axis and Y-axis breaks: Adjusted for granularity (e.g., 0.01 for Y-axis).
+- Legend: Positioned on the right with vertical arrangement.
+
+---
+
+### **Example Usage**
+
+1. **Extract Metrics**:
+   - Extract metrics from a normalized GA log:
+
+```{r}
+extract_all_metrics(normalize_ga_log(file.path(log_dir, "ga_log_20250119_124141.log")))
+```
+
+
+2. **Plot Metrics**:
+   - Generate a line plot for `accuracy` and `fitness_score`:
+   
+     ```
+     plot_metrics(file_path, c("accuracy", "fitness_score"))
+     ```
+
+```{r}
+# Example Usage (Same as before)
+metrics <- c("accuracy", "fitness_score", "average_fitness", "macro_avg_f1_score", "weighted_avg_f1_score")
+
+# You still need to define normalize_ga_log() and metric_colors
+plot_metrics(
+  file_path = file.path(log_dir, "ga_log_20250201_203117.log"),
+  requested_metrics = metrics
+)
+```
+
+```{r}
+plot_metrics(file.path(log_dir, "ga_log_20250119_124141.log"), metrics, y_limits = c(0.8, 0.95))
+```
+
+The below chunk loops over a list of selected multi-class GA log files (best_files_feb10$multi) and generates plots for five predefined metrics (accuracy, fitness score, average fitness, macro F1, and weighted F1). Each plot is rendered directly in the RMarkdown output without being saved to disk.
+
+```
+# Define the metrics to be plotted
+metrics <- c("accuracy", "fitness_score", "average_fitness", "macro_avg_f1_score", "weighted_avg_f1_score")
+
+# Loop over multi-class log files and plot metrics
+for (log_file in best_files_feb10$multi) {
+  cat("\nProcessing:", log_file, "\n")  # Print log file name
+  tryCatch({
+    print(plot_metrics(file.path(log_dir, log_file), metrics))
+  }, error = function(e) {
+    cat("Error processing:", log_file, "\n", e$message, "\n")
+  })
+}
+```
+
+
+
+```
+# Define the metrics to be plotted
+metrics <- c("accuracy", "fitness_score", "average_fitness", "macro_avg_f1_score", "weighted_avg_f1_score")
+
+# Define output directory for saving plots
+multi_metrics_output_dir <- file.path(output_dir, "multi_metric_plots_png")
+print(multi_metrics_output_dir)
+
+if (!dir.exists(multi_metrics_output_dir)) {
+  dir.create(multi_metrics_output_dir, recursive = TRUE)
+}
+print(multi_metrics_output_dir)
+
+
+# Loop over multi-class log files and plot metrics, saving each as a PNG
+for (log_file in best_files_feb10$multi) {
+  cat("\nProcessing:", log_file, "\n")  # Print log file name
+  
+  tryCatch({
+    # Generate the plot
+    plot_obj <- plot_metrics(file.path(log_dir, log_file), metrics)
+    
+    # Define output file path (replace .log with .png)
+    output_file <- file.path(multi_metrics_output_dir, paste0(tools::file_path_sans_ext(basename(log_file)), ".png"))
+    
+    # Save the plot as a PNG
+    ggsave(output_file, plot = plot_obj, device = "png", width = 7.08, height = 4.38, dpi = 600)
+    
+    cat("Saved plot to:", output_file, "\n")
+    
+  }, error = function(e) {
+    cat("Error processing:", log_file, "\n", e$message, "\n")
+  })
+}
+```
+
+The below chunk performs the same metric plotting as the previous one, but additionally saves each plot as a high-resolution PNG image. The output files are stored in a specified directory (multi_metric_plots_png) under output_dir. If the directory does not exist, it is created. This is useful for batch-exporting visualizations for external reporting or presentation.
+
+The same code can be re-used for all plotting functions defined in the helpers.
+
+```
+# Define the metrics to be plotted
+metrics <- c("accuracy", "fitness_score", "average_fitness", "macro_avg_f1_score", "weighted_avg_f1_score")
+
+# Loop over multi-class log files and plot metrics
+for (log_file in best_files_feb10$binary) {
+  cat("\nProcessing:", log_file, "\n")  # Print log file name
+  tryCatch({
+    print(plot_metrics(file.path(log_dir, log_file), metrics))
+  }, error = function(e) {
+    cat("Error processing:", log_file, "\n", e$message, "\n")
+  })
+}
+```
+
+
+3. **Save Plot**:
+   - Use `ggsave()` to save the plot as an image:
+     ```
+     ggsave("metrics_plot.png", plot = last_plot(), width = 8, height = 6)
+     ```
+
+---
+
+To create and save metric plots in subdirs by task (binary/multi), for all processed runs (using all_run_summaries.csv) use:
+
+
+summary_path <- file.path(output_dir, "all_run_summaries.csv")
+plot_and_save_metrics(summary_path, log_dir, plot_dir, metrics = c(
+  "accuracy", 
+  "fitness_score",
+  "average_fitness",
+  "macro_avg_f1_score", 
+  "weighted_avg_f1_score"
+))
+
+
+---
+
+## `plot_convergence`
+
+### **Purpose**
+
+The `plot_convergence` function generates a plot visualizing the convergence of the best and worst fitness scores over generations in a genetic algorithm run. It also highlights invalid generations and provides options for customizing the plot's appearance.
+
+### **Inputs**
+
+-   `file_path`: Path to the log file containing the GA data.
+
+### **Outputs**
+
+A `ggplot` object showing the convergence of fitness scores across generations. The plot includes:
+
+-   Dashed line for the best fitness per generation.
+-   Dotted line for the worst fitness per generation.
+-   Shaded area between the best and worst fitness lines.
+-   Red 'X' markers for invalid generations (where the worst fitness is -1).
+-   Points for the actual worst fitness values, excluding invalid generations.
+-   Vertical segments connecting the best and worst fitness points.
+
+### **Process**
+
+1. **Data Normalization**:
+    -   Uses the `normalize_ga_log` function to standardize and process the log file.
+2. **Data Extraction**:
+    -   Extracts fitness data (best and worst) and generation numbers from the normalized log data.
+3. **Data Preparation**:
+    -   Creates a `tibble` named `convergence_data` to store generation, best fitness, actual worst fitness (excluding -1 values), and a flag for invalid generations.
+4. **Axis Limits Calculation**:
+    -   Calculates appropriate y-axis limits to maintain an 80-20 ratio between the main plot area and the extended lower limit for invalid generation markers.
+5. **Plot Generation**:
+    -   Uses `ggplot2` to create a line plot with the following features:
+        -   Dashed line representing the best fitness per generation.
+        -   Dotted line representing the worst fitness per generation.
+        -   Shaded area between the best and worst fitness lines.
+        -   Red 'X' markers at the extended lower limit for invalid generations.
+        -   Points for the actual worst fitness values.
+        -   Vertical segments connecting the best and worst fitness points.
+    -   Includes the log filename as a caption.
+
+### **Customization Options**
+
+-   **Color Palette:** Controlled by `scale_color_manual`.
+-   **X-axis and Y-axis breaks:** Adjusted for granularity (e.g., 0.05 for Y-axis).
+-   **Legend:** Positioned on the right with vertical arrangement.
+
+---
+
+## `plot_and_save_convergence`
+
+### **Purpose**
+
+The `plot_and_save_convergence` function generates and saves convergence plots for multiple GA runs, organizing them into subdirectories based on the task type (binary or multi).
+
+### **Inputs**
+
+-   `summary_path`: Path to the CSV file (e.g., `all_run_summaries.csv`) containing a summary of the GA runs, including the `ga_log_filename` column.
+-   `log_dir`: Path to the directory containing the GA log files.
+-   `plot_dir`: Path to the base directory where convergence plots will be saved.
+
+### **Outputs**
+
+-   Saves convergence plots as PNG files in the specified `plot_dir`, organized into `binary` and `multi` subdirectories.
+
+### **Process**
+
+1. **Read Summary File**:
+    -   Reads the summary CSV file using `read_csv`.
+
+2. **Create Output Directory**:
+    -   Creates a directory named `convergence_plotting` within `plot_dir` if it doesn't exist.
+
+3. **Iterate Through Log Files**:
+    -   Loops through each `ga_log_filename` in the summary file.
+    -   Prints the name of the log file being processed.
+
+4. **Normalize and Extract Task Type**:
+    -   Normalizes the log file using `normalize_ga_log`.
+    -   Determines the task type (binary or multi) from the log data.
+
+5. **Create Task Subdirectory**:
+    -   Creates a subdirectory (`binary` or `multi`) within `convergence_plotting` if it doesn't exist.
+
+6. **Generate and Save Plot**:
+    -   Calls the `plot_convergence` function to generate the convergence plot.
+    -   Saves the plot as a PNG file with the name `ga_log_filename`\_convergence.png in the appropriate task subdirectory.
+
+---
+
+### **Example Usage**
+
+1. **Generate a Convergence Plot**:
+    -   Generate a convergence plot for a specific log file:
+
+
+```{r}
+print(plot_convergence(file.path(log_dir, "ga_log_20250201_203117.log")))
+```
+
+2. **Generate and Save Plots for Multiple Runs**:
+    -   Use `plot_and_save_convergence` to generate and save convergence plots for all runs listed in the `all_run_summaries.csv` file:
+
+    ```
+    summary_path <- file.path(output_dir, "all_run_summaries.csv")
+    plot_and_save_convergence(summary_path, log_dir, plot_dir)
+    ```
+
+
+```
+# Loop over multi-class log files and plot convergence
+for (log_file in log_filename_list) {
+  cat("\nProcessing:", log_file, "\n")  # Print log file name
+  tryCatch({
+    print(plot_convergence(file.path(log_dir,log_file)))
+  }, error = function(e) {
+    cat("Error processing:", log_file, "\n", e$message, "\n")
+  })
+}
+```
+
+```
+
+# Define output directory for saving convergence plots
+convergence_output_dir <- file.path(output_dir, "multi_convergence_plots_png")
+if (!dir.exists(convergence_output_dir)) {
+  dir.create(convergence_output_dir, recursive = TRUE)
+}
+
+# Loop over multi-class log files and plot convergence, saving each as a PNG
+for (log_file in log_filename_list) {
+  cat("\nProcessing:", log_file, "\n")  # Print log file name
+  
+  tryCatch({
+    # Generate the plot
+    plot_obj <- plot_convergence(file.path(log_dir, log_file))
+    
+    # Define output file path (replace .log with .png)
+    output_file <- file.path(convergence_output_dir, paste0(tools::file_path_sans_ext(basename(log_file)), ".png"))
+    
+    # Save the plot as a PNG
+    ggsave(output_file, plot = plot_obj, device = "png", width = 7.08, height = 4.38, dpi = 600)
+    
+   cat("Saved plot to:", output_file, "\n")
+    
+  }, error = function(e) {
+    cat("Error processing:", log_file, "\n", e$message, "\n")
+  })
+}
+
+```
+
+
+```
+# Loop over binary log files and plot convergence
+for (log_file in log_filename_list) {
+  cat("\nProcessing:", log_file, "\n")  # Print log file name
+  tryCatch({
+    print(plot_convergence(file.path(log_dir,log_file)))
+  }, error = function(e) {
+    cat("Error processing:", log_file, "\n", e$message, "\n")
+  })
+}
+```
+
+
+
+## RECONSTRUCT INCOMPLETE RUN SUMMARY
+
+```
+# Inputs: Set the directories
+partial_logs_dir <- file.path(main_gdrive_dir, "half_run_28012025")
+output_file <- file.path(summary_dir, "ga_runs_summary_28012025_000000.json")
+```
+
+```
+reconstruct_summary_for_partial_run(partial_logs_dir, output_file)
+```
+
+## SIMILARITY
+
+```{r}
+library(stringdist)
+```
+
+
+```{r}
+diversity_data <- analyze_diversity(normalize_ga_log(file.path(log_dir, "ga_log_20250201_203117.log")))
+print(diversity_data)
+```
+
+```{r}
+plot_diversity(diversity_data)
+```
+
+
+
+```{r}
+# Normalize the log file
+log_data <- normalize_ga_log(file.path(log_dir, "ga_log_20250118_230800.log"))
+
+# Analyze similarity of best individuals
+similarity_results <- analyze_similarity_of_best(log_data)
+
+# Visualize similarity matrices with custom color schemes
+plots <- visualize_similarity_matrices(similarity_results, color_schemes = list(
+  p1_jaccard = "#0F4291",
+  p1_tokenized_jaccard = "#0F4291",  # Tokenized Jaccard Prompt 1
+  p1_levenshtein = "#453981",
+  p1_tokenized_levenshtein = "#453981",# Tokenized Levenshtein Prompt 1
+  
+  p2_jaccard = "#90D74B",
+  p2_tokenized_jaccard = "#90D74B", # Tokenized Jaccard Prompt 2
+  p2_levenshtein = "#FDE83F",
+  p2_tokenized_levenshtein = "#FDE83F" # Tokenized Levenshtein Prompt 2
+))
+
+# Display the classic similarity plots
+print(plots$p1_jaccard)
+print(plots$p2_jaccard)
+print(plots$p1_levenshtein)
+print(plots$p2_levenshtein)
+```
+
+
+
