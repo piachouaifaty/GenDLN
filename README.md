@@ -23,7 +23,7 @@ Note: We provie an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P]
 #### Citation (BibTex)
 
     @inproceedings{chouayfati-etal-2025-gendln,
-    title = "{G}en{DLN}: Evolutionary Algorithm-Based Stacked {LLM} Framework for Joint Prompt Optimization",
+    title = "GenDLN: Evolutionary Algorithm-Based Stacked {LLM} Framework for Joint Prompt Optimization",
     author = "Chouayfati, Pia  and
       Herbster, Niklas  and
       S{\'a}fr{\'a}n, {\'A}bel Domonkos  and
