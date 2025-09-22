@@ -2,6 +2,59 @@
 
 This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stacked LLM Framework for Joint Prompt Optimization**](https://aclanthology.org/2025.acl-srw.92/) by Pia Chouayfati, Niklas Herbster, Ábel Domonkos Sáfrán, and Matthias Grabmair.
 
+The code implements a genetic algorithm-based framework for optimizing prompts in a two-layer LLM architecture, designed to efficiently utilize commercial LLM APIs for tasks like clause classification and paraphrase detection.
+
+
+## Setup
+
+### 1) Prerequisites
+- Python 3.10 or newer
+- Mistral API access (the GA/LLM pipeline in `genetic_dln` uses Mistral)
+
+### 2) Clone and install
+```bash
+git clone https://github.com/piachouaifaty/LegalNLPLab.git
+cd LegalNLPLab
+python -m venv .venv && source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3) Configure environment variables
+Create a `.env` file in the repository root (same directory as this README). The GA LLM interface creates multiple Mistral clients to scale in parallel; provide as many keys as you have.
+
+At minimum, set these (recommended: provide v1..v10; optionally v11..v20 for fallback/backup):
+
+```dotenv
+# Mistral primary workspaces (used for parallel inference)
+MISTRAL_API_KEY_V1=...
+MISTRAL_API_KEY_V2=...
+MISTRAL_API_KEY_V3=...
+MISTRAL_API_KEY_V4=...
+MISTRAL_API_KEY_V5=...
+MISTRAL_API_KEY_V6=...
+MISTRAL_API_KEY_V7=...
+MISTRAL_API_KEY_V8=...
+MISTRAL_API_KEY_V9=...
+MISTRAL_API_KEY_V10=...
+
+# Optional backups (used automatically when primaries rate-limit/fail)
+MISTRAL_API_KEY_V11=...
+MISTRAL_API_KEY_V12=...
+MISTRAL_API_KEY_V13=...
+MISTRAL_API_KEY_V14=...
+MISTRAL_API_KEY_V15=...
+MISTRAL_API_KEY_V16=...
+MISTRAL_API_KEY_V17=...
+MISTRAL_API_KEY_V18=...
+MISTRAL_API_KEY_V19=...
+MISTRAL_API_KEY_V20=...
+```
+
+Notes:
+- The current `genetic_dln/src/models/llm.py` initializes up to 10 primary clients and 10 backups. If you only have a few keys, you may need to reduce parallelism in your run configuration (see hyperparameters), and/or adapt the client initialization code accordingly.
+- Logs are written under `logs/`.
+
+
 ### Organization
 
     GenDLN/
@@ -17,8 +70,99 @@ This is the repository of the paper [**GenDLN: Evolutionary Algorithm-Based Stac
     ├── baselines/       # some of the baselines we ran
 
 
+---
 
-Note: We provie an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P](https://aclanthology.org/2025.acl-srw.92.pdf) of the paper.
+## The genetic_dln directory
+
+`genetic_dln/` contains the core prompt-evolution framework.
+
+- `genetic_dln/src/ga_runner.py`
+  - Entry point to run a single GA experiment. Loads `data/hyperparameters.yaml` and orchestrates a full run.
+- `genetic_dln/src/evolutionary_algorithms/ga_engine.py`
+  - GA engine (selection, crossover, mutation, replacement, logging, early stopping).
+- `genetic_dln/src/evolutionary_algorithms/genetic_operations/`
+  - `replacement.py` and related operators (selection, crossover, mutation, fitness) that form the GA loop.
+- `genetic_dln/src/dln/gen_dln.py`
+  - Two-layer LLM classifier (Layer 1 feature extraction → Layer 2 classification with few-shots).
+  - Handles batching, concurrency, evaluation, and post-processing.
+- `genetic_dln/src/models/`
+  - `llm.py`: Mistral-based LLM client with multiple API keys for parallel workspaces and retry/backoff.
+  - `base_gen_dln_llm.py`: Interface for LLMs.
+  - `rate_limiter.py`: Simple per-request rate limiter.
+- `genetic_dln/src/prompt_builder/`
+  - `base_prompt_builder.py`: Interface for prompt construction.
+  - `prompt_builder.py`: Concrete implementation for building Layer 1 and Layer 2 messages from templates and few-shots.
+- `genetic_dln/src/post_processor/post_processor.py`
+  - Normalizes and interprets model outputs (e.g., JSON parsing, class label mapping).
+- `genetic_dln/src/input_loader/input_loader.py`
+  - Loads hyperparameters, templates, few-shots, and data splits.
+- `genetic_dln/src/constants/constants.py`
+  - Global paths and environment variable loading.
+
+
+Data and configs:
+- `genetic_dln/data/hyperparameters.yaml`
+  - Main configuration file for GA runs (population size, generations, mutation/crossover rates, selection strategy, temperatures, early stopping, workspaces, etc.).
+- `genetic_dln/data/base_prompts/`
+  - Base prompt templates per task type (e.g., `binary/`, `multi_label/`).
+  - Files like `prompt_01_template.yaml` and `prompt_02_template.yaml`.
+- `genetic_dln/data/few_shots/`
+  - Few-shot examples for Layer 2 classification (e.g., `prompt_02_few_shots.yaml`).
+- `genetic_dln/data/score_cache/`
+  - Cache for fitness/evaluation scores to avoid re-scoring identical prompts.
+
+---
+
+### Configure the `Task` class in `ga_runner.py`
+
+In the file `genetic_dln/src/ga_runner.py`, locate the `Task` class instantiation:
+
+```python
+TASK = Task(
+        layer_1_system_prompt_path="",
+        layer_2_system_prompt_path="",
+        layer_2_few_shots_path="",
+        layer_1_initial_prompts_path="",
+        layer_2_initial_prompts_path="",
+        train_dataset_path="",
+        val_dataset_path="",
+)
+```
+
+Fill in the paths to the required files and datasets:  
+
+- **layer_1_system_prompt_path**: Path to the Layer 1 system prompt template  
+  *(e.g., `genetic_dln/data/base_prompts/prompt_01_template.yaml`)*.
+
+- **layer_2_system_prompt_path**: Path to the Layer 2 system prompt template  
+  *(e.g., `genetic_dln/data/base_prompts/prompt_02_template.yaml`)*.
+
+- **layer_2_few_shots_path**: Path to the few-shot examples for Layer 2 classification  
+  *(e.g., `genetic_dln/data/few_shots/prompt_02_few_shots.yaml`)*.
+
+- **layer_1_initial_prompts_path**: Path to the initial prompts for Layer 1 (if applicable).
+
+- **layer_2_initial_prompts_path**: Path to the initial prompts for Layer 2 (if applicable).
+
+- **train_dataset_path**: Path to the training dataset  
+  *(e.g., `genetic_dln/datasets/claudette/train.json`)*.
+
+- **val_dataset_path**: Path to the validation dataset  
+  *(e.g., `genetic_dln/datasets/claudette/val.json`)*.
+
+Ensure these paths point to the correct files in your project directory before running the genetic algorithm.
+
+
+## Quickstart: Execute a GA run
+
+From the repo root, ensure your Python path includes the project (or run with `-m`):
+
+```bash
+python genetic_dln/src/ga_runner.py
+
+```
+
+Note: We provide an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P](https://aclanthology.org/2025.acl-srw.92.pdf) of the paper.
 
 #### Citation (BibTex)
 
