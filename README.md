@@ -164,6 +164,12 @@ python genetic_dln/src/ga_runner.py
 
 Note: We provide an "LLM-Safe" MRPC dataset. Details can be found in [Appendix P](https://aclanthology.org/2025.acl-srw.92.pdf) of the paper.
 
+## Analyze the Output
+
+We provide a post-analysis suite in R for plotting and result analysis,
+Refer to `ga_post_processing/readme.md` (https://github.com/piachouaifaty/GenDLN/blob/main/ga_post_processing_R/readme.md) for information on how to use and run it.
+
+
 #### Citation (BibTex)
 
     @inproceedings{chouayfati-etal-2025-gendln,
