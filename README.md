@@ -170,7 +170,7 @@ We provide a post-analysis suite in R for plotting and result analysis,
 Refer to `ga_post_processing/readme.md` (https://github.com/piachouaifaty/GenDLN/blob/main/ga_post_processing_R/readme.md) for information on how to use and run it.
 
 
-#### Citation (BibTex)
+## Citation (BibTex)
 
     @inproceedings{chouayfati-etal-2025-gendln,
     title = "GenDLN: Evolutionary Algorithm-Based Stacked {LLM} Framework for Joint Prompt Optimization",
